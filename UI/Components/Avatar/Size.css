@@ -1,0 +1,22 @@
+[data-theme="Light"] {
+  /* numbers */
+  --wt-avatar-size-2xs: 16px;
+  --wt-avatar-size-xs: 24px;
+  --wt-avatar-size-sm: 32px;
+  --wt-avatar-size-md: 40px;
+  --wt-avatar-size-lg: 56px;
+  --wt-avatar-size-xl: 72px;
+  --wt-avatar-size-2xl: 96px;
+  --wt-avatar-size-3xl: 128px;
+}
+[data-theme="Dark"] {
+  /* colors */
+  --wt-avatar-size-2xs: 16px;
+  --wt-avatar-size-xs: 24px;
+  --wt-avatar-size-sm: 32px;
+  --wt-avatar-size-md: 40px;
+  --wt-avatar-size-lg: 56px;
+  --wt-avatar-size-xl: 72px;
+  --wt-avatar-size-2xl: 96px;
+  --wt-avatar-size-3xl: 128px;
+}

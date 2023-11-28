@@ -1,0 +1,22 @@
+[data-theme="Light"] {
+  /* colors */
+  --wfm-time-line-item-deffault-color: var(--dp-16-surface-color);
+  --wfm-time-line-item-holiday-color: var(--wfm-colors-type-holiday-color);
+  --wfm-time-line-item-weekend-color: var(--dp-10-surface-color);
+  --wfm-time-line-item-text-default-color: var(--text-main-color);
+  --wfm-time-line-item-text-holiday-color: var(--error-on-color);
+  /* numbers */
+  --wfm-time-line-item-padding-vertical: var(--paddings-0);
+  --wfm-time-line-item-padding-horizontal: var(--paddings-2xs);
+}
+[data-theme="Dark"] {
+  /* colors */
+  --wfm-time-line-item-deffault-color: var(--dp-16-surface-color);
+  --wfm-time-line-item-holiday-color: var(--wfm-colors-type-holiday-color);
+  --wfm-time-line-item-weekend-color: var(--dp-10-surface-color);
+  --wfm-time-line-item-text-default-color: var(--text-main-color);
+  --wfm-time-line-item-text-holiday-color: var(--error-on-color);
+  /* numbers */
+  --wfm-time-line-item-padding-vertical: var(--paddings-0);
+  --wfm-time-line-item-padding-horizontal: var(--paddings-2xs);
+}

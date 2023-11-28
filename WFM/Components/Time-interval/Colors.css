@@ -1,0 +1,46 @@
+[data-theme="Light"] {
+  /* colors */
+  --wfm-time-interval-day-background-not-assigned-color: var(--dp-22-surface-color);
+  --wfm-time-interval-day-background-off-color: var(--wfm-colors-type-day-off-color);
+  --wfm-time-interval-day-background-sick-color: var(--wfm-colors-error-light-color);
+  --wfm-time-interval-day-background-vocation-color: var(--wfm-colors-type-vocation-light-color);
+  --wfm-time-interval-day-background-working-color: var(--wfm-colors-type-working-color);
+  --wfm-time-interval-day-icon-day-off-color: var(--wfm-colors-error-on-color);
+  --wfm-time-interval-day-icon-sick-color: var(--wfm-colors-error-color);
+  --wfm-time-interval-day-icon-vocation-color: var(--wfm-icon-vocation-color);
+  --wfm-time-interval-day-text-working-text: var(--wfm-colors-type-working-on-color);
+  --wfm-time-interval-hour-background-not-assigned-color: var(--dp-22-surface-color);
+  --wfm-time-interval-hour-background-working-color: var(--wfm-colors-type-working-color);
+  --wfm-time-interval-hour-background-working-text: var(--white);
+  --wfm-time-interval-minute-off-color: var(--wfm-colors-type-day-off-color);
+  --wfm-time-interval-minute-pause-color: var(--wfm-colors-type-pause-color);
+  --wfm-time-interval-minute-working-color: var(--wfm-colors-type-working-color);
+  --wfm-time-interval-quarter-icon-day-off-color: var(--wfm-colors-error-on-color);
+  /* numbers */
+  --wfm-time-interval-day-corner-radius: var(--corner-radius-0);
+  --wfm-time-interval-hour-corner-radius: var(--corner-radius-0);
+  --wfm-time-interval-quarter-background-corner-radius: var(--corner-radius-sm);
+}
+[data-theme="Dark"] {
+  /* colors */
+  --wfm-time-interval-day-background-not-assigned-color: var(--dp-22-surface-color);
+  --wfm-time-interval-day-background-off-color: var(--wfm-colors-type-day-off-color);
+  --wfm-time-interval-day-background-sick-color: var(--wfm-colors-error-light-color);
+  --wfm-time-interval-day-background-vocation-color: var(--wfm-colors-type-vocation-light-color);
+  --wfm-time-interval-day-background-working-color: var(--wfm-colors-type-working-color);
+  --wfm-time-interval-day-icon-day-off-color: var(--wfm-colors-error-on-color);
+  --wfm-time-interval-day-icon-sick-color: var(--wfm-colors-error-color);
+  --wfm-time-interval-day-icon-vocation-color: var(--wfm-icon-vocation-color);
+  --wfm-time-interval-day-text-working-text: var(--wfm-colors-type-working-on-color);
+  --wfm-time-interval-hour-background-not-assigned-color: var(--dp-22-surface-color);
+  --wfm-time-interval-hour-background-working-color: var(--wfm-colors-type-working-color);
+  --wfm-time-interval-hour-background-working-text: var(--black);
+  --wfm-time-interval-minute-off-color: var(--wfm-colors-type-day-off-color);
+  --wfm-time-interval-minute-pause-color: var(--wfm-colors-type-pause-color);
+  --wfm-time-interval-minute-working-color: var(--wfm-colors-type-working-color);
+  --wfm-time-interval-quarter-icon-day-off-color: var(--wfm-colors-error-on-color);
+  /* numbers */
+  --wfm-time-interval-day-corner-radius: var(--corner-radius-0);
+  --wfm-time-interval-hour-corner-radius: var(--corner-radius-0);
+  --wfm-time-interval-quarter-background-corner-radius: var(--corner-radius-sm);
+}

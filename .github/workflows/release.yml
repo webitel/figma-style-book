@@ -21,6 +21,15 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
+      # Increment version in package.json
+      - name: Increment version
+          - uses: actions/checkout@v2
+          - uses: copapow/version-bump-package@v1
+            with:
+              minor: false
+              major: false
+              github-token: ${{ secrets.GITHUB_TOKEN  }}
+
       # Authenticate with npm
       - name: Authenticate with npm
         env:

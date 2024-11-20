@@ -6,20 +6,6 @@ on:
       - main
 
 jobs:
-  bump-package-version:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: copapow/version-bump-package@v1
-        with:
-          patch_label: version-patch
-          default_branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: EndBug/add-and-commit@v7
-        with:
-          branch: main
-          message: 'Bump package version'
-
   publish:
     runs-on: ubuntu-latest
 

@@ -25,8 +25,7 @@ jobs:
       - name: Increment version in package.json
         uses: copapow/version-bump-package@v1
         with:
-          patch_label: version-patch
-          default_branch: main
+          default_bump: patch
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # Authenticate with npm

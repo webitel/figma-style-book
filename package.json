@@ -1,0 +1,12 @@
+{
+  "name": "@webitel/styleguide",
+  "version": "1.0.0",
+  "main": "",
+  "exports": {
+    ".": "./src/lib/main.scss",
+    "./crm": "./src/crm/main.scss"
+  },
+  "files": [
+    "src/"
+  ]
+}

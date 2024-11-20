@@ -1,28 +1,12 @@
 {
   "name": "@webitel/styleguide",
   "version": "1.0.0",
-  "main": "dist/lib.css",
+  "main": "",
   "exports": {
-    ".": {
-      "scss": "./src/lib/css/main.scss"
-    },
-    "./crm": {
-      "scss": "./src/crm/css/main.scss"
-    },
-    "./src/lib/css/main.scss": {
-      "scss": "./src/crm/css/main.scss"
-    }
+    ".": "./src/lib/main.scss",
+    "./crm": "./src/crm/main.scss"
   },
   "files": [
-    "dist",
-    "src/lib/css",
-    "src/crm/css",
-    "src/crm/css/main.scss"
-  ],
-  "scripts": {
-    "build": "sass src/lib/css/main.scss dist/lib.css && sass src/crm/css/main.scss dist/crm.css"
-  },
-  "devDependencies": {
-    "sass": "^1.81.0"
-  }
+    "src/"
+  ]
 }

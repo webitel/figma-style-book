@@ -24,7 +24,7 @@ jobs:
         id: prevTag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
-      # for release notes // why 2 changelogs? see NOTES 
+      # for release notes // why 2 changelogs? see NOTES
       - name: generate Release Changelog
         id: changelog
         uses: requarks/changelog-action@v1

@@ -1,6 +1,6 @@
 {
   "name": "@webitel/styleguide",
-  "version": "1.0.0",
+  "version": "1.0.15",
   "main": "",
   "exports": {
     ".": "./src/lib/main.scss",
@@ -8,5 +8,8 @@
   },
   "files": [
     "src/"
-  ]
+  ],
+  "scripts": {
+    "publish-styleguide": "npm publish --access public"
+  }
 }

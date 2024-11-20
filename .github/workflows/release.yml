@@ -37,7 +37,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add package.json package-lock.json
-          git commit -m "chore: bump patch version [skip ci]"
+          git commit -m "chore: bump patch version"
           git push
 
       # Publish to npm

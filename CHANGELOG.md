@@ -1,4 +1,13 @@
 
+## [v24.12.10] - 2024-11-20
+### :recycle: Refactors
+- [`bedaa9c`](https://github.com/webitel/figma-style-book/commit/bedaa9c1a3bea9a805ef6b879d7ee5af339703d4) - rollback release from release.yml [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+- [`9ad0c0d`](https://github.com/webitel/figma-style-book/commit/9ad0c0ddcc8d8f5a0b0980aa608d583c8a5fa7aa) - rollback release from release.yml [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+### :wrench: Chores
+- [`d15c6c6`](https://github.com/webitel/figma-style-book/commit/d15c6c6046a8af5d4ff22e77ac81df7d240a67e3) - bump patch version *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+
 ## [v24.12.9] - 2024-11-20
 ### :recycle: Refactors
 - [`29f3fa8`](https://github.com/webitel/figma-style-book/commit/29f3fa8e6f2dbcd56b456779788a6624790d1fbb) - rollback release from release.yml [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
@@ -40,3 +49,4 @@
 [v24.12.5]: https://github.com/webitel/figma-style-book/compare/v24.12.4...v24.12.5
 [v24.12.6]: https://github.com/webitel/figma-style-book/compare/v24.12.5...v24.12.6
 [v24.12.9]: https://github.com/webitel/figma-style-book/compare/v24.12.6...v24.12.9
+[v24.12.10]: https://github.com/webitel/figma-style-book/compare/v24.12.9...v24.12.10

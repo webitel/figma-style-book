@@ -12,7 +12,7 @@ jobs:
     steps:
       # Checkout the repository
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       # Set up Node.js environment
       - name: Set up Node.js
@@ -22,13 +22,11 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       # Increment version in package.json
-      - name: Increment version
-          - uses: actions/checkout@v2
-          - uses: copapow/version-bump-package@v1
-            with:
-              minor: false
-              major: false
-              github-token: ${{ secrets.GITHUB_TOKEN  }}
+      - name: Increment version in package.json
+        uses: copapow/version-bump-package@v1
+        with:
+          patch_label: version-patch
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # Authenticate with npm
       - name: Authenticate with npm

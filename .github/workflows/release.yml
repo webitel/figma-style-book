@@ -6,13 +6,29 @@ on:
       - main
 
 jobs:
+  jobs:
+    bump-package-version:
+      # Only run if the PR closed by merging
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: copapow/version-bump-package@v1
+          with:
+            patch_label: version-patch
+            default_branch: main
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+        - uses: EndBug/add-and-commit@v7
+          with:
+            branch: main
+            message: 'Bump package version'
+
   publish:
     runs-on: ubuntu-latest
 
     steps:
       # Checkout the repository
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Set up Node.js environment
       - name: Set up Node.js
@@ -20,13 +36,6 @@ jobs:
         with:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
-
-      # Increment version in package.json
-      - name: Increment version in package.json
-        uses: copapow/version-bump-package@v1
-        with:
-          default_bump: patch
-          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # Authenticate with npm
       - name: Authenticate with npm

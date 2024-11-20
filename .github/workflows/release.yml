@@ -26,6 +26,7 @@ jobs:
         uses: copapow/version-bump-package@v1
         with:
           patch_label: version-patch
+          default_branch: main
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # Authenticate with npm

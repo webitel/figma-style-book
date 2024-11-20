@@ -27,6 +27,19 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
 
+      # Bump the patch version
+      - name: Bump patch version
+        run: npm version patch --no-git-tag-version
+
+      # Commit the version bump
+      - name: Commit version bump
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add package.json package-lock.json
+          git commit -m "chore: bump patch version [skip ci]"
+          git push
+
       # Publish to npm
       - name: Publish to npm
         run: npm run publish-styleguide

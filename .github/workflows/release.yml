@@ -34,8 +34,8 @@ jobs:
       # Commit the version bump
       - name: Commit version bump
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "${{ secrets.COMMIT_AUTHOR_NAME }}"
+          git config user.email "${{ secrets.COMMIT_AUTHOR_EMAIL }}"
           git add package.json package-lock.json
           git commit -m "chore: bump patch version"
           git push

@@ -11,6 +11,47 @@ on:
       - main
 
 jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          registry-url: https://registry.npmjs.org/
+
+      # Authenticate with npm
+      - name: Authenticate with npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+
+      # Bump the patch version
+      - name: Bump patch version
+        run: npm version patch --no-git-tag-version
+
+      # Commit the version bump
+      - name: Commit version bump
+        run: |
+          git config user.name "$(jq -r '.head_commit.author.name' "$GITHUB_EVENT_PATH")"
+          git config user.email "$(jq -r '.head_commit.author.email' "$GITHUB_EVENT_PATH")"
+          git add package.json package-lock.json
+          git commit -m "chore: bump patch version"
+          git push
+
+      # Publish to npm
+      - name: Publish to npm
+        run: npm run publish-styleguide
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  
   release:
     permissions:
       contents: write
@@ -76,43 +117,3 @@ jobs:
           commit_message: autoupdate changelog
           file_pattern: 'CHANGELOG.md'
           push_options: --force
-
-  publish:
-    runs-on: ubuntu-latest
-
-    steps:
-      # Checkout the repository
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Set up Node.js environment
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: lts/*
-          registry-url: https://registry.npmjs.org/
-
-      # Authenticate with npm
-      - name: Authenticate with npm
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
-
-      # Bump the patch version
-      - name: Bump patch version
-        run: npm version patch --no-git-tag-version
-
-      # Commit the version bump
-      - name: Commit version bump
-        run: |
-          git config user.name "$(jq -r '.head_commit.author.name' "$GITHUB_EVENT_PATH")"
-          git config user.email "$(jq -r '.head_commit.author.email' "$GITHUB_EVENT_PATH")"
-          git add package.json package-lock.json
-          git commit -m "chore: bump patch version"
-          git push
-
-      # Publish to npm
-      - name: Publish to npm
-        run: npm run publish-styleguide
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

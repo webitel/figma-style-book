@@ -1,4 +1,10 @@
 
+## [v24.12.6] - 2024-11-20
+### :wrench: Chores
+- [`b019d6b`](https://github.com/webitel/figma-style-book/commit/b019d6b2fc8598afa789bbf538c2bd9217d79415) - bump patch version *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+- [`4eeac28`](https://github.com/webitel/figma-style-book/commit/4eeac282317231fdf9f560e4092ca383f3c47871) - bump patch version *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+
 ## [v24.12.5] - 2024-11-20
 ### :recycle: Refactors
 - [`f3a96a5`](https://github.com/webitel/figma-style-book/commit/f3a96a53b7c540193126f5a00d1e1b3eefc9c340) - adding NOTE to .yml [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
@@ -19,3 +25,4 @@
 
 [v24.12.4]: https://github.com/webitel/figma-style-book/compare/v24.12.3...v24.12.4
 [v24.12.5]: https://github.com/webitel/figma-style-book/compare/v24.12.4...v24.12.5
+[v24.12.6]: https://github.com/webitel/figma-style-book/compare/v24.12.5...v24.12.6

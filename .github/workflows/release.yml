@@ -1,7 +1,7 @@
 # NOTES:
 # generating changelog for release is performed twice because first changelog generates for release notes,
 # so it runs before release step, and second changelog generates for updating CHANGELOG.md file, so it runs after release step.
-# if i'd try to generate changelog once, changes will be marked as "master" branch changes, cause there's no new tag yet.
+# if i'd try to generate changelog once, changes will be marked as "master" branch changes, cause there's no new tag yet. 
 
 name: styleguide client release
 

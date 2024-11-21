@@ -1,4 +1,12 @@
 
+## [v24.12.15] - 2024-11-21
+### :sparkles: New Features
+- [`bb861ec`](https://github.com/webitel/figma-style-book/commit/bb861ec4af78711b5ab0565c252e6ebf56d86a75) - adding all projects css to exports [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+### :wrench: Chores
+- [`5800e68`](https://github.com/webitel/figma-style-book/commit/5800e681d4659a9e236d6c8c48e4cc042f09a25b) - bump patch version *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+
 ## [v24.12.14] - 2024-11-21
 ### :recycle: Refactors
 - [`aac3d65`](https://github.com/webitel/figma-style-book/commit/aac3d6599f75a3b40e7813827ffb33178618bdfc) - updating main.scss to check changlog work [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
@@ -79,3 +87,4 @@
 [v24.12.12]: https://github.com/webitel/figma-style-book/compare/v24.12.10...v24.12.12
 [v24.12.13]: https://github.com/webitel/figma-style-book/compare/v24.12.12...v24.12.13
 [v24.12.14]: https://github.com/webitel/figma-style-book/compare/v24.12.13...v24.12.14
+[v24.12.15]: https://github.com/webitel/figma-style-book/compare/v24.12.14...v24.12.15

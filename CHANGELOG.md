@@ -1,4 +1,12 @@
 
+## [v24.12.13] - 2024-11-21
+### :recycle: Refactors
+- [`f2b1bea`](https://github.com/webitel/figma-style-book/commit/f2b1beabf12399f59722a63f1bde62f5251b3263) - updating main.scss to check changlog work [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+### :wrench: Chores
+- [`2a614f2`](https://github.com/webitel/figma-style-book/commit/2a614f2db87066ab816f99c30cd17c38385f7a43) - bump patch version *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+
 ## [v24.12.12] - 2024-11-21
 ### :recycle: Refactors
 - [`3ce8220`](https://github.com/webitel/figma-style-book/commit/3ce822072dde242419e298a0c60920d36012d676) - adding back release to release.yml [WTEL-5567] (https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
@@ -61,3 +69,4 @@
 [v24.12.9]: https://github.com/webitel/figma-style-book/compare/v24.12.6...v24.12.9
 [v24.12.10]: https://github.com/webitel/figma-style-book/compare/v24.12.9...v24.12.10
 [v24.12.12]: https://github.com/webitel/figma-style-book/compare/v24.12.10...v24.12.12
+[v24.12.13]: https://github.com/webitel/figma-style-book/compare/v24.12.12...v24.12.13

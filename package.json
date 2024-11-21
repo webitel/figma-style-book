@@ -4,7 +4,13 @@
   "main": "",
   "exports": {
     ".": "./src/lib/main.scss",
-    "./crm": "./src/crm/main.scss"
+    "./auditor": "./src/auditor/main.scss",
+    "./client": "./src/client/main.scss",
+    "./crm": "./src/crm/main.scss",
+    "./history": "./src/history/main.scss",
+    "./supervisor": "./src/supervisor/main.scss",
+    "./workspaces": "./src/workspaces/main.scss",
+    "./wt-flow-diagram": "./src/wt-flow-diagram/main.scss"
   },
   "files": [
     "src/"

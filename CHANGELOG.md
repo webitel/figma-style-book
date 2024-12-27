@@ -1,4 +1,9 @@
 
+## [v24.12.17] - 2024-12-27
+### :wrench: Chores
+- [`5631af8`](https://github.com/webitel/figma-style-book/commit/5631af82f9766da1904d5b77f40214b24c36732c) - bump patch version *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
+
+
 ## [v24.12.16] - 2024-11-21
 ### :recycle: Refactors
 - [`d488832`](https://github.com/webitel/figma-style-book/commit/d48883218c853d38d8591409fec5de02a63d82fa) - refactor fonts connection [WTEL-5567](https://webitel.atlassian.net/browse/WTEL-5567) *(commit by [@VladimirBeria](https://github.com/VladimirBeria))*
@@ -97,3 +102,4 @@
 [v24.12.14]: https://github.com/webitel/figma-style-book/compare/v24.12.13...v24.12.14
 [v24.12.15]: https://github.com/webitel/figma-style-book/compare/v24.12.14...v24.12.15
 [v24.12.16]: https://github.com/webitel/figma-style-book/compare/v24.12.15...v24.12.16
+[v24.12.17]: https://github.com/webitel/figma-style-book/compare/v24.12.16...v24.12.17

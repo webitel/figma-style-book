@@ -1,8 +1,7 @@
-@forward './scroll';
-@forward 'border-radius/border-radius';
-@forward 'typography/typography';
-@forward 'colors/colors';
-@forward 'fonts/fonts';
-@forward 'elevations/elevations';
-@forward 'spacings/spacings';
+@use './scroll';
+@use 'border-radius/border-radius';
+@use 'typography/typography';
+@use 'colors/colors';
+@use 'elevations/elevations';
+@use 'spacings/spacings';
 @forward 'viewport-breakpoints/viewport-breakpoints';

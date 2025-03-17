@@ -1,4 +1,12 @@
 
+## [v24.12.25] - 2025-03-17
+### :bug: Bug Fixes
+- [`95b2c26`](https://github.com/webitel/figma-style-book/commit/95b2c26f285a1ae271e91b94c6667022d95bd95b) - added exports to split styles usage *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`31d8d66`](https://github.com/webitel/figma-style-book/commit/31d8d66f806763daa080f1e80dc01b713ba37ec3) - bump patch version *(commit by [@liza-pohranichna](https://github.com/liza-pohranichna))*
+
+
 ## [v24.12.24] - 2025-03-06
 ### :bug: Bug Fixes
 - [`f6024ad`](https://github.com/webitel/figma-style-book/commit/f6024ad5ff6526560f874ec9c3e85d6e1b0af7ec) - change name of folder for transitions [WTEL-DES-535] *(commit by [@liza-pohranichna](https://github.com/liza-pohranichna))*
@@ -148,3 +156,4 @@
 [v24.12.22]: https://github.com/webitel/figma-style-book/compare/v24.12.21...v24.12.22
 [v24.12.23]: https://github.com/webitel/figma-style-book/compare/v24.12.22...v24.12.23
 [v24.12.24]: https://github.com/webitel/figma-style-book/compare/v24.12.23...v24.12.24
+[v24.12.25]: https://github.com/webitel/figma-style-book/compare/v24.12.24...v24.12.25

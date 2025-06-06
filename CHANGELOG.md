@@ -1,4 +1,15 @@
 
+## [v24.12.26] - 2025-06-06
+### :sparkles: New Features
+- [`208117b`](https://github.com/webitel/figma-style-book/commit/208117b2440fdaf73fffd613712e347b3616e44e) - added disabled for button colors [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`6b49c65`](https://github.com/webitel/figma-style-book/commit/6b49c652f9ca3d1430e72fec58568cde33d5c0be) - update components schemes, added semantic, added exports [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`d366e9e`](https://github.com/webitel/figma-style-book/commit/d366e9e2b468736557176dc467113b047bf49e14) - update tooltip schemes [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`124ffe0`](https://github.com/webitel/figma-style-book/commit/124ffe0033722bee2016a1bd83ad2cc1494b9e48) - added primeuix components colors/sizes settings [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`8e2787e`](https://github.com/webitel/figma-style-book/commit/8e2787ea7ab002ed8c9e2393d50e7e72ba42d71a) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+
 ## [v24.12.25] - 2025-03-17
 ### :bug: Bug Fixes
 - [`95b2c26`](https://github.com/webitel/figma-style-book/commit/95b2c26f285a1ae271e91b94c6667022d95bd95b) - added exports to split styles usage *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -157,3 +168,4 @@
 [v24.12.23]: https://github.com/webitel/figma-style-book/compare/v24.12.22...v24.12.23
 [v24.12.24]: https://github.com/webitel/figma-style-book/compare/v24.12.23...v24.12.24
 [v24.12.25]: https://github.com/webitel/figma-style-book/compare/v24.12.24...v24.12.25
+[v24.12.26]: https://github.com/webitel/figma-style-book/compare/v24.12.25...v24.12.26

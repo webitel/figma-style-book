@@ -169,6 +169,10 @@ const lightColors = {
         shadow: 'none',
       },
     },
+    disabled: {
+      color: '{grey.darken.1}',
+      background: '{dp-surface-color.16}',
+    },
   },
   outlined: {
     primary: {

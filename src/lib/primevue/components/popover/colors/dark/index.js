@@ -1,8 +1,4 @@
-export const PopoverSizesScheme = {
-  padding: '{overlay.popover.padding}'
-};
-
-export const PopoverColorsScheme = {
+const darkColors = {
   background: '{overlay.popover.background}',
   borderColor: '{overlay.popover.border.color}',
   color: '{overlay.popover.color}',
@@ -10,4 +6,6 @@ export const PopoverColorsScheme = {
   shadow: '{overlay.popover.shadow}',
   gutter: '10px',
   arrowOffset: '1.25rem'
-};
+}
+
+export default darkColors

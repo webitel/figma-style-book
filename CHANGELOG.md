@@ -1,4 +1,12 @@
 
+## [v24.12.27] - 2025-06-06
+### :sparkles: New Features
+- [`976b351`](https://github.com/webitel/figma-style-book/commit/976b35125fea3cb2199d6e0435e333af02706e45) - update lib version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`07870e7`](https://github.com/webitel/figma-style-book/commit/07870e73b9ecd82dffd95ac3291a99a77335c08e) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.26] - 2025-06-06
 ### :sparkles: New Features
 - [`208117b`](https://github.com/webitel/figma-style-book/commit/208117b2440fdaf73fffd613712e347b3616e44e) - added disabled for button colors [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -169,3 +177,4 @@
 [v24.12.24]: https://github.com/webitel/figma-style-book/compare/v24.12.23...v24.12.24
 [v24.12.25]: https://github.com/webitel/figma-style-book/compare/v24.12.24...v24.12.25
 [v24.12.26]: https://github.com/webitel/figma-style-book/compare/v24.12.25...v24.12.26
+[v24.12.27]: https://github.com/webitel/figma-style-book/compare/v24.12.26...v24.12.27

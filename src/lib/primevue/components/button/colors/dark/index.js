@@ -16,7 +16,7 @@ const darkColors = {
       }
     },
     secondary: {
-      background: '{surface.800}',
+      background: '{secondary-color}',
       hoverBackground: '{surface.700}',
       activeBackground: '{surface.600}',
       borderColor: '{surface.800}',

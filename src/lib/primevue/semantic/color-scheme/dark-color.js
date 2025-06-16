@@ -165,7 +165,7 @@ const darkColor = {
   'transfer-on-color': '{white}',
 
   // primary colors
-  'primary-color': '{amber.darken.2}',
+  'primary-color': '{red.darken.2}',
   'primary-hover-color': '{amber.darken.1}',
   'primary-light-color': '{amber.darken.4}',
   'primary-on-color': '{black}',

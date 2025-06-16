@@ -119,64 +119,73 @@ const lightColor = {
     contrastColor: '{white}',
   },
 
-  // content wrapper
-  'content-wrapper-color': '{dp-surface-color.20}',
+  // Focus colors
+  'focus-color': '{black}',
 
-  // success colors
-  'success-color': '{green.darken.4}',
-  'success-hover-color': '{green.darken.3}',
-  'success-light-color': '{green.lighten.4}',
+  // Primary colors
+  'primary-color': '{amber.accent.3}',
+  'primary-hover-color': '{amber-accent-2}',
+  'primary-active-color': '{amber-accent-1}',
+  'primary-light-color': '{amber-lighten-3}',
+  'primary-on-color': '{grey-darken-4}',
+
+  // Secondary colors
+  'secondary-color': '{dp-surface-color-10}',
+  'secondary-hover-color': '{dp-surface-color-14}',
+  'secondary-active-color': '{dp-surface-color-16}',
+  'secondary-light-color': '{dp-surface-color-16}',
+  'secondary-on-color': '{grey-darken-4}',
+
+  // Success colors
+  'success-color': '{green-darken-4}',
+  'success-hover-color': '{green-darken-3}',
+  'success-active-color': '{green-darken-2}',
+  'success-light-color': '{green-lighten-3}',
   'success-on-color': '{white}',
 
-  // warning colors
-  'warning-color': '{orange.accent.2}',
-  'warning-hover-color': '{orange.accent.1}',
-  'warning-light-color': '{orange.lighten.4}',
-  'warning-on-color': '{black}',
+  // Warning colors
+  'warning-color': '{orange-accent-2}',
+  'warning-hover-color': '{orange-accent-1}',
+  'warning-active-color': '{orange-lighten-3}',
+  'warning-light-color': '{orange-lighten-3}',
+  'warning-on-color': '{white}',
 
-  // error colors
-  'error-color': '{red.accent.2}',
-  'error-hover-color': '{red.lighten.2}',
-  'error-light-color': '{red.lighten.4}',
+  // Error colors
+  'error-color': '{red-lighten-1}',
+  'error-hover-color': '{red-lighten-2}',
+  'error-active-color': '{red-lighten-3}',
+  'error-light-color': '{red-lighten-3}',
   'error-on-color': '{white}',
 
-  // info colors
-  'info-color': '{blue.darken.1}',
-  'info-hover-color': '{blue.lighten.1}',
-  'info-light-color': '{blue.lighten.4}',
-  'info-on-color': '{black}',
+  // Info colors
+  'info-color': '{light-blue-darken-1}',
+  'info-hover-color': '{light-blue-lighten-1}',
+  'info-active-color': '{light-blue-lighten-2}',
+  'info-light-color': '{light-blue-lighten-4}',
+  'info-on-color': '{white}',
 
-  // job colors
-  'job-color': '{blue.darken.1}',
-  'job-hover-color': '{blue.lighten.1}',
-  'job-light-color': '{blue.lighten.4}',
-  'job-on-color': '{black}',
+  // Task colors
+  'task-color': '{blue-darken-1}',
+  'task-hover-color': '{blue-lighten-1}',
+  'task-active-color': '{blue-lighten-2}',
+  'task-light-color': '{blue-lighten-4}',
+  'task-on-color': '{white}',
 
-  // chat colors
-  'chat-color': '{indigo.accent.2}',
-  'chat-hover-color': '{indigo.accent.1}',
-  'chat-light-color': '{indigo.lighten.4}',
-  'chat-on-color': '{black}',
-
-  // transfer colors
-  'transfer-color': '{indigo.lighten.1}',
-  'transfer-hover-color': '{indigo.lighten.2}',
-  'transfer-light-color': '{indigo.lighten.4}',
+  // Transfer colors
+  'transfer-color': '{indigo-lighten-1}',
+  'transfer-hover-color': '{indigo-lighten-2}',
+  'transfer-active-color': '{indigo-lighten-3}',
+  'transfer-light-color': '{indigo-lighten-4}',
   'transfer-on-color': '{white}',
 
-  // primary colors
-  'primary-color': '{amber.accent.3}',
-  'primary-hover-color': '{amber.accent.2}',
-  'primary-light-color': '{amber.lighten.3}',
-  'primary-on-color': '{black}',
+  // Chat colors
+  'chat-color': '{indigo-accent-2}',
+  'chat-hover-color': '{indigo-accent-1}',
+  'chat-active-color': '{indigo-lighten-3}',
+  'chat-light-color': '{indigo-lighten-4}',
+  'chat-on-color': '{white}',
 
-  // secondary colors
-  'secondary-color': '{dp-surface-color.10}',
-  'secondary-hover-color': '{dp-surface-color.14}',
-  'secondary-light-color': '{dp-surface-color.16}',
-  'secondary-on-color': '{grey.darken.4}',
-
-  // email colors
+  // Email colors
   'email-color': '{blue.darken.3}',
   'email-hover-color': '{blue.darken.2}',
   'email-light-color': '{blue.lighten.2}',
@@ -185,6 +194,9 @@ const lightColor = {
   // accent colors
   'accent-color': '{purple.lighten.1}',
   'sub-accent-color': '{indigo.darken.3}',
+
+  // content wrapper
+  'content-wrapper-color': '{dp-surface-color.20}',
 
   // typography colors
   'text-main-color': '{grey.darken.3}',

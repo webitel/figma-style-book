@@ -119,76 +119,88 @@ const darkColor = {
     contrastColor: '{white}',
   },
 
-  // content wrapper
-  'content-wrapper-color': '{dp-surface-color.20}',
+  // Focus colors
+  'focus-color': '{white}',
 
-  // success colors
-  'success-color': '{green.darken.4}',
-  'success-hover-color': '{green.darken.3}',
-  'success-light-color': '{green.lighten.4}',
-  'success-on-color': '{black}',
+  // Primary colors
+  'primary-color': '{amber-darken-1}',
+  'primary-hover-color': '{amber-lighten-1}',
+  'primary-active-color': '{amber-lighten-2}',
+  'primary-light-color': '{amber-darken-4}',
+  'primary-on-color': '{grey-darken-4}',
 
-  // warning colors
-  'warning-color': '{orange.accent.2}',
-  'warning-hover-color': '{orange.accent.1}',
-  'warning-light-color': '{orange.lighten.3}',
-  'warning-on-color': '{black}',
+  // Secondary colors
+  'secondary-color': '{dp-surface-color-10}',
+  'secondary-hover-color': '{dp-surface-color-14}',
+  'secondary-active-color': '{dp-surface-color-18}',
+  'secondary-light-color': '{dp-surface-color-16}',
+  'secondary-on-color': '{grey-lighten-4}',
 
-  // error colors
-  'error-color': '{red.accent.2}',
-  'error-hover-color': '{red.lighten.2}',
-  'error-light-color': '{red.lighten.3}',
-  'error-on-color': '{black}',
+  // Success colors
+  'success-color': '{green-darken-3}',
+  'success-hover-color': '{green-darken-2}',
+  'success-active-color': '{green-darken-1}',
+  'success-light-color': '{green-darken-4}',
+  'success-on-color': '{grey-darken-4}',
 
-  // info colors
-  'info-color': '{blue.darken.1}',
-  'info-hover-color': '{blue.lighten.1}',
-  'info-light-color': '{blue.lighten.3}',
-  'info-on-color': '{white}',
+  // Warning colors
+  'warning-color': '{orange-accent-3}',
+  'warning-hover-color': '{orange-accent-2}',
+  'warning-active-color': '{orange-accent-1}',
+  'warning-light-color': '{orange-darken-4}',
+  'warning-on-color': '{grey-darken-4}',
 
-  // job colors
-  'job-color': '{blue.darken.1}',
-  'job-hover-color': '{blue.lighten.1}',
-  'job-light-color': '{blue.lighten.3}',
-  'job-on-color': '{white}',
+  // Error colors
+  'error-color': '{red-lighten-1}',
+  'error-hover-color': '{red-lighten-2}',
+  'error-active-color': '{red-lighten-3}',
+  'error-light-color': '{red-darken-4}',
+  'error-on-color': '{grey-darken-4}',
 
-  // chat colors
-  'chat-color': '{indigo.accent.2}',
-  'chat-hover-color': '{indigo.accent.1}',
-  'chat-light-color': '{indigo.lighten.3}',
-  'chat-on-color': '{white}',
+  // Info colors
+  'info-color': '{light-blue-lighten-1}',
+  'info-hover-color': '{light-blue-lighten-2}',
+  'info-active-color': '{light-blue-lighten-3}',
+  'info-light-color': '{light-blue-lighten-4}',
+  'info-on-color': '{grey-darken-4}',
 
-  // transfer colors
-  'transfer-color': '{indigo.darken.1}',
-  'transfer-hover-color': '{indigo.lighten.1}',
-  'transfer-light-color': '{indigo.lighten.4}',
-  'transfer-on-color': '{white}',
+  // Task colors
+  'task-color': '{blue-lighten-1}',
+  'task-hover-color': '{blue-lighten-2}',
+  'task-active-color': '{blue-lighten-3}',
+  'task-light-color': '{blue-lighten-4}',
+  'task-on-color': '{grey-darken-4}',
 
-  // primary colors
-  'primary-color': '{red.darken.2}',
-  'primary-hover-color': '{amber.darken.1}',
-  'primary-light-color': '{amber.darken.4}',
-  'primary-on-color': '{black}',
+  // Transfer colors
+  'transfer-color': '{indigo-lighten-2}',
+  'transfer-hover-color': '{indigo-lighten-3}',
+  'transfer-active-color': '{indigo-lighten-4}',
+  'transfer-light-color': '{indigo-lighten-4}',
+  'transfer-on-color': '{grey-darken-4}',
 
-  // secondary colors
-  'secondary-color': '{dp-surface-color.10}',
-  'secondary-hover-color': '{dp-surface-color.14}',
-  'secondary-light-color': '{dp-surface-color.16}',
-  'secondary-on-color': '{grey.lighten.4}',
+  // Chat colors
+  'chat-color': '{indigo-accent-2}',
+  'chat-hover-color': '{indigo-accent-1}',
+  'chat-active-color': '{indigo-lighten-3}',
+  'chat-light-color': '{indigo-lighten-3}',
+  'chat-on-color': '{grey-darken-4}',
 
-  // email colors
-  'email-color': '{blue.darken.3}',
-  'email-hover-color': '{blue.darken.2}',
-  'email-light-color': '{blue.lighten.1}',
-  'email-on-color': '{white}',
+  // Email colors
+  'email-color': '{blue-darken-3}',
+  'email-hover-color': '{blue-darken-2}',
+  'email-light-color': '{blue-lighten-1}',
+  'email-on-color': '{grey-darken-4}',
 
   // accent colors
-  'accent-color': '{purple.lighten.1}',
-  'sub-accent-color': '{indigo.darken.3}',
+  'accent-color': '{purple-lighten-1}',
+  'sub-accent-color': '{indigo-darken-3}',
+
+  // content wrapper
+  'content-wrapper-color': '{dp-surface-color-20}',
 
   // typography colors
-  'text-main-color': '{grey.lighten.1}',
-  'text-disabled-color': '{grey.darken.1}',
+  'text-main-color': '{grey-lighten-3}',
+  'text-disabled-color': '{grey-darken-1}',
   'text-error-color': '{error-color}',
   'text-link-color': '{info-color}',
 

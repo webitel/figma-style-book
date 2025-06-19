@@ -125,8 +125,8 @@ const lightColors = {
       },
     },
     disabled: {
-      color: '{grey.darken.1}',
-      background: '{dp-surface-color.16}',
+      color: '{grey-darken-1}',
+      background: '{dp-surface-color-16}',
     },
   },
   outlined: {

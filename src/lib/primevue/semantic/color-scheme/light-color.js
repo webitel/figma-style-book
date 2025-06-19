@@ -123,7 +123,7 @@ const lightColor = {
   'focus-color': '{black}',
 
   // Primary colors
-  'primary-color': '{amber.accent.3}',
+  'primary-color': '{amber-accent-3}',
   'primary-hover-color': '{amber-accent-2}',
   'primary-active-color': '{amber-accent-1}',
   'primary-light-color': '{amber-lighten-3}',
@@ -186,21 +186,21 @@ const lightColor = {
   'chat-on-color': '{white}',
 
   // Email colors
-  'email-color': '{blue.darken.3}',
-  'email-hover-color': '{blue.darken.2}',
-  'email-light-color': '{blue.lighten.2}',
+  'email-color': '{blue-darken-3}',
+  'email-hover-color': '{blue-darken-2}',
+  'email-light-color': '{blue-lighten-2}',
   'email-on-color': '{black}',
 
   // accent colors
-  'accent-color': '{purple.lighten.1}',
-  'sub-accent-color': '{indigo.darken.3}',
+  'accent-color': '{purple-lighten-1}',
+  'sub-accent-color': '{indigo-darken-3}',
 
   // content wrapper
-  'content-wrapper-color': '{dp-surface-color.20}',
+  'content-wrapper-color': '{dp-surface-color-20}',
 
   // typography colors
-  'text-main-color': '{grey.darken.3}',
-  'text-disabled-color': '{grey.lighten.1}',
+  'text-main-color': '{grey-darken-3}',
+  'text-disabled-color': '{grey-lighten-1}',
   'text-error-color': '{error-color}',
   'text-link-color': '{info-color}',
 

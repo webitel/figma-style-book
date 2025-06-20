@@ -1,11 +1,11 @@
-import topography from './topography';
+import typography from './typography';
 
 const colorScheme = {
   light: {
-    ...topography.light,
+    ...typography.light,
   },
   dark: {
-    ...topography.dark,
+    ...typography.dark,
   },
 }
 

@@ -1,5 +1,5 @@
 const lightColors = {
-  background: '{surface.600}',
+  background: '{tooltip-background}',
   color: '{surface.0}',
   shadow: '{overlay.popover.shadow}',
 };

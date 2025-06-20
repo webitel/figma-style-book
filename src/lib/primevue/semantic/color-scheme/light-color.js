@@ -197,14 +197,6 @@ const lightColor = {
 
   // content wrapper
   'content-wrapper-color': '{dp-surface-color-20}',
-
-  // typography colors
-  'text-main-color': '{grey-darken-3}',
-  'text-disabled-color': '{grey-lighten-1}',
-  'text-error-color': '{error-color}',
-  'text-link-color': '{info-color}',
-
-  'text-on-brand-color': '{white}',
 };
 
 export default lightColor;

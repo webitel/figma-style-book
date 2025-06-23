@@ -1,4 +1,19 @@
 
+## [v24.12.29] - 2025-06-23
+### :sparkles: New Features
+- [`5b08e4e`](https://github.com/webitel/figma-style-book/commit/5b08e4e4ecad3951695c5ee87e3b60207cd45b6e) - bump version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`86971f5`](https://github.com/webitel/figma-style-book/commit/86971f5f72b8a7ca0a1a1b457ff7a92f35a9bdea) - added tooltip colors for semantic scheme [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`de38510`](https://github.com/webitel/figma-style-book/commit/de38510ae5c9bae2b323b1b17b5ed0108b7d0fdd) - added separation for other colors in semantic folder [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`3aaa05b`](https://github.com/webitel/figma-style-book/commit/3aaa05b535305997a1902fe7b3540177ebd31926) - changed colors for button component *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`c0e5371`](https://github.com/webitel/figma-style-book/commit/c0e53718a1dc711a7e751543777f5d896eaaf913) - added new colors for semantic scheme *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`b0e12e0`](https://github.com/webitel/figma-style-book/commit/b0e12e064385dca775c00f51adfbf9917a77428a) - fix semantic correct export palette and colors [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`d54879b`](https://github.com/webitel/figma-style-book/commit/d54879beafedb965f8094749b7bd7b71a8f77f48) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.27] - 2025-06-06
 ### :sparkles: New Features
 - [`976b351`](https://github.com/webitel/figma-style-book/commit/976b35125fea3cb2199d6e0435e333af02706e45) - update lib version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -178,3 +193,4 @@
 [v24.12.25]: https://github.com/webitel/figma-style-book/compare/v24.12.24...v24.12.25
 [v24.12.26]: https://github.com/webitel/figma-style-book/compare/v24.12.25...v24.12.26
 [v24.12.27]: https://github.com/webitel/figma-style-book/compare/v24.12.26...v24.12.27
+[v24.12.29]: https://github.com/webitel/figma-style-book/compare/v24.12.27...v24.12.29

@@ -1,287 +1,242 @@
 const darkColors = {
   root: {
     primary: {
-      background: '{primary.color}',
-      hoverBackground: '{primary.hover.color}',
-      activeBackground: '{primary.active.color}',
-      borderColor: '{primary.color}',
-      hoverBorderColor: '{primary.hover.color}',
-      activeBorderColor: '{primary.active.color}',
-      color: '{primary.contrast.color}',
-      hoverColor: '{primary.contrast.color}',
-      activeColor: '{primary.contrast.color}',
+      background: '{primary-color}',
+      hoverBackground: '{primary-hover-color}',
+      activeBackground: '{primary-active-color}',
+      borderColor: '{primary-color}',
+      hoverBorderColor: '{primary-hover-color}',
+      activeBorderColor: '{primary-active-color}',
+      color: '{primary-on-color}',
+      hoverColor: '{primary-on-color}',
+      activeColor: '{primary-on-color}',
       focusRing: {
-        color: '{primary.color}',
-        shadow: 'none'
-      }
+        color: '{focus-color}',
+        shadow: 'none',
+      },
     },
     secondary: {
-      background: '{surface.800}',
-      hoverBackground: '{surface.700}',
-      activeBackground: '{surface.600}',
-      borderColor: '{surface.800}',
-      hoverBorderColor: '{surface.700}',
-      activeBorderColor: '{surface.600}',
-      color: '{surface.300}',
-      hoverColor: '{surface.200}',
-      activeColor: '{surface.100}',
+      background: '{secondary-color}',
+      hoverBackground: '{secondary-hover-color}',
+      activeBackground: '{secondary-active-color}',
+      borderColor: '{secondary-color}',
+      hoverBorderColor: '{secondary-hover-color}',
+      activeBorderColor: '{secondary-active-color}',
+      color: '{secondary-on-color}',
+      hoverColor: '{secondary-on-color}',
+      activeColor: '{secondary-on-color}',
       focusRing: {
-        color: '{surface.300}',
-        shadow: 'none'
-      }
-    },
-    info: {
-      background: '{sky.400}',
-      hoverBackground: '{sky.300}',
-      activeBackground: '{sky.200}',
-      borderColor: '{sky.400}',
-      hoverBorderColor: '{sky.300}',
-      activeBorderColor: '{sky.200}',
-      color: '{sky.950}',
-      hoverColor: '{sky.950}',
-      activeColor: '{sky.950}',
-      focusRing: {
-        color: '{sky.400}',
-        shadow: 'none'
-      }
+        color: '{focus-color}',
+        shadow: 'none',
+      },
     },
     success: {
-      background: '{green.400}',
-      hoverBackground: '{green.300}',
-      activeBackground: '{green.200}',
-      borderColor: '{green.400}',
-      hoverBorderColor: '{green.300}',
-      activeBorderColor: '{green.200}',
-      color: '{green.950}',
-      hoverColor: '{green.950}',
-      activeColor: '{green.950}',
+      background: '{success-color}',
+      hoverBackground: '{success-hover-color}',
+      activeBackground: '{success-active-color}',
+      borderColor: '{success-color}',
+      hoverBorderColor: '{success-hover-color}',
+      activeBorderColor: '{success-active-color}',
+      color: '{success-on-color}',
+      hoverColor: '{success-on-color}',
+      activeColor: '{success-on-color}',
       focusRing: {
-        color: '{green.400}',
-        shadow: 'none'
-      }
+        color: '{focus-color}',
+        shadow: 'none',
+      },
     },
     warn: {
-      background: '{orange.400}',
-      hoverBackground: '{orange.300}',
-      activeBackground: '{orange.200}',
-      borderColor: '{orange.400}',
-      hoverBorderColor: '{orange.300}',
-      activeBorderColor: '{orange.200}',
-      color: '{orange.950}',
-      hoverColor: '{orange.950}',
-      activeColor: '{orange.950}',
+      background: '{warning-color}',
+      hoverBackground: '{warning-hover-color}',
+      activeBackground: '{warning-active-color}',
+      borderColor: '{warning-color}',
+      hoverBorderColor: '{warning-hover-color}',
+      activeBorderColor: '{warning-active-color}',
+      color: '{warning-on-color}',
+      hoverColor: '{warning-on-color}',
+      activeColor: '{warning-on-color}',
       focusRing: {
-        color: '{orange.400}',
-        shadow: 'none'
-      }
-    },
-    help: {
-      background: '{purple.400}',
-      hoverBackground: '{purple.300}',
-      activeBackground: '{purple.200}',
-      borderColor: '{purple.400}',
-      hoverBorderColor: '{purple.300}',
-      activeBorderColor: '{purple.200}',
-      color: '{purple.950}',
-      hoverColor: '{purple.950}',
-      activeColor: '{purple.950}',
-      focusRing: {
-        color: '{purple.400}',
-        shadow: 'none'
-      }
-    },
-    danger: {
-      background: '{red.400}',
-      hoverBackground: '{red.300}',
-      activeBackground: '{red.200}',
-      borderColor: '{red.400}',
-      hoverBorderColor: '{red.300}',
-      activeBorderColor: '{red.200}',
-      color: '{red.950}',
-      hoverColor: '{red.950}',
-      activeColor: '{red.950}',
-      focusRing: {
-        color: '{red.400}',
-        shadow: 'none'
-      }
-    },
-    contrast: {
-      background: '{surface.0}',
-      hoverBackground: '{surface.100}',
-      activeBackground: '{surface.200}',
-      borderColor: '{surface.0}',
-      hoverBorderColor: '{surface.100}',
-      activeBorderColor: '{surface.200}',
-      color: '{surface.950}',
-      hoverColor: '{surface.950}',
-      activeColor: '{surface.950}',
-      focusRing: {
-        color: '{surface.0}',
-        shadow: 'none'
-      }
-    },
-    /**
-     * TODO @Evgeniy Trahtenberg
-     * need to refactor transfer, error and job colors
-     * */
-    transfer: {
-      background: '{primary.color}',
-      hoverBackground: '{primary.hover.color}',
-      activeBackground: '{primary.active.color}',
-      borderColor: '{primary.color}',
-      hoverBorderColor: '{primary.hover.color}',
-      activeBorderColor: '{primary.active.color}',
-      color: '{primary.contrast.color}',
-      hoverColor: '{primary.contrast.color}',
-      activeColor: '{primary.contrast.color}',
-      focusRing: {
-        color: '{primary.color}',
-        shadow: 'none'
-      }
+        color: '{focus-color}',
+        shadow: 'none',
+      },
     },
     error: {
-      background: '{primary.color}',
-      hoverBackground: '{primary.hover.color}',
-      activeBackground: '{primary.active.color}',
-      borderColor: '{primary.color}',
-      hoverBorderColor: '{primary.hover.color}',
-      activeBorderColor: '{primary.active.color}',
-      color: '{primary.contrast.color}',
-      hoverColor: '{primary.contrast.color}',
-      activeColor: '{primary.contrast.color}',
+      background: '{error-color}',
+      hoverBackground: '{error-hover-color}',
+      activeBackground: '{error-active-color}',
+      borderColor: '{error-color}',
+      hoverBorderColor: '{error-hover-color}',
+      activeBorderColor: '{error-active-color}',
+      color: '{error-on-color}',
+      hoverColor: '{error-on-color}',
+      activeColor: '{error-on-color}',
       focusRing: {
-        color: '{primary.color}',
-        shadow: 'none'
-      }
+        color: '{focus-color}',
+        shadow: 'none',
+      },
     },
-    job: {
-      background: '{primary.color}',
-      hoverBackground: '{primary.hover.color}',
-      activeBackground: '{primary.active.color}',
-      borderColor: '{primary.color}',
-      hoverBorderColor: '{primary.hover.color}',
-      activeBorderColor: '{primary.active.color}',
-      color: '{primary.contrast.color}',
-      hoverColor: '{primary.contrast.color}',
-      activeColor: '{primary.contrast.color}',
+    info: {
+      background: '{info-color}',
+      hoverBackground: '{info-hover-color}',
+      activeBackground: '{info-active-color}',
+      borderColor: '{info-color}',
+      hoverBorderColor: '{info-hover-color}',
+      activeBorderColor: '{info-active-color}',
+      color: '{info-on-color}',
+      hoverColor: '{info-on-color}',
+      activeColor: '{info-on-color}',
       focusRing: {
-        color: '{primary.color}',
-        shadow: 'none'
-      }
+        color: '{focus-color}',
+        shadow: 'none',
+      },
+    },
+    /**
+     * TODO @Oleksandr Palonnyi
+     * need to replace name "job" to "task",
+     * */
+    job: {
+      background: '{task-color}',
+      hoverBackground: '{task-hover-color}',
+      activeBackground: '{task-active-color}',
+      borderColor: '{task-color}',
+      hoverBorderColor: '{task-hover-color}',
+      activeBorderColor: '{task-active-color}',
+      color: '{task-on-color}',
+      hoverColor: '{task-on-color}',
+      activeColor: '{task-on-color}',
+      focusRing: {
+        color: '{focus-color}',
+        shadow: 'none',
+      },
+    },
+    transfer: {
+      background: '{transfer-color}',
+      hoverBackground: '{transfer-hover-color}',
+      activeBackground: '{transfer-active-color}',
+      borderColor: '{transfer-color}',
+      hoverBorderColor: '{transfer-hover-color}',
+      activeBorderColor: '{transfer-active-color}',
+      color: '{transfer-on-color}',
+      hoverColor: '{transfer-on-color}',
+      activeColor: '{transfer-on-color}',
+      focusRing: {
+        color: '{focus-color}',
+        shadow: 'none',
+      },
     },
     disabled: {
-      color: '{grey.darken.1}',
-      background: '{dp-surface-color.16}',
+      color: '{grey-lighten-1}',
+      background: '{dp-surface-color-16}',
     },
   },
   outlined: {
     primary: {
-      hoverBackground: 'color-mix(in srgb, {primary.color}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {primary.color}, transparent 84%)',
-      borderColor: '{primary.700}',
-      color: '{primary.color}'
+      hoverBackground: '{primary.50}',
+      activeBackground: '{primary.100}',
+      borderColor: '{primary.color}',
+      color: '{primary.color}',
     },
     secondary: {
-      hoverBackground: 'rgba(255,255,255,0.04)',
-      activeBackground: 'rgba(255,255,255,0.16)',
-      borderColor: '{surface.700}',
-      color: '{surface.400}'
+      hoverBackground: '{surface.50}',
+      activeBackground: '{surface.100}',
+      borderColor: '{surface.600}',
+      color: '{surface.600}',
     },
     success: {
-      hoverBackground: 'color-mix(in srgb, {green.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {green.400}, transparent 84%)',
-      borderColor: '{green.700}',
-      color: '{green.400}'
+      hoverBackground: '{green.50}',
+      activeBackground: '{green.100}',
+      borderColor: '{green.500}',
+      color: '{green.500}',
     },
     info: {
-      hoverBackground: 'color-mix(in srgb, {sky.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {sky.400}, transparent 84%)',
-      borderColor: '{sky.700}',
-      color: '{sky.400}'
+      hoverBackground: '{sky.50}',
+      activeBackground: '{sky.100}',
+      borderColor: '{sky.500}',
+      color: '{sky.500}',
     },
     warn: {
-      hoverBackground: 'color-mix(in srgb, {orange.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {orange.400}, transparent 84%)',
-      borderColor: '{orange.700}',
-      color: '{orange.400}'
+      hoverBackground: '{orange.50}',
+      activeBackground: '{orange.100}',
+      borderColor: '{orange.500}',
+      color: '{orange.500}',
     },
     help: {
-      hoverBackground: 'color-mix(in srgb, {purple.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {purple.400}, transparent 84%)',
-      borderColor: '{purple.700}',
-      color: '{purple.400}'
+      hoverBackground: '{purple.50}',
+      activeBackground: '{purple.100}',
+      borderColor: '{purple.500}',
+      color: '{purple.500}',
     },
     danger: {
-      hoverBackground: 'color-mix(in srgb, {red.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {red.400}, transparent 84%)',
-      borderColor: '{red.700}',
-      color: '{red.400}'
+      hoverBackground: '{red.50}',
+      activeBackground: '{red.100}',
+      borderColor: '{red.500}',
+      color: '{red.500}',
     },
     contrast: {
-      hoverBackground: '{surface.800}',
-      activeBackground: '{surface.700}',
-      borderColor: '{surface.500}',
-      color: '{surface.0}'
+      hoverBackground: '{surface.50}',
+      activeBackground: '{surface.100}',
+      borderColor: '{surface.950}',
+      color: '{surface.950}',
     },
     plain: {
-      hoverBackground: '{surface.800}',
-      activeBackground: '{surface.700}',
-      borderColor: '{surface.600}',
-      color: '{surface.0}'
-    }
+      hoverBackground: '{surface.50}',
+      activeBackground: '{surface.100}',
+      borderColor: '{surface.900}',
+      color: '{surface.900}',
+    },
   },
   text: {
     primary: {
-      hoverBackground: 'color-mix(in srgb, {primary.color}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {primary.color}, transparent 84%)',
-      color: '{primary.color}'
+      hoverBackground: '{primary.50}',
+      activeBackground: '{primary.100}',
+      color: '{primary.color}',
     },
     secondary: {
-      hoverBackground: '{surface.800}',
-      activeBackground: '{surface.700}',
-      color: '{surface.400}'
+      hoverBackground: '{surface.50}',
+      activeBackground: '{surface.100}',
+      color: '{surface.600}',
     },
     success: {
-      hoverBackground: 'color-mix(in srgb, {green.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {green.400}, transparent 84%)',
-      color: '{green.400}'
+      hoverBackground: '{green.50}',
+      activeBackground: '{green.100}',
+      color: '{green.500}',
     },
     info: {
-      hoverBackground: 'color-mix(in srgb, {sky.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {sky.400}, transparent 84%)',
-      color: '{sky.400}'
+      hoverBackground: '{sky.50}',
+      activeBackground: '{sky.100}',
+      color: '{sky.500}',
     },
     warn: {
-      hoverBackground: 'color-mix(in srgb, {orange.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {orange.400}, transparent 84%)',
-      color: '{orange.400}'
+      hoverBackground: '{orange.50}',
+      activeBackground: '{orange.100}',
+      color: '{orange.500}',
     },
     help: {
-      hoverBackground: 'color-mix(in srgb, {purple.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {purple.400}, transparent 84%)',
-      color: '{purple.400}'
+      hoverBackground: '{purple.50}',
+      activeBackground: '{purple.100}',
+      color: '{purple.500}',
     },
     danger: {
-      hoverBackground: 'color-mix(in srgb, {red.400}, transparent 96%)',
-      activeBackground: 'color-mix(in srgb, {red.400}, transparent 84%)',
-      color: '{red.400}'
+      hoverBackground: '{red.50}',
+      activeBackground: '{red.100}',
+      color: '{red.500}',
     },
     contrast: {
-      hoverBackground: '{surface.800}',
-      activeBackground: '{surface.700}',
-      color: '{surface.0}'
+      hoverBackground: '{surface.50}',
+      activeBackground: '{surface.100}',
+      color: '{surface.950}',
     },
     plain: {
-      hoverBackground: '{surface.800}',
-      activeBackground: '{surface.700}',
-      color: '{surface.0}'
-    }
+      hoverBackground: '{surface.50}',
+      activeBackground: '{surface.100}',
+      color: '{surface.900}',
+    },
   },
   link: {
     color: '{primary.color}',
     hoverColor: '{primary.color}',
-    activeColor: '{primary.color}'
-  }
-}
+    activeColor: '{primary.color}',
+  },
+};
 
 export default darkColors

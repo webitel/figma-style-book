@@ -2,20 +2,20 @@ import darkColor from './dark-color.js';
 import lightColor from './light-color.js';
 import palette from './palette.js';
 import base from './base'
-import components from './components'
+import overlay from './overlay'
 
 const colorScheme = {
   light: {
     ...palette,
     ...lightColor,
     ...base.light,
-    ...components.light,
+    ...overlay.light,
   },
   dark: {
     ...palette,
     ...darkColor,
     ...base.dark,
-    ...components.dark,
+    ...overlay.dark,
   },
 };
 

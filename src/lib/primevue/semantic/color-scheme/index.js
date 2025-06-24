@@ -3,19 +3,22 @@ import lightColor from './light-color.js';
 import palette from './palette.js';
 import base from './base'
 import overlay from './overlay'
+import focusRing from './focus-ring'
 
 const colorScheme = {
   light: {
     ...palette,
     ...lightColor,
     ...base.light,
-    ...overlay.light,
+    ...focusRing.colorScheme.light,
+    ...overlay.colorScheme.light,
   },
   dark: {
     ...palette,
     ...darkColor,
     ...base.dark,
-    ...overlay.dark,
+    ...focusRing.colorScheme.dark,
+    ...overlay.colorScheme.dark,
   },
 };
 

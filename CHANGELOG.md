@@ -1,4 +1,12 @@
 
+## [v24.12.33] - 2025-06-26
+### :sparkles: New Features
+- [`c361841`](https://github.com/webitel/figma-style-book/commit/c361841cc638c3fef7400b611ff86e7f577de17f) - added ts support for stylebook to fix ui-sdk build [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`17a8998`](https://github.com/webitel/figma-style-book/commit/17a8998ee75776d1aea5648337a13c5960c1ce6a) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.31] - 2025-06-24
 ### :sparkles: New Features
 - [`63ddb1b`](https://github.com/webitel/figma-style-book/commit/63ddb1bbdb8ee65b3ccc7999c5668b4e5839f722) - fixed focus-ring sizes [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -205,3 +213,4 @@
 [v24.12.27]: https://github.com/webitel/figma-style-book/compare/v24.12.26...v24.12.27
 [v24.12.29]: https://github.com/webitel/figma-style-book/compare/v24.12.27...v24.12.29
 [v24.12.31]: https://github.com/webitel/figma-style-book/compare/v24.12.29...v24.12.31
+[v24.12.33]: https://github.com/webitel/figma-style-book/compare/v24.12.31...v24.12.33

@@ -1,4 +1,4 @@
-import colorScheme from './color-scheme/index.js';
+import colorScheme from './color-scheme';
 import sizes from './sizes';
 
 const semantic = {

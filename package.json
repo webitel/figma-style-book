@@ -1,6 +1,6 @@
 {
   "name": "@webitel/styleguide",
-  "version": "24.12.32",
+  "version": "24.12.33",
   "main": "",
   "exports": {
     ".": "./src/lib/main.scss",
@@ -15,13 +15,23 @@
     "./workspaces": "./src/workspaces/main.scss",
     "./wt-flow-diagram": "./src/wt-flow-diagram/main.scss",
     "./fonts": "./src/lib/styleguide/fonts/_fonts.scss",
-    "./component-schemes": "./src/lib/primevue/components/index.js",
-    "./semantic": "./src/lib/primevue/semantic/index.js"
+    "./component-schemes": {
+      "import": "./src/lib/primevue/components/index.js",
+      "types": "./dist/types/lib/primevue/components/index.d.ts"
+    },
+    "./semantic": {
+      "import": "./src/lib/primevue/semantic/index.js",
+      "types": "./dist/types/lib/primevue/semantic/index.d.ts"
+    }
   },
   "files": [
     "src/"
   ],
   "scripts": {
-    "publish-styleguide": "npm publish --access public"
+    "publish-styleguide": "npm run build && npm publish --access public",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }

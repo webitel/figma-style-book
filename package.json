@@ -1,6 +1,6 @@
 {
   "name": "@webitel/styleguide",
-  "version": "24.12.34",
+  "version": "24.12.35",
   "main": "",
   "exports": {
     ".": "./src/lib/main.scss",
@@ -16,12 +16,10 @@
     "./wt-flow-diagram": "./src/wt-flow-diagram/main.scss",
     "./fonts": "./src/lib/styleguide/fonts/_fonts.scss",
     "./component-schemes": {
-      "import": "./src/lib/primevue/components/index.js",
-      "types": "./dist/types/lib/primevue/components/index.d.ts"
+      "import": "./src/lib/primevue/components/index.js"
     },
     "./semantic": {
-      "import": "./src/lib/primevue/semantic/index.js",
-      "types": "./dist/types/lib/primevue/semantic/index.d.ts"
+      "import": "./src/lib/primevue/semantic/index.js"
     }
   },
   "files": [

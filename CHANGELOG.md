@@ -1,4 +1,13 @@
 
+## [v24.12.35] - 2025-06-27
+### :bug: Bug Fixes
+- [`aa762fb`](https://github.com/webitel/figma-style-book/commit/aa762fbc07da726153ea0a1dab34d480014c1a31) - removed types export from package.json [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`7f07626`](https://github.com/webitel/figma-style-book/commit/7f07626b402c22182767efee3f1b66c1ff83846c) - changed extension to .ts for rest .js files [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`2c5735f`](https://github.com/webitel/figma-style-book/commit/2c5735f842c5eedccfc5152765175fe6ecc29ffa) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+
 ## [v24.12.33] - 2025-06-26
 ### :sparkles: New Features
 - [`c361841`](https://github.com/webitel/figma-style-book/commit/c361841cc638c3fef7400b611ff86e7f577de17f) - added ts support for stylebook to fix ui-sdk build [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -214,3 +223,4 @@
 [v24.12.29]: https://github.com/webitel/figma-style-book/compare/v24.12.27...v24.12.29
 [v24.12.31]: https://github.com/webitel/figma-style-book/compare/v24.12.29...v24.12.31
 [v24.12.33]: https://github.com/webitel/figma-style-book/compare/v24.12.31...v24.12.33
+[v24.12.35]: https://github.com/webitel/figma-style-book/compare/v24.12.33...v24.12.35

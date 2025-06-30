@@ -1,4 +1,9 @@
 
+## [v24.12.36] - 2025-06-30
+### :wrench: Chores
+- [`01fc08b`](https://github.com/webitel/figma-style-book/commit/01fc08bec60c617ee42a2f0b6f2ffdf483ca7b97) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.35] - 2025-06-27
 ### :bug: Bug Fixes
 - [`aa762fb`](https://github.com/webitel/figma-style-book/commit/aa762fbc07da726153ea0a1dab34d480014c1a31) - removed types export from package.json [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -224,3 +229,4 @@
 [v24.12.31]: https://github.com/webitel/figma-style-book/compare/v24.12.29...v24.12.31
 [v24.12.33]: https://github.com/webitel/figma-style-book/compare/v24.12.31...v24.12.33
 [v24.12.35]: https://github.com/webitel/figma-style-book/compare/v24.12.33...v24.12.35
+[v24.12.36]: https://github.com/webitel/figma-style-book/compare/v24.12.35...v24.12.36

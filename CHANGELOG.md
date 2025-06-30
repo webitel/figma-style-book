@@ -1,4 +1,9 @@
 
+## [v24.12.38] - 2025-06-30
+### :wrench: Chores
+- [`bead518`](https://github.com/webitel/figma-style-book/commit/bead518c19687ba89e8521e1e1548fe9a32fc1f5) - bump patch version *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+
 ## [v24.12.37] - 2025-06-30
 ### :wrench: Chores
 - [`c4390ee`](https://github.com/webitel/figma-style-book/commit/c4390eeafbe6a9ab0758bed3b5c238b174cfa0e1) - bump patch version *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -236,3 +241,4 @@
 [v24.12.35]: https://github.com/webitel/figma-style-book/compare/v24.12.33...v24.12.35
 [v24.12.36]: https://github.com/webitel/figma-style-book/compare/v24.12.35...v24.12.36
 [v24.12.37]: https://github.com/webitel/figma-style-book/compare/v24.12.36...v24.12.37
+[v24.12.38]: https://github.com/webitel/figma-style-book/compare/v24.12.37...v24.12.38

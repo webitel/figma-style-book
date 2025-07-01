@@ -1,3 +1,5 @@
 export default {
-  color: '{primary.color}',
+  focusRing: {
+    color: '{primary.color}',
+  }
 }

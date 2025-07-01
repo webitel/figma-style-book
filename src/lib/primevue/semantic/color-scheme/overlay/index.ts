@@ -8,9 +8,9 @@ export default {
       shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
     },
     popover: {
-      borderRadius: '{border.radius.md}',
+      borderRadius: '1rem',
       padding: '0.75rem',
-      shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
+      shadow: '{0 0 10px rgba(255, 0, 0, 0.5)}',
     },
     modal: {
       borderRadius: '{border.radius.xl}',

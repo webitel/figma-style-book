@@ -1,8 +1,8 @@
 const sizes = {
   padding: '{overlay.popover.padding}',
-  gutter: '10px',
+  gutter: '0.5rem',
   arrowOffset: '1.25rem',
-  borderRadius: '{overlay.popover.border.radius}',
+  borderRadius: '{overlay.popover.borderRadius}',
 };
 
 export default sizes

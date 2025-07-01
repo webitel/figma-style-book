@@ -1,11 +1,11 @@
 const lightColors = {
   background: '{overlay.popover.background}',
-  borderColor: '{overlay.popover.border.color}',
+  borderColor: '{overlay.popover.borderColor}',
   color: '{overlay.popover.color}',
-  borderRadius: '{overlay.popover.border.radius}',
+  borderRadius: '{overlay.popover.borderRadius}',
   shadow: '{overlay.popover.shadow}',
-  gutter: '10px',
-  arrowOffset: '1.25rem'
+  gutter: '0.5rem',
+  arrowOffset: '1.25rem',
 }
 
 export default lightColors

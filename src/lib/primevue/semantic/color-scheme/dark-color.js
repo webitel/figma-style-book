@@ -1,199 +1,84 @@
 const darkColor = {
-  // dp colors
-  'dp-surface-color': {
-    1: 'hsl(225,20%,2%)',
-    2: 'hsl(225,20%,3%)',
-    3: 'hsl(225,20%,4%)',
-    4: 'hsl(225,20%,5%)',
-    5: 'hsl(225,20%,6%)',
-    6: 'hsl(225,20%,7%)',
-    7: 'hsl(225,20%,8%)',
-    8: 'hsl(225,20%,9%)',
-    9: 'hsl(225,20%,10%)',
-    10: 'hsl(225,20%,11%)',
-    11: 'hsl(225,20%,12%)',
-    12: 'hsl(225,20%,13%)',
-    13: 'hsl(225,20%,14%)',
-    14: 'hsl(225,20%,15%)',
-    15: 'hsl(225,20%,16%)',
-    16: 'hsl(225,20%,17%)',
-    17: 'hsl(225,20%,18%)',
-    18: 'hsl(225,20%,19%)',
-    19: 'hsl(225,20%,20%)',
-    20: 'hsl(225,20%,21%)',
-    21: 'hsl(225,20%,22%)',
-    22: 'hsl(225,20%,23%)',
-    23: 'hsl(225,20%,24%)',
-    24: 'hsl(225,20%,25%)',
-  },
-
-  // surface color for primevue theme
-  surface: {
-    0: 'hsl(225, 20%, 2%)', // dp 1
-    50: 'hsl(225, 20%, 4%)', // dp 3
-    100: 'hsl(225, 20%, 6%)', // dp 5
-    200: 'hsl(225, 20%, 9%)', // dp 8
-    300: 'hsl(225, 20%, 12%)', // dp 11
-    400: 'hsl(225, 20%, 15%)', // dp 14
-    500: 'hsl(225, 20%, 17%)', // dp 16
-    600: 'hsl(225, 20%, 19%)', // dp 18
-    700: 'hsl(225, 20%, 21%)', // dp 20
-    800: 'hsl(225, 20%, 23%)', // dp 22
-    900: 'hsl(225, 20%, 24%)', // dp 23
-    950: 'hsl(225, 20%, 25%)', // dp 24
-    contrastColor: '{white}',
-  },
 
   primary: {
-    50: 'hsla(43, 97%, 95%, 1)',
-    100: 'hsla(43, 97%, 90%, 1)',
-    200: 'hsla(43, 97%, 80%, 1)',
-    300: 'hsla(43, 97%, 70%, 1)',
-    400: 'hsla(43, 97%, 60%, 1)',
-    500: 'hsla(43, 97%, 50%, 1)',
-    600: 'hsla(43, 97%, 40%, 1)',
-    700: 'hsla(43, 97%, 30%, 1)',
-    800: 'hsla(43, 97%, 20%, 1)',
-    900: 'hsla(43, 97%, 15%, 1)',
-    950: 'hsla(43, 97%, 10%, 1)',
-    contrastColor: '{black}',
+    color: '{amber.500}',
+    hover: '{amber.400}',
+    active: '{amber.300}',
+    foreground: '{amber.950}'
   },
 
   secondary: {
-    50: 'hsl(225, 20%, 25%)',
-    100: 'hsl(225, 20%, 22%)',
-    200: 'hsl(225, 20%, 19%)',
-    300: 'hsl(225, 20%, 16%)',
-    400: 'hsl(225, 20%, 13%)',
-    500: 'hsl(225, 20%, 11%)',
-    600: 'hsl(225, 20%, 9%)',
-    700: 'hsl(225, 20%, 7%)',
-    800: 'hsl(225, 20%, 5%)',
-    900: 'hsl(225, 20%, 4%)',
-    950: 'hsl(225, 20%, 3%)',
-    contrastColor: '{white}',
+    color: '{gray.600}',
+    hover: '{gray.500}',
+    active: '{gray.400}',
+    foreground: '{gray.100}'
   },
 
   success: {
-    50: 'hsla(121, 75%, 90%, 1)',
-    100: 'hsla(121, 75%, 80%, 1)',
-    200: 'hsla(121, 75%, 65%, 1)',
-    300: 'hsla(121, 75%, 50%, 1)',
-    400: 'hsla(121, 75%, 42%, 1)',
-    500: 'hsla(121, 75%, 35%, 1)',
-    600: 'hsla(121, 75%, 30%, 1)',
-    700: 'hsla(121, 75%, 25%, 1)',
-    800: 'hsla(121, 75%, 20%, 1)',
-    900: 'hsla(121, 75%, 15%, 1)',
-    950: 'hsla(121, 75%, 10%, 1)',
-    contrastColor: '{grey.lighten.5}',
+    color: '{green.600}',
+    hover: '{green.500}',
+    active: '{green.400}',
+    foreground: '{green.950}'
+  },
+
+  warn: {
+    color: '{orange.400}',
+    hover: '{orange.300}',
+    active: '{orange.200}',
+    foreground: '{orange.950}'
+  },
+
+  error: {
+    color: '{red.500}',
+    hover: '{red.400}',
+    active: '{red.300}',
+    foreground: '{red.100}'
   },
 
   info: {
-    50: 'hsla(209, 75%, 95%, 1)',
-    100: 'hsla(209, 75%, 88%, 1)',
-    200: 'hsla(209, 75%, 76%, 1)',
-    300: 'hsla(209, 75%, 64%, 1)',
-    400: 'hsla(209, 75%, 57%, 1)',
-    500: 'hsla(209, 75%, 50%, 1)',
-    600: 'hsla(209, 75%, 42%, 1)',
-    700: 'hsla(209, 75%, 34%, 1)',
-    800: 'hsla(209, 75%, 26%, 1)',
-    900: 'hsla(209, 75%, 18%, 1)',
-    950: 'hsla(209, 75%, 12%, 1)',
-    contrastColor: '{black}',
+    color: '{lightblue.300}',
+    hover: '{lightblue.200}',
+    active: '{lightblue.100}',
+    foreground: '{lightblue.950}'
   },
 
-  danger: {
-    50: 'hsla(0, 90%, 97%, 1)',
-    100: 'hsla(0, 90%, 90%, 1)',
-    200: 'hsla(0, 90%, 80%, 1)',
-    300: 'hsla(0, 90%, 72%, 1)',
-    400: 'hsla(0, 90%, 68%, 1)',
-    500: 'hsla(0, 90%, 65%, 1)',
-    600: 'hsla(0, 90%, 55%, 1)',
-    700: 'hsla(0, 90%, 45%, 1)',
-    800: 'hsla(0, 90%, 35%, 1)',
-    900: 'hsla(0, 90%, 25%, 1)',
-    950: 'hsla(0, 90%, 15%, 1)',
-    contrastColor: '{white}',
+  task: {
+    color: '{blue.400}',
+    hover: '{blue.300}',
+    active: '{blue.200}',
+    foreground: '{blue.950}'
+  },
+
+  transfer: {
+    color: '{indigo.300}',
+    hover: '{indigo.200}',
+    active: '{indigo.100}',
+    foreground: '{indigo.950}'
+  },
+
+  chat: {
+    color: '{cyan.500}',
+    hover: '{cyan.400}',
+    active: '{cyan.300}',
+    foreground: '{cyan.950}'
+  },
+
+  email: {
+    color: '{blue.600}',
+    hover: '{blue.500}',
+    active: '{blue.400}',
+    foreground: '{blue.950}'
+  },
+
+  accent: {
+    color: '{gray.700}',
+    hover: '{gray.600}',
+    active: '{gray.500}',
+    foreground: '{gray.100}'
   },
 
   // Focus colors
-  'focus-color': '{white}',
-
-  // Primary colors
-  'primary-color': '{amber-darken-1}',
-  'primary-hover-color': '{amber-lighten-1}',
-  'primary-active-color': '{amber-lighten-2}',
-  'primary-light-color': '{amber-darken-4}',
-  'primary-on-color': '{grey-darken-4}',
-
-  // Secondary colors
-  'secondary-color': '{dp-surface-color-10}',
-  'secondary-hover-color': '{dp-surface-color-14}',
-  'secondary-active-color': '{dp-surface-color-18}',
-  'secondary-light-color': '{dp-surface-color-16}',
-  'secondary-on-color': '{grey-lighten-4}',
-
-  // Success colors
-  'success-color': '{green-darken-3}',
-  'success-hover-color': '{green-darken-2}',
-  'success-active-color': '{green-darken-1}',
-  'success-light-color': '{green-darken-4}',
-  'success-on-color': '{grey-darken-4}',
-
-  // Warning colors
-  'warning-color': '{orange-accent-3}',
-  'warning-hover-color': '{orange-accent-2}',
-  'warning-active-color': '{orange-accent-1}',
-  'warning-light-color': '{orange-darken-4}',
-  'warning-on-color': '{grey-darken-4}',
-
-  // Error colors
-  'error-color': '{red-lighten-1}',
-  'error-hover-color': '{red-lighten-2}',
-  'error-active-color': '{red-lighten-3}',
-  'error-light-color': '{red-darken-4}',
-  'error-on-color': '{grey-darken-4}',
-
-  // Info colors
-  'info-color': '{light-blue-lighten-1}',
-  'info-hover-color': '{light-blue-lighten-2}',
-  'info-active-color': '{light-blue-lighten-3}',
-  'info-light-color': '{light-blue-lighten-4}',
-  'info-on-color': '{grey-darken-4}',
-
-  // Task colors
-  'task-color': '{blue-lighten-1}',
-  'task-hover-color': '{blue-lighten-2}',
-  'task-active-color': '{blue-lighten-3}',
-  'task-light-color': '{blue-lighten-4}',
-  'task-on-color': '{grey-darken-4}',
-
-  // Transfer colors
-  'transfer-color': '{indigo-lighten-2}',
-  'transfer-hover-color': '{indigo-lighten-3}',
-  'transfer-active-color': '{indigo-lighten-4}',
-  'transfer-light-color': '{indigo-lighten-4}',
-  'transfer-on-color': '{grey-darken-4}',
-
-  // Chat colors
-  'chat-color': '{indigo-accent-2}',
-  'chat-hover-color': '{indigo-accent-1}',
-  'chat-active-color': '{indigo-lighten-3}',
-  'chat-light-color': '{indigo-lighten-3}',
-  'chat-on-color': '{grey-darken-4}',
-
-  // Email colors
-  'email-color': '{blue-darken-3}',
-  'email-hover-color': '{blue-darken-2}',
-  'email-light-color': '{blue-lighten-1}',
-  'email-on-color': '{grey-darken-4}',
-
-  // accent colors
-  'accent-color': '{purple-lighten-1}',
-  'sub-accent-color': '{indigo-darken-3}',
+  'focus-color': '{black}',
 
   // content wrapper
   'content-wrapper-color': '{dp-surface-color-20}',

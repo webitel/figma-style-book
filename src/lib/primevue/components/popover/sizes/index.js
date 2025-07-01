@@ -1,5 +1,7 @@
 const sizes = {
-  padding: '{overlay.popover.padding}'
+  fontSize: " ",
+  gap: '100rem',
+
 };
 
 export default sizes

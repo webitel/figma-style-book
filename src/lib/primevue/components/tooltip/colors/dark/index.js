@@ -1,6 +1,6 @@
 const darkColors = {
-  background: '{tooltip-background}',
-  color: '{surface.0}',
+  background: '{accent.color}',
+  color: '{accent.foreground}',
   shadow: '{overlay.popover.shadow}',
 };
 

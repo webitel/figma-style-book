@@ -1,3 +1,3 @@
 export default {
-  'tooltip-background': '{red-lighten-2}'
+  'tooltip-background': '{accent.color}',
 }

@@ -1,4 +1,15 @@
 
+## [v24.12.39] - 2025-07-01
+### :sparkles: New Features
+- [`e0b8b17`](https://github.com/webitel/figma-style-book/commit/e0b8b17cc254f4ab09558ad643889caab353bdd5) - changed colors for button component *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`9a95148`](https://github.com/webitel/figma-style-book/commit/9a95148c5e1009fb29df3b53892e9a48dd536e4a) - merge updates from main branch, fixed conflicts [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`9375f8e`](https://github.com/webitel/figma-style-book/commit/9375f8ec0c00eef5552848707413887e1fd67af6) - bump patch version *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+
 ## [v24.12.38] - 2025-06-30
 ### :wrench: Chores
 - [`bead518`](https://github.com/webitel/figma-style-book/commit/bead518c19687ba89e8521e1e1548fe9a32fc1f5) - bump patch version *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -242,3 +253,4 @@
 [v24.12.36]: https://github.com/webitel/figma-style-book/compare/v24.12.35...v24.12.36
 [v24.12.37]: https://github.com/webitel/figma-style-book/compare/v24.12.36...v24.12.37
 [v24.12.38]: https://github.com/webitel/figma-style-book/compare/v24.12.37...v24.12.38
+[v24.12.39]: https://github.com/webitel/figma-style-book/compare/v24.12.38...v24.12.39

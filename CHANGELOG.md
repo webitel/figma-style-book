@@ -1,4 +1,46 @@
 
+## [v24.12.38] - 2025-06-30
+### :wrench: Chores
+- [`bead518`](https://github.com/webitel/figma-style-book/commit/bead518c19687ba89e8521e1e1548fe9a32fc1f5) - bump patch version *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+
+## [v24.12.37] - 2025-06-30
+### :wrench: Chores
+- [`c4390ee`](https://github.com/webitel/figma-style-book/commit/c4390eeafbe6a9ab0758bed3b5c238b174cfa0e1) - bump patch version *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+
+## [v24.12.36] - 2025-06-30
+### :wrench: Chores
+- [`01fc08b`](https://github.com/webitel/figma-style-book/commit/01fc08bec60c617ee42a2f0b6f2ffdf483ca7b97) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.35] - 2025-06-27
+### :bug: Bug Fixes
+- [`aa762fb`](https://github.com/webitel/figma-style-book/commit/aa762fbc07da726153ea0a1dab34d480014c1a31) - removed types export from package.json [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`7f07626`](https://github.com/webitel/figma-style-book/commit/7f07626b402c22182767efee3f1b66c1ff83846c) - changed extension to .ts for rest .js files [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`2c5735f`](https://github.com/webitel/figma-style-book/commit/2c5735f842c5eedccfc5152765175fe6ecc29ffa) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+
+## [v24.12.33] - 2025-06-26
+### :sparkles: New Features
+- [`c361841`](https://github.com/webitel/figma-style-book/commit/c361841cc638c3fef7400b611ff86e7f577de17f) - added ts support for stylebook to fix ui-sdk build [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`17a8998`](https://github.com/webitel/figma-style-book/commit/17a8998ee75776d1aea5648337a13c5960c1ce6a) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.31] - 2025-06-24
+### :sparkles: New Features
+- [`63ddb1b`](https://github.com/webitel/figma-style-book/commit/63ddb1bbdb8ee65b3ccc7999c5668b4e5839f722) - fixed focus-ring sizes [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`61e0b90`](https://github.com/webitel/figma-style-book/commit/61e0b909351ba837a64c8f0e553953815cd9b7ca) - updates folders structure after review [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`016372d`](https://github.com/webitel/figma-style-book/commit/016372db85f0718d5d86022a653cceff62bed01c) - set updates in semantic folders structure  [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`d698112`](https://github.com/webitel/figma-style-book/commit/d698112eb89e5bef91117786ddb8282d542367b0) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.29] - 2025-06-23
 ### :sparkles: New Features
 - [`5b08e4e`](https://github.com/webitel/figma-style-book/commit/5b08e4e4ecad3951695c5ee87e3b60207cd45b6e) - bump version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -194,3 +236,9 @@
 [v24.12.26]: https://github.com/webitel/figma-style-book/compare/v24.12.25...v24.12.26
 [v24.12.27]: https://github.com/webitel/figma-style-book/compare/v24.12.26...v24.12.27
 [v24.12.29]: https://github.com/webitel/figma-style-book/compare/v24.12.27...v24.12.29
+[v24.12.31]: https://github.com/webitel/figma-style-book/compare/v24.12.29...v24.12.31
+[v24.12.33]: https://github.com/webitel/figma-style-book/compare/v24.12.31...v24.12.33
+[v24.12.35]: https://github.com/webitel/figma-style-book/compare/v24.12.33...v24.12.35
+[v24.12.36]: https://github.com/webitel/figma-style-book/compare/v24.12.35...v24.12.36
+[v24.12.37]: https://github.com/webitel/figma-style-book/compare/v24.12.36...v24.12.37
+[v24.12.38]: https://github.com/webitel/figma-style-book/compare/v24.12.37...v24.12.38

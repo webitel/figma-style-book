@@ -5,7 +5,6 @@ import base from './base'
 import overlay from './overlay'
 import focusRing from './focus-ring'
 
-console.log(overlay, ' overlay')
 const colorScheme = {
   light: {
     ...palette,

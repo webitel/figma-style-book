@@ -10,7 +10,6 @@ export default {
     popover: {
       borderRadius: '1rem',
       padding: '0.75rem',
-      shadow: '{0 0 10px rgba(255, 0, 0, 0.5)}',
     },
     modal: {
       borderRadius: '{border.radius.xl}',

@@ -6,15 +6,19 @@ export default {
       color: '{text.color}'
     },
     popover: {
-      background: '{gray.800}',
-      borderColor: '{gray.800}',
-      color: '{gray.50}' ,
-      shadow: '{0 0 10px rgba(255, 0, 0, 0.5)}',
+      background: '{gray.750}',
+      borderColor: '{gray.750}',
+      color: '{gray.200}',
+    },
+    tooltip: {
+      background: '{gray.750}',
+      borderColor: '{gray.750}',
+      color: '{gray.200}',
     },
     modal: {
-      background: '{surface.900}',
-      borderColor: '{surface.700}',
-      color: '{text.color}'
+      background: '{gray.750}',
+      borderColor: '{gray.750}',
+      color: '{gray.200}'
     }
   }
 }

@@ -125,8 +125,8 @@ const lightColors = {
       },
     },
     disabled: {
-      color: '{gray.600}',
-      background: '{gray.200}',
+      color: '{gray.400}',
+      background: '{gray.100}',
     },
   },
   outlined: {

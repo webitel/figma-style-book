@@ -36,10 +36,10 @@ const lightColor = {
   },
 
   info: {
-    color: '{light_blue.500}',
-    hover: '{light_blue.450}',
-    active: '{light_blue.400}',
-    foreground: '{light_blue.50}'
+    color: '{light-blue.500}',
+    hover: '{light-blue.450}',
+    active: '{light-blue.400}',
+    foreground: '{light-blue.50}'
   },
 
   task: {

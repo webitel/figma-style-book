@@ -1,4 +1,12 @@
 
+## [v24.12.41] - 2025-07-08
+### :sparkles: New Features
+- [`b270720`](https://github.com/webitel/figma-style-book/commit/b270720f4117ca8cd5c5154eed6a1f582f74ca3d) - edited and expanded color palette, semantic colors, overlay color and shadow *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`79efb87`](https://github.com/webitel/figma-style-book/commit/79efb878bdaecf1fdb07cef0009d0329ded17cd4) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.40] - 2025-07-02
 ### :bug: Bug Fixes
 - [`bd7f383`](https://github.com/webitel/figma-style-book/commit/bd7f383a94ee432d1f2dbe3dc4c9baa9f00aa97f) - remove console.log [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -263,3 +271,4 @@
 [v24.12.38]: https://github.com/webitel/figma-style-book/compare/v24.12.37...v24.12.38
 [v24.12.39]: https://github.com/webitel/figma-style-book/compare/v24.12.38...v24.12.39
 [v24.12.40]: https://github.com/webitel/figma-style-book/compare/v24.12.39...v24.12.40
+[v24.12.41]: https://github.com/webitel/figma-style-book/compare/v24.12.40...v24.12.41

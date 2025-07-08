@@ -125,8 +125,8 @@ const darkColors = {
       },
     },
     disabled: {
-      color: '{gray.600}',
-      background: '{gray.950}',
+      color: '{gray.550}',
+      background: '{gray.850}',
     },
   },
   outlined: {

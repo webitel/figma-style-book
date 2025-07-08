@@ -1,8 +1,7 @@
 const lightColors = {
   root: {
-    background: '{blue-lighten-2}',
-    color: '{surface.0}',
-    shadow: '{overlay.popover.shadow}',
+    background: '{overlay.tooltip.background}',
+    color: '{overlay.tooltip.color}',
   }
 };
 

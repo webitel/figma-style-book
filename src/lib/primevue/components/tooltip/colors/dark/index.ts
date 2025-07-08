@@ -1,8 +1,7 @@
 const darkColors = {
   root: {
-    background: '{wrapper-back}',
-    color: '{surface.0}',
-    shadow: '{overlay.popover.shadow}',
+    background: '{overlay.tooltip.background}',
+    color: '{overlay.tooltip.color}',
   }
 };
 

@@ -1,4 +1,12 @@
 
+## [v24.12.43] - 2025-07-08
+### :sparkles: New Features
+- [`0cd5e03`](https://github.com/webitel/figma-style-book/commit/0cd5e0373728188d575fb778f7c6ca6e6e746623) - add color and size schemes for Avatar, Menubar, and Toolbar components [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`7218d38`](https://github.com/webitel/figma-style-book/commit/7218d3827dfb5edd31c810910097602156e7b374) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.42] - 2025-07-08
 ### :sparkles: New Features
 - [`ae419bf`](https://github.com/webitel/figma-style-book/commit/ae419bf48d56477af6b6ce42c88243bd252a89db) - edited and expanded color palette, semantic colors, overlay color and shadow *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -281,3 +289,4 @@
 [v24.12.40]: https://github.com/webitel/figma-style-book/compare/v24.12.39...v24.12.40
 [v24.12.41]: https://github.com/webitel/figma-style-book/compare/v24.12.40...v24.12.41
 [v24.12.42]: https://github.com/webitel/figma-style-book/compare/v24.12.41...v24.12.42
+[v24.12.43]: https://github.com/webitel/figma-style-book/compare/v24.12.42...v24.12.43

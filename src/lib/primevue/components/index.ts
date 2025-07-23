@@ -4,6 +4,7 @@ import PopoverScheme from './popover';
 import TooltipScheme from './tooltip';
 import MenubarScheme from './menubar';
 import ToolbarScheme from './toolbar';
+import ChipScheme from "./chip";
 
 export {
   AvatarScheme,
@@ -12,4 +13,5 @@ export {
   TooltipScheme,
   MenubarScheme,
   ToolbarScheme,
+  ChipScheme,
 }

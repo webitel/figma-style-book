@@ -15,10 +15,7 @@ const darkColors = {
     invalidBorderColor: '{form.field.invalid.border.color}',
     shadow: '{form.field.shadow}',
     focusRing: {
-        width: '{focus.ring.width}',
-        style: '{focus.ring.style}',
         color: '{focus.ring.color}',
-        offset: '{focus.ring.offset}',
         shadow: '{focus.ring.shadow}'
     },
     transitionDuration: '{form.field.transition.duration}',

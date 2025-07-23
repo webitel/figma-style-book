@@ -10,6 +10,11 @@ const sizes = {
     lg: {
       width: '1.5rem',
       height: '1.5rem'
+    },
+    focusRing: {
+      width: '{focus.ring.width}',
+      style: '{focus.ring.style}',
+      offset: '{focus.ring.offset}',
     }
   },
   icon: {

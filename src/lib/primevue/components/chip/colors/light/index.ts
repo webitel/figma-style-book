@@ -1,9 +1,14 @@
 const lightColors = {
   background: '{surface.100}',
   color: '{surface.800}',
+  /**
+   * @author Yehor Hlukhov
+   * 
+   * need to add colors for main
+   * */
   main: {
-    background: '{main.color}',
-    color: '{main.foreground}'
+    background: '{red.400}',
+    color: '{red.50}'
   },
   primary: {
     background: '{primary.color}',

@@ -4,6 +4,7 @@ const darkColors = {
   /**
    * @author Yehor Hlukhov
    * 
+   * referred to Evgeniy Trahtenberg
    * need to add colors for main
    * */
   main: {

@@ -70,6 +70,13 @@ const darkColor = {
     foreground: '{blue.950}'
   },
 
+  main: {
+    color: '{red.300}',
+    hover: '{red.250}',
+    active: '{red.200}',
+    foreground: '{red.950}'
+  },
+
   // Focus colors
   'focus-color': '{black}',
 

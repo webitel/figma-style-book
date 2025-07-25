@@ -1,4 +1,15 @@
 
+## [v24.12.44] - 2025-07-25
+### :sparkles: New Features
+- [`2754cc8`](https://github.com/webitel/figma-style-book/commit/2754cc8f5f18e5aa0b743b6f83430433eb82eaf5) - add primevue checkbox color scheme [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`04ceac4`](https://github.com/webitel/figma-style-book/commit/04ceac48d4719017592770303fb212a595fcc083) - update focus ring properties for checkbox component sizes and colors [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`59b9702`](https://github.com/webitel/figma-style-book/commit/59b9702aa56e1bc9e98c5eacfbef6e073de261e7) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.43] - 2025-07-08
 ### :sparkles: New Features
 - [`0cd5e03`](https://github.com/webitel/figma-style-book/commit/0cd5e0373728188d575fb778f7c6ca6e6e746623) - add color and size schemes for Avatar, Menubar, and Toolbar components [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -290,3 +301,4 @@
 [v24.12.41]: https://github.com/webitel/figma-style-book/compare/v24.12.40...v24.12.41
 [v24.12.42]: https://github.com/webitel/figma-style-book/compare/v24.12.41...v24.12.42
 [v24.12.43]: https://github.com/webitel/figma-style-book/compare/v24.12.42...v24.12.43
+[v24.12.44]: https://github.com/webitel/figma-style-book/compare/v24.12.43...v24.12.44

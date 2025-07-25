@@ -1,4 +1,17 @@
 
+## [v24.12.45] - 2025-07-25
+### :sparkles: New Features
+- [`e7d93a3`](https://github.com/webitel/figma-style-book/commit/e7d93a3c8f0d799dc7126173af3cd31285768b04) - add main color to color scheme [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`812ab12`](https://github.com/webitel/figma-style-book/commit/812ab1281d70c70dcd8e40d789c93445fbd23196) - add Chip component with color scheme and sizes [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`1038654`](https://github.com/webitel/figma-style-book/commit/1038654174c491946503537ae8bc3b6de40a364f) - update comments [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`439e916`](https://github.com/webitel/figma-style-book/commit/439e9160d220f871f8097ed6a99a7d995f2d1f4c) - update main color definitions in dark and light color schemes [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`6223671`](https://github.com/webitel/figma-style-book/commit/622367188cf15e6100f68321b1e68182fc89da4e) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.44] - 2025-07-25
 ### :sparkles: New Features
 - [`2754cc8`](https://github.com/webitel/figma-style-book/commit/2754cc8f5f18e5aa0b743b6f83430433eb82eaf5) - add primevue checkbox color scheme [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -302,3 +315,4 @@
 [v24.12.42]: https://github.com/webitel/figma-style-book/compare/v24.12.41...v24.12.42
 [v24.12.43]: https://github.com/webitel/figma-style-book/compare/v24.12.42...v24.12.43
 [v24.12.44]: https://github.com/webitel/figma-style-book/compare/v24.12.43...v24.12.44
+[v24.12.45]: https://github.com/webitel/figma-style-book/compare/v24.12.44...v24.12.45

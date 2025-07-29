@@ -1,4 +1,12 @@
 
+## [v24.12.46] - 2025-07-29
+### :sparkles: New Features
+- [`2a768b5`](https://github.com/webitel/figma-style-book/commit/2a768b5fe43c27781618143b45049892a69cb7d9) - add TableScheme with color and size configurations [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`5e41bb1`](https://github.com/webitel/figma-style-book/commit/5e41bb13e4182d5bc23e14c7d75543b4dd07297d) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.45] - 2025-07-25
 ### :sparkles: New Features
 - [`e7d93a3`](https://github.com/webitel/figma-style-book/commit/e7d93a3c8f0d799dc7126173af3cd31285768b04) - add main color to color scheme [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -316,3 +324,4 @@
 [v24.12.43]: https://github.com/webitel/figma-style-book/compare/v24.12.42...v24.12.43
 [v24.12.44]: https://github.com/webitel/figma-style-book/compare/v24.12.43...v24.12.44
 [v24.12.45]: https://github.com/webitel/figma-style-book/compare/v24.12.44...v24.12.45
+[v24.12.46]: https://github.com/webitel/figma-style-book/compare/v24.12.45...v24.12.46

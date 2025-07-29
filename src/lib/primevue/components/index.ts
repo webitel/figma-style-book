@@ -6,6 +6,7 @@ import MenubarScheme from './menubar';
 import ToolbarScheme from './toolbar';
 import ChipScheme from "./chip";
 import CheckboxScheme from "./checkbox";
+import TableScheme from "./table";
 
 export {
   AvatarScheme,
@@ -16,4 +17,5 @@ export {
   ToolbarScheme,
   ChipScheme,
   CheckboxScheme,
+  TableScheme
 }

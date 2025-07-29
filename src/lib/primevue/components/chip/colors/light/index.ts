@@ -8,8 +8,8 @@ const lightColors = {
    * need to add colors for main
    * */
   main: {
-    background: '{red.400}',
-    color: '{red.50}'
+    background: '{amber.200}',
+    color: '{amber.950}'
   },
   primary: {
     background: '{primary.color}',

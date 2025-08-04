@@ -1,4 +1,12 @@
 
+## [v24.12.48] - 2025-08-04
+### :sparkles: New Features
+- [`9720574`](https://github.com/webitel/figma-style-book/commit/97205748cff17d6be14c9afc6eb8bddcdf8c2981) - edited checkbox colors, checkbox sizes, surface colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`75ba93a`](https://github.com/webitel/figma-style-book/commit/75ba93a8ff5c868e7f9becb452cd3a8dde9b064f) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.47] - 2025-08-04
 ### :recycle: Refactors
 - [`0f59c42`](https://github.com/webitel/figma-style-book/commit/0f59c423b1a859c28c732edac5d172c27564e382) - add semantic color scheme and sizes for light and dark themes [WTEL-7339](https://webitel.atlassian.net/browse/WTEL-7339) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -334,3 +342,4 @@
 [v24.12.45]: https://github.com/webitel/figma-style-book/compare/v24.12.44...v24.12.45
 [v24.12.46]: https://github.com/webitel/figma-style-book/compare/v24.12.45...v24.12.46
 [v24.12.47]: https://github.com/webitel/figma-style-book/compare/v24.12.46...v24.12.47
+[v24.12.48]: https://github.com/webitel/figma-style-book/compare/v24.12.47...v24.12.48

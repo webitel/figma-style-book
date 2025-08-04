@@ -70,6 +70,18 @@ const lightColor = {
     foreground: '{blue.50}'
   },
 
+  highlight: {
+    background: '{primary.50}',
+    focusBackground: '{primary.100}',
+    color: '{primary.700}',
+    focusColor: '{primary.800}'
+  },
+
+  mask: {
+    background: 'rgba(0,0,0,0.4)',
+    color: '{surface.200}'
+  },
+
   // Focus colors
   'focus-color': '{black}',
 

@@ -4,6 +4,12 @@ import palette from './palette';
 import base from './base'
 import overlay from './overlay'
 import focusRing from './focus-ring'
+import text from './text'
+import formField from './form-field';
+import surface from './surface';
+import content from './content';
+import list from './list';
+import navigation from './navigation';
 
 const colorScheme = {
   light: {
@@ -12,6 +18,12 @@ const colorScheme = {
     ...base.light,
     ...focusRing.colorScheme.light,
     ...overlay.colorScheme.light,
+    ...text.colorScheme.light,
+    ...formField.colorScheme.light,
+    ...surface.colorScheme.light,
+    ...content.colorScheme.light,
+    ...list.colorScheme.light,
+    ...navigation.colorScheme.light,
   },
   dark: {
     ...palette,
@@ -19,6 +31,12 @@ const colorScheme = {
     ...base.dark,
     ...focusRing.colorScheme.dark,
     ...overlay.colorScheme.dark,
+    ...text.colorScheme.dark,
+    ...formField.colorScheme.dark,
+    ...surface.colorScheme.dark,
+    ...content.colorScheme.dark,
+    ...list.colorScheme.dark,
+    ...navigation.colorScheme.dark,
   },
 };
 

@@ -1,4 +1,12 @@
 
+## [v24.12.47] - 2025-08-04
+### :recycle: Refactors
+- [`0f59c42`](https://github.com/webitel/figma-style-book/commit/0f59c423b1a859c28c732edac5d172c27564e382) - add semantic color scheme and sizes for light and dark themes [WTEL-7339](https://webitel.atlassian.net/browse/WTEL-7339) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`3652a3f`](https://github.com/webitel/figma-style-book/commit/3652a3f045bd33deddc1ddacbc13003c67cbb9a2) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.46] - 2025-07-29
 ### :sparkles: New Features
 - [`2a768b5`](https://github.com/webitel/figma-style-book/commit/2a768b5fe43c27781618143b45049892a69cb7d9) - add TableScheme with color and size configurations [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -325,3 +333,4 @@
 [v24.12.44]: https://github.com/webitel/figma-style-book/compare/v24.12.43...v24.12.44
 [v24.12.45]: https://github.com/webitel/figma-style-book/compare/v24.12.44...v24.12.45
 [v24.12.46]: https://github.com/webitel/figma-style-book/compare/v24.12.45...v24.12.46
+[v24.12.47]: https://github.com/webitel/figma-style-book/compare/v24.12.46...v24.12.47

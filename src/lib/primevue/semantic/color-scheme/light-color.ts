@@ -4,7 +4,7 @@ const lightColor = {
     color: '{amber.500}',
     hover: '{amber.450}',
     active: '{amber.400}',
-    foreground: '{amber.50}'
+    foreground: '{amber.900}'
   },
 
   secondary: {

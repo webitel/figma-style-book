@@ -1,4 +1,52 @@
 
+## [v24.12.48] - 2025-08-04
+### :sparkles: New Features
+- [`9720574`](https://github.com/webitel/figma-style-book/commit/97205748cff17d6be14c9afc6eb8bddcdf8c2981) - edited checkbox colors, checkbox sizes, surface colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`75ba93a`](https://github.com/webitel/figma-style-book/commit/75ba93a8ff5c868e7f9becb452cd3a8dde9b064f) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.47] - 2025-08-04
+### :recycle: Refactors
+- [`0f59c42`](https://github.com/webitel/figma-style-book/commit/0f59c423b1a859c28c732edac5d172c27564e382) - add semantic color scheme and sizes for light and dark themes [WTEL-7339](https://webitel.atlassian.net/browse/WTEL-7339) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`3652a3f`](https://github.com/webitel/figma-style-book/commit/3652a3f045bd33deddc1ddacbc13003c67cbb9a2) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.46] - 2025-07-29
+### :sparkles: New Features
+- [`2a768b5`](https://github.com/webitel/figma-style-book/commit/2a768b5fe43c27781618143b45049892a69cb7d9) - add TableScheme with color and size configurations [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`5e41bb1`](https://github.com/webitel/figma-style-book/commit/5e41bb13e4182d5bc23e14c7d75543b4dd07297d) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.45] - 2025-07-25
+### :sparkles: New Features
+- [`e7d93a3`](https://github.com/webitel/figma-style-book/commit/e7d93a3c8f0d799dc7126173af3cd31285768b04) - add main color to color scheme [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`812ab12`](https://github.com/webitel/figma-style-book/commit/812ab1281d70c70dcd8e40d789c93445fbd23196) - add Chip component with color scheme and sizes [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`1038654`](https://github.com/webitel/figma-style-book/commit/1038654174c491946503537ae8bc3b6de40a364f) - update comments [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`439e916`](https://github.com/webitel/figma-style-book/commit/439e9160d220f871f8097ed6a99a7d995f2d1f4c) - update main color definitions in dark and light color schemes [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`6223671`](https://github.com/webitel/figma-style-book/commit/622367188cf15e6100f68321b1e68182fc89da4e) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.44] - 2025-07-25
+### :sparkles: New Features
+- [`2754cc8`](https://github.com/webitel/figma-style-book/commit/2754cc8f5f18e5aa0b743b6f83430433eb82eaf5) - add primevue checkbox color scheme [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`04ceac4`](https://github.com/webitel/figma-style-book/commit/04ceac48d4719017592770303fb212a595fcc083) - update focus ring properties for checkbox component sizes and colors [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`59b9702`](https://github.com/webitel/figma-style-book/commit/59b9702aa56e1bc9e98c5eacfbef6e073de261e7) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.43] - 2025-07-08
 ### :sparkles: New Features
 - [`0cd5e03`](https://github.com/webitel/figma-style-book/commit/0cd5e0373728188d575fb778f7c6ca6e6e746623) - add color and size schemes for Avatar, Menubar, and Toolbar components [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -290,3 +338,8 @@
 [v24.12.41]: https://github.com/webitel/figma-style-book/compare/v24.12.40...v24.12.41
 [v24.12.42]: https://github.com/webitel/figma-style-book/compare/v24.12.41...v24.12.42
 [v24.12.43]: https://github.com/webitel/figma-style-book/compare/v24.12.42...v24.12.43
+[v24.12.44]: https://github.com/webitel/figma-style-book/compare/v24.12.43...v24.12.44
+[v24.12.45]: https://github.com/webitel/figma-style-book/compare/v24.12.44...v24.12.45
+[v24.12.46]: https://github.com/webitel/figma-style-book/compare/v24.12.45...v24.12.46
+[v24.12.47]: https://github.com/webitel/figma-style-book/compare/v24.12.46...v24.12.47
+[v24.12.48]: https://github.com/webitel/figma-style-book/compare/v24.12.47...v24.12.48

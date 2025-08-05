@@ -3,6 +3,8 @@ const sizes = {
     borderRadius: '{border.radius.sm}',
     width: '1.25rem',
     height: '1.25rem',
+    wrapperWidth: '1.5rem',
+    wrapperHeight: '1.5rem',
     sm: {
       width: '1rem',
       height: '1rem'

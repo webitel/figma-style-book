@@ -39,7 +39,8 @@ const darkColors = {
   removeIcon: {
     focusRing: {
       shadow: '{form.field.focus.ring.shadow}'
-    }
+    },
+    hoverColor: '{red.100}'
   }
 }
 

@@ -1,47 +1,47 @@
 const lightColors = {
-  background: '{surface.100}',
+  background: '{surface.200}',
   color: '{surface.800}',
   main: {
     background: '{amber.200}',
     color: '{amber.950}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{amber.800}',
+    iconHoverColor: '{amber.850}'
   },
   primary: {
     background: '{primary.color}',
     color: '{primary.foreground}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{primary.foreground}',
+    iconHoverColor: '{primary.foregroundHover}'
   },
   secondary: {
     background: '{secondary.color}',
     color: '{secondary.foreground}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{secondary.foreground}',
+    iconHoverColor: '{secondary.foregroundHover}'
   },
   success: {
     background: '{success.color}',
     color: '{success.foreground}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{success.foreground}',
+    iconHoverColor: '{success.foregroundHover}'
   },
   warning: {
     background: '{warn.color}',
     color: '{warn.foreground}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{warn.foreground}',
+    iconHoverColor: '{warn.foregroundHover}'
   },
   error: {
     background: '{error.color}',
     color: '{error.foreground}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{error.foreground}',
+    iconHoverColor: '{error.foregroundHover}'
   },
   transfer: {
     background: '{transfer.color}',
     color: '{transfer.foreground}',
-    iconColor: '{red.500}',
-    iconHoverColor: '{red.100}'
+    iconColor: '{transfer.foreground}',
+    iconHoverColor: '{transfer.foregroundHover}'
   },
   removeIcon: {
     focusRing: {

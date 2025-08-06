@@ -1,6 +1,6 @@
 const sizes = {
   borderRadius: '16px',
-  paddingX: '0.75rem',
+  paddingX: '0.5rem',
   paddingY: '0.25rem',
   gap: '0.5rem',
   transitionDuration: '{transition.duration}',

@@ -4,7 +4,7 @@ export default {
     shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
   },
   popover: {
-    borderRadius: '1rem',
+    borderRadius: '0.5rem',
     padding: '0.75rem',
   },
   modal: {

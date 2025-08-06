@@ -4,70 +4,80 @@ const darkColor = {
     color: '{amber.500}',
     hover: '{amber.450}',
     active: '{amber.400}',
-    foreground: '{amber.950}'
+    foreground: '{amber.950}',
+    foregroundHover: '{amber.900}'
   },
 
   secondary: {
     color: '{gray.900}',
     hover: '{gray.850}',
     active: '{gray.750}',
-    foreground: '{gray.450}'
+    foreground: '{gray.450}',
+    foregroundHover: '{gray.400}'
   },
 
   success: {
     color: '{green.600}',
     hover: '{green.550}',
     active: '{green.500}',
-    foreground: '{green.950}'
+    foreground: '{green.950}',
+    foregroundHover: '{green.900}'
   },
 
   warn: {
     color: '{orange.450}',
     hover: '{orange.400}',
     active: '{orange.350}',
-    foreground: '{orange.950}'
+    foreground: '{orange.950}',
+    foregroundHover: '{orange.900}'
   },
 
   error: {
     color: '{red.400}',
     hover: '{red.350}',
     active: '{red.300}',
-    foreground: '{red.950}'
+    foreground: '{red.950}',
+    foregroundHover: '{red.900}'
   },
 
   info: {
     color: '{light-blue.500}',
     hover: '{light-blue.450}',
     active: '{light-blue.400}',
-    foreground: '{light-blue.950}'
+    foreground: '{light-blue.950}',
+    foregroundHover: '{light-blue.900}'
   },
 
   task: {
     color: '{blue.500}',
     hover: '{blue.450}',
     active: '{blue.400}',
-    foreground: '{blue.950}'
+    foreground: '{blue.950}',
+    foregroundHover: '{blue.900}'
   },
 
   transfer: {
     color: '{indigo.350}',
     hover: '{indigo.300}',
     active: '{indigo.250}',
-    foreground: '{indigo.950}'
+    foreground: '{indigo.950}',
+    foregroundHover: '{indigo.900}'
   },
 
   chat: {
     color: '{cyan.600}',
     hover: '{cyan.550}',
     active: '{cyan.500}',
-    foreground: '{cyan.950}'
+    foreground: '{cyan.950}',
+    foregroundHover: '{cyan.900}'
   },
 
   email: {
     color: '{blue.600}',
     hover: '{blue.550}',
     active: '{blue.500}',
-    foreground: '{blue.950}'
+    foreground: '{blue.950}',
+    foregroundHover: '{blue.900}'
   },
 
   highlight: {

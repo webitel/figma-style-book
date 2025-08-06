@@ -1,4 +1,12 @@
 
+## [v24.12.49] - 2025-08-06
+### :bug: Bug Fixes
+- [`8274d65`](https://github.com/webitel/figma-style-book/commit/8274d655c75da723bca26349f3c222ea85028a3a) - add wrapper sizes for configuration [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`c39b786`](https://github.com/webitel/figma-style-book/commit/c39b7863600e89a26a35bf1c4634700135dcf56d) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.48] - 2025-08-04
 ### :sparkles: New Features
 - [`9720574`](https://github.com/webitel/figma-style-book/commit/97205748cff17d6be14c9afc6eb8bddcdf8c2981) - edited checkbox colors, checkbox sizes, surface colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -343,3 +351,4 @@
 [v24.12.46]: https://github.com/webitel/figma-style-book/compare/v24.12.45...v24.12.46
 [v24.12.47]: https://github.com/webitel/figma-style-book/compare/v24.12.46...v24.12.47
 [v24.12.48]: https://github.com/webitel/figma-style-book/compare/v24.12.47...v24.12.48
+[v24.12.49]: https://github.com/webitel/figma-style-book/compare/v24.12.48...v24.12.49

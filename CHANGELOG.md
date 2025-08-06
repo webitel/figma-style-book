@@ -1,4 +1,12 @@
 
+## [v24.12.50] - 2025-08-06
+### :sparkles: New Features
+- [`a221d1f`](https://github.com/webitel/figma-style-book/commit/a221d1fe855df024b777f0dad59c41dbf77284ba) - changed button, popover, tooltip sizes. changed primary foreground color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`661e336`](https://github.com/webitel/figma-style-book/commit/661e3363d4bbfeb59ecb13f441828e574b6a0914) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.49] - 2025-08-06
 ### :bug: Bug Fixes
 - [`8274d65`](https://github.com/webitel/figma-style-book/commit/8274d655c75da723bca26349f3c222ea85028a3a) - add wrapper sizes for configuration [WTEL-7274](https://webitel.atlassian.net/browse/WTEL-7274) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -352,3 +360,4 @@
 [v24.12.47]: https://github.com/webitel/figma-style-book/compare/v24.12.46...v24.12.47
 [v24.12.48]: https://github.com/webitel/figma-style-book/compare/v24.12.47...v24.12.48
 [v24.12.49]: https://github.com/webitel/figma-style-book/compare/v24.12.48...v24.12.49
+[v24.12.50]: https://github.com/webitel/figma-style-book/compare/v24.12.49...v24.12.50

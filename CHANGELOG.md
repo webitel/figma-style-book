@@ -1,4 +1,12 @@
 
+## [v24.12.51] - 2025-08-07
+### :sparkles: New Features
+- [`9d1931a`](https://github.com/webitel/figma-style-book/commit/9d1931a9b17f00cb538720a80896c8e58b9da71b) - added foregroundHover colors to all semantic colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`dc55aa7`](https://github.com/webitel/figma-style-book/commit/dc55aa74b7eb3bc431ec72b260a79c980b23bf66) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.50] - 2025-08-06
 ### :sparkles: New Features
 - [`a221d1f`](https://github.com/webitel/figma-style-book/commit/a221d1fe855df024b777f0dad59c41dbf77284ba) - changed button, popover, tooltip sizes. changed primary foreground color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -361,3 +369,4 @@
 [v24.12.48]: https://github.com/webitel/figma-style-book/compare/v24.12.47...v24.12.48
 [v24.12.49]: https://github.com/webitel/figma-style-book/compare/v24.12.48...v24.12.49
 [v24.12.50]: https://github.com/webitel/figma-style-book/compare/v24.12.49...v24.12.50
+[v24.12.51]: https://github.com/webitel/figma-style-book/compare/v24.12.50...v24.12.51

@@ -7,6 +7,7 @@ import ToolbarScheme from './toolbar';
 import ChipScheme from "./chip";
 import CheckboxScheme from "./checkbox";
 import TableScheme from "./table";
+import BreadcrumbScheme from "./breadcrumb";
 
 export {
   AvatarScheme,
@@ -17,5 +18,6 @@ export {
   ToolbarScheme,
   ChipScheme,
   CheckboxScheme,
-  TableScheme
+  TableScheme,
+  BreadcrumbScheme
 }

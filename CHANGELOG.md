@@ -1,4 +1,18 @@
 
+## [v24.12.52] - 2025-08-07
+### :sparkles: New Features
+- [`395d3ce`](https://github.com/webitel/figma-style-book/commit/395d3ce6fa6b47304b841fe0d9ce1b270095454e) - changed ship sizes and colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`2ad88dd`](https://github.com/webitel/figma-style-book/commit/2ad88ddebd6eb4f0c9671f0daebedbbc2e291c93) - add iconColor property to chip remove icon color configuration [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`18d1639`](https://github.com/webitel/figma-style-book/commit/18d163952832b069a8a51eaf1944c418ac6c23f5) - edited main chip color, edited chip sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`961e4a3`](https://github.com/webitel/figma-style-book/commit/961e4a3236ba02d7dcdad636a3dfc817deb7591c) - enhance chip remove icon configuration [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`4d08e5a`](https://github.com/webitel/figma-style-book/commit/4d08e5a9656dfc12ef95517c9217859109709734) - enhance chip remove icon configuration [WTEL-7278](https://webitel.atlassian.net/browse/WTEL-7278) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`0c547e7`](https://github.com/webitel/figma-style-book/commit/0c547e7e803c7a62dd2a7ab92a836cd2a822feec) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.51] - 2025-08-07
 ### :sparkles: New Features
 - [`9d1931a`](https://github.com/webitel/figma-style-book/commit/9d1931a9b17f00cb538720a80896c8e58b9da71b) - added foregroundHover colors to all semantic colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -370,3 +384,4 @@
 [v24.12.49]: https://github.com/webitel/figma-style-book/compare/v24.12.48...v24.12.49
 [v24.12.50]: https://github.com/webitel/figma-style-book/compare/v24.12.49...v24.12.50
 [v24.12.51]: https://github.com/webitel/figma-style-book/compare/v24.12.50...v24.12.51
+[v24.12.52]: https://github.com/webitel/figma-style-book/compare/v24.12.51...v24.12.52

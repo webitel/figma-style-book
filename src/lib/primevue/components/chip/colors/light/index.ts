@@ -1,45 +1,52 @@
 const lightColors = {
-  background: '{surface.100}',
+  background: '{surface.200}',
   color: '{surface.800}',
-  /**
-   * @author Yehor Hlukhov
-   * 
-   * referred to Evgeniy Trahtenberg
-   * need to add colors for main
-   * */
   main: {
-    background: '{red.400}',
-    color: '{red.50}'
+    background: '{amber.200}',
+    color: '{amber.950}',
+    iconColor: '{amber.800}',
+    iconHoverColor: '{amber.850}'
   },
   primary: {
     background: '{primary.color}',
-    color: '{primary.foreground}'
+    color: '{primary.foreground}',
+    iconColor: '{primary.foreground}',
+    iconHoverColor: '{primary.foregroundHover}'
   },
   secondary: {
     background: '{secondary.color}',
-    color: '{secondary.foreground}'
+    color: '{secondary.foreground}',
+    iconColor: '{secondary.foreground}',
+    iconHoverColor: '{secondary.foregroundHover}'
   },
   success: {
     background: '{success.color}',
-    color: '{success.foreground}'
+    color: '{success.foreground}',
+    iconColor: '{success.foreground}',
+    iconHoverColor: '{success.foregroundHover}'
   },
   warning: {
     background: '{warn.color}',
-    color: '{warn.foreground}'
+    color: '{warn.foreground}',
+    iconColor: '{warn.foreground}',
+    iconHoverColor: '{warn.foregroundHover}'
   },
   error: {
     background: '{error.color}',
-    color: '{error.foreground}'
+    color: '{error.foreground}',
+    iconColor: '{error.foreground}',
+    iconHoverColor: '{error.foregroundHover}'
   },
   transfer: {
     background: '{transfer.color}',
-    color: '{transfer.foreground}'
+    color: '{transfer.foreground}',
+    iconColor: '{transfer.foreground}',
+    iconHoverColor: '{transfer.foregroundHover}'
   },
   removeIcon: {
     focusRing: {
-      color: '{focus.ring.color}',
       shadow: '{form.field.focus.ring.shadow}'
-    }
+    },
   }
 }
 

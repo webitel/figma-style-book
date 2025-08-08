@@ -1,7 +1,7 @@
 const sizes = {
   root: {
-    width: '1.25rem',
-    height: '1.25rem',
+    width: '1.125rem',
+    height: '1.125rem',
     focusRing: {
       width: '{focus.ring.width}',
       style: '{focus.ring.style}',
@@ -18,7 +18,7 @@ const sizes = {
   }
   },
   icon: {
-    size: '0.75rem',
+    size: '0.5rem',
     sm: {
       size: '0.5rem'
     },

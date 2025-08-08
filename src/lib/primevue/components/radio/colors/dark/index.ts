@@ -1,28 +1,28 @@
 const darkColors = {
   root: {
-    background: '{form.field.background}',
-    checkedBackground: '{primary.color}',
-    checkedHoverBackground: '{primary.hover.color}',
-    disabledBackground: '{form.field.disabled.background}',
+    background: '{transparent}',
+    checkedBackground: '{surface.300}',
+    checkedHoverBackground: '{surface.200}',
+    disabledBackground: '{surface.650}',
     filledBackground: '{form.field.filled.background}',
-    borderColor: '{form.field.border.color}',
-    hoverBorderColor: '{form.field.hover.border.color}',
-    focusBorderColor: '{form.field.border.color}',
-    checkedBorderColor: '{primary.color}',
-    checkedHoverBorderColor: '{primary.hover.color}',
-    checkedFocusBorderColor: '{primary.color}',
-    checkedDisabledBorderColor: '{form.field.border.color}',
+    borderColor: '{surface.300}',
+    hoverBorderColor: '{surface.200}',
+    focusBorderColor: '{focus-color}',
+    checkedBorderColor: '{surface.300}',
+    checkedHoverBorderColor: '{surface.200}',
+    checkedFocusBorderColor: '{focus-color}',
+    checkedDisabledBorderColor: '{surface.650}',
     invalidBorderColor: '{form.field.invalid.border.color}',
     shadow: '{form.field.shadow}',
     focusRing: {
-      color: '{focus.ring.color}',
+      color: '{focus-color}',
       shadow: '{focus.ring.shadow}'
-    }
+    },
   },
   icon: {
-    checkedColor: '{primary.contrast.color}',
-    checkedHoverColor: '{primary.contrast.color}',
-    disabledColor: '{form.field.disabled.color}',
+    checkedColor: '{surface.800}',
+    checkedHoverColor: '{surface.800}',
+    disabledColor: '{surface.500}',
   }
 }
 

@@ -1,10 +1,10 @@
 const darkColors = {
   root: {
-    background: '{content.background}',
+    background: '{transparent}',
   },
   item: {
-    color: '{text.muted.color}',
-    hoverColor: '{text.color}',
+    color: '{text.color}',
+    hoverColor: '{text.hoverColor}',
     icon: {
       color: '{navigation.item.icon.color}',
       hoverColor: '{navigation.item.icon.focus.color}'
@@ -15,8 +15,8 @@ const darkColors = {
     }
   },
   separator: {
-    color: '{navigation.item.icon.color}',
-    lastItemColor: '{navigation.item.icon.color}'
+    color: '{form.field.color}',
+    lastItemColor: '{primary.color}'
   }
 }
 

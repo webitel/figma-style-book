@@ -1,6 +1,6 @@
 const sizes = {
   root: {
-    padding: '1rem',
+    padding: '0rem',
     gap: '0.5rem',
     transitionDuration: '{transition.duration}'
   },

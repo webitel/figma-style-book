@@ -15,7 +15,9 @@ const sizes = {
     lg: {
         width: '1.5rem',
         height: '1.5rem'
-  }
+    },
+    wrapperWidth: '1.5rem',
+    wrapperHeight: '1.5rem',
   },
   icon: {
     size: '0.5rem',

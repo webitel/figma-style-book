@@ -4,6 +4,7 @@ export default {
     hoverBackground: '{surface.800}',
     borderColor: '{surface.700}',
     color: '{text.color}',
-    hoverColor: '{text.hover.color}'
+    hoverColor: '{text.hoverColor}',
+    hoverMutedColor: '{text.hoverMutedColor}'
   }
 }

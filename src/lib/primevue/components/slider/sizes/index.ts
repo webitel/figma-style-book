@@ -4,16 +4,16 @@ const sizes = {
   },
   track: {
     borderRadius: '{content.border.radius}',
-    size: '3px'
+    size: '4px'
   },
   handle: {
-    width: '20px',
-    height: '20px',
+    width: '16px',
+    height: '16px',
     borderRadius: '50%',
     content: {
       borderRadius: '50%',
-      width: '16px',
-      height: '16px',
+      width: '12px',
+      height: '12px',
     },
     focusRing: {
       width: '{focus.ring.width}',

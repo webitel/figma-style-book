@@ -1,4 +1,15 @@
 
+## [v24.12.56] - 2025-08-15
+### :sparkles: New Features
+- [`8b01586`](https://github.com/webitel/figma-style-book/commit/8b01586bad4e2ed05697474e9ed62f321ae54836) - adding divider from primevue [WTEL-7375](https://webitel.atlassian.net/browse/WTEL-7375) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`89ade63`](https://github.com/webitel/figma-style-book/commit/89ade63329052a0be4da0671f6a9413d235887df) - remove margin and padding from divider [WTEL-7375](https://webitel.atlassian.net/browse/WTEL-7375) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`7acb6ec`](https://github.com/webitel/figma-style-book/commit/7acb6ecb390920a2499c0fb9f776f6d256ebd697) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.55] - 2025-08-15
 ### :sparkles: New Features
 - [`f48c0e4`](https://github.com/webitel/figma-style-book/commit/f48c0e484625d5e1f11a2439b55dbfd04b38c0f4) - changed slider colors and sizes and semantic content colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -418,3 +429,4 @@
 [v24.12.53]: https://github.com/webitel/figma-style-book/compare/v24.12.52...v24.12.53
 [v24.12.54]: https://github.com/webitel/figma-style-book/compare/v24.12.53...v24.12.54
 [v24.12.55]: https://github.com/webitel/figma-style-book/compare/v24.12.54...v24.12.55
+[v24.12.56]: https://github.com/webitel/figma-style-book/compare/v24.12.55...v24.12.56

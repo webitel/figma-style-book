@@ -1,4 +1,13 @@
 
+## [v24.12.55] - 2025-08-15
+### :sparkles: New Features
+- [`f48c0e4`](https://github.com/webitel/figma-style-book/commit/f48c0e484625d5e1f11a2439b55dbfd04b38c0f4) - changed slider colors and sizes and semantic content colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`1f77bf9`](https://github.com/webitel/figma-style-book/commit/1f77bf950e0ad4fa871cc4b17a0973c3ca833178) - adding slider from primevue [WTEL-7387](https://webitel.atlassian.net/browse/WTEL-7387) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`7f0d21b`](https://github.com/webitel/figma-style-book/commit/7f0d21bb0cd021d99b0afe5d61540a1f0cf1fc05) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.54] - 2025-08-15
 ### :sparkles: New Features
 - [`25dcb6c`](https://github.com/webitel/figma-style-book/commit/25dcb6cba4656f379bea020136c8137ea77865da) - changed colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -408,3 +417,4 @@
 [v24.12.52]: https://github.com/webitel/figma-style-book/compare/v24.12.51...v24.12.52
 [v24.12.53]: https://github.com/webitel/figma-style-book/compare/v24.12.52...v24.12.53
 [v24.12.54]: https://github.com/webitel/figma-style-book/compare/v24.12.53...v24.12.54
+[v24.12.55]: https://github.com/webitel/figma-style-book/compare/v24.12.54...v24.12.55

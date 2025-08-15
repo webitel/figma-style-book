@@ -1,4 +1,13 @@
 
+## [v24.12.54] - 2025-08-15
+### :sparkles: New Features
+- [`25dcb6c`](https://github.com/webitel/figma-style-book/commit/25dcb6cba4656f379bea020136c8137ea77865da) - changed colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`d6cd9b9`](https://github.com/webitel/figma-style-book/commit/d6cd9b9d33f4d3edb31dd2bb49de307d607028e1) - adding breadcrumb from primevue [WTEL-7370](https://webitel.atlassian.net/browse/WTEL-7370) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`27d0594`](https://github.com/webitel/figma-style-book/commit/27d0594b325903e1a7cce1ca1ace8bb88b14ec9a) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.53] - 2025-08-15
 ### :sparkles: New Features
 - [`809b9dd`](https://github.com/webitel/figma-style-book/commit/809b9dde59307d6ac2b86a5f82558b5ff95f4852) - changed radio button colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -398,3 +407,4 @@
 [v24.12.51]: https://github.com/webitel/figma-style-book/compare/v24.12.50...v24.12.51
 [v24.12.52]: https://github.com/webitel/figma-style-book/compare/v24.12.51...v24.12.52
 [v24.12.53]: https://github.com/webitel/figma-style-book/compare/v24.12.52...v24.12.53
+[v24.12.54]: https://github.com/webitel/figma-style-book/compare/v24.12.53...v24.12.54

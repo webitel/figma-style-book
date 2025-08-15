@@ -8,6 +8,9 @@ import ChipScheme from "./chip";
 import CheckboxScheme from "./checkbox";
 import TableScheme from "./table";
 import DividerScheme from "./divider";
+import SliderScheme from "./slider";
+import BreadcrumbScheme from "./breadcrumb";
+import RadioScheme from "./radio";
 
 export {
   AvatarScheme,
@@ -19,5 +22,8 @@ export {
   ChipScheme,
   CheckboxScheme,
   TableScheme,
-  DividerScheme
+  DividerScheme,
+  SliderScheme,
+  BreadcrumbScheme,
+  RadioScheme,
 }

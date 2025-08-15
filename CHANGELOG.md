@@ -1,4 +1,16 @@
 
+## [v24.12.53] - 2025-08-15
+### :sparkles: New Features
+- [`809b9dd`](https://github.com/webitel/figma-style-book/commit/809b9dde59307d6ac2b86a5f82558b5ff95f4852) - changed radio button colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`6cd3118`](https://github.com/webitel/figma-style-book/commit/6cd311826a38fb61af9ca504075def29a41d63fd) - adding radio button from primevue [WTEL-7363](https://webitel.atlassian.net/browse/WTEL-7363) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`4aef916`](https://github.com/webitel/figma-style-book/commit/4aef9167d0448bfb2ad4c92ce71b562e09b01bfe) - add wrapper widht and height [WTEL-7363](https://webitel.atlassian.net/browse/WTEL-7363) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`145944f`](https://github.com/webitel/figma-style-book/commit/145944fd293bd46b335228e2459f75f4079b9262) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.52] - 2025-08-07
 ### :sparkles: New Features
 - [`395d3ce`](https://github.com/webitel/figma-style-book/commit/395d3ce6fa6b47304b841fe0d9ce1b270095454e) - changed ship sizes and colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -385,3 +397,4 @@
 [v24.12.50]: https://github.com/webitel/figma-style-book/compare/v24.12.49...v24.12.50
 [v24.12.51]: https://github.com/webitel/figma-style-book/compare/v24.12.50...v24.12.51
 [v24.12.52]: https://github.com/webitel/figma-style-book/compare/v24.12.51...v24.12.52
+[v24.12.53]: https://github.com/webitel/figma-style-book/compare/v24.12.52...v24.12.53

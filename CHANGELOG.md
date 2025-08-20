@@ -1,4 +1,13 @@
 
+## [v24.12.58] - 2025-08-20
+### :sparkles: New Features
+- [`bbd6d39`](https://github.com/webitel/figma-style-book/commit/bbd6d3932e0fd42e104fc16809d7ad499180a84b) - changed popover (overlay) padding *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`5bd196d`](https://github.com/webitel/figma-style-book/commit/5bd196d3adb15a46d1fee04c2c19d36687159f78) - changed semantic text colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`bf9f8ab`](https://github.com/webitel/figma-style-book/commit/bf9f8ab4b057d022650fb732482506ae441ae262) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.57] - 2025-08-20
 ### :sparkles: New Features
 - [`34b8ff8`](https://github.com/webitel/figma-style-book/commit/34b8ff838c21406cdb2d2a90bd1a259af96e1a89) - changed secondary foreground color. made it more contrasting *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -439,3 +448,4 @@
 [v24.12.55]: https://github.com/webitel/figma-style-book/compare/v24.12.54...v24.12.55
 [v24.12.56]: https://github.com/webitel/figma-style-book/compare/v24.12.55...v24.12.56
 [v24.12.57]: https://github.com/webitel/figma-style-book/compare/v24.12.56...v24.12.57
+[v24.12.58]: https://github.com/webitel/figma-style-book/compare/v24.12.57...v24.12.58

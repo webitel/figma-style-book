@@ -1,4 +1,12 @@
 
+## [v24.12.57] - 2025-08-20
+### :sparkles: New Features
+- [`34b8ff8`](https://github.com/webitel/figma-style-book/commit/34b8ff838c21406cdb2d2a90bd1a259af96e1a89) - changed secondary foreground color. made it more contrasting *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`dcce457`](https://github.com/webitel/figma-style-book/commit/dcce457d923487163da68df2e5a1588e922ff4b2) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.56] - 2025-08-15
 ### :sparkles: New Features
 - [`8b01586`](https://github.com/webitel/figma-style-book/commit/8b01586bad4e2ed05697474e9ed62f321ae54836) - adding divider from primevue [WTEL-7375](https://webitel.atlassian.net/browse/WTEL-7375) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -430,3 +438,4 @@
 [v24.12.54]: https://github.com/webitel/figma-style-book/compare/v24.12.53...v24.12.54
 [v24.12.55]: https://github.com/webitel/figma-style-book/compare/v24.12.54...v24.12.55
 [v24.12.56]: https://github.com/webitel/figma-style-book/compare/v24.12.55...v24.12.56
+[v24.12.57]: https://github.com/webitel/figma-style-book/compare/v24.12.56...v24.12.57

@@ -5,7 +5,7 @@ export default {
   },
   popover: {
     borderRadius: '0.5rem',
-    padding: '0.75rem',
+    padding: '0.5rem',
   },
   modal: {
     borderRadius: '{border.radius.xl}',

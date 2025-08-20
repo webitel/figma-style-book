@@ -12,8 +12,8 @@ const darkColor = {
     color: '{gray.900}',
     hover: '{gray.850}',
     active: '{gray.750}',
-    foreground: '{gray.450}',
-    foregroundHover: '{gray.400}'
+    foreground: '{gray.350}',
+    foregroundHover: '{gray.300}'
   },
 
   success: {

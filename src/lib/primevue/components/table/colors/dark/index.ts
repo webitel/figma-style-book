@@ -47,6 +47,38 @@ const darkColors = {
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
   },
+  resizeIndicator: {
+    color: '{primary.color}'
+  },
+  filter: {
+    overlaySelect: {
+        background: '{overlay.select.background}',
+        borderColor: '{overlay.select.border.color}',
+        color: '{overlay.select.color}',
+        shadow: '{overlay.select.shadow}'
+    },
+    overlayPopover: {
+        background: '{overlay.popover.background}',
+        borderColor: '{overlay.popover.border.color}',
+        color: '{overlay.popover.color}',
+        shadow: '{overlay.popover.shadow}',
+    },
+    rule: {
+        borderColor: '{content.border.color}'
+    },
+    constraint: {
+        focusBackground: '{list.option.focus.background}',
+        selectedBackground: '{list.option.selected.background}',
+        selectedFocusBackground: '{list.option.selected.focus.background}',
+        color: '{list.option.color}',
+        focusColor: '{list.option.focus.color}',
+        selectedColor: '{list.option.selected.color}',
+        selectedFocusColor: '{list.option.selected.focus.color}',
+        separator: {
+            borderColor: '{content.border.color}'
+        },
+    }
+  },
   sortIcon: {
     color: '{text.muted.color}',
     hoverColor: '{text.hover.muted.color}',

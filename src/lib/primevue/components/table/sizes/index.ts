@@ -68,6 +68,30 @@ const sizes = {
       padding: '1rem 1.25rem'
     }
   },
+  columnResizer: {
+    width: '0.5rem'
+  },
+  resizeIndicator: {
+    width: '1px',
+  },
+  filter: {
+    inlineGap: '0.5rem',
+    overlaySelect: {
+        borderRadius: '{overlay.select.border.radius}',
+    },
+    overlayPopover: {
+        padding: '{overlay.popover.padding}',
+        gap: '0.5rem'
+    },
+    constraintList: {
+        padding: '{list.padding}',
+        gap: '{list.gap}'
+    },
+    constraint: {
+        padding: '{list.option.padding}',
+        borderRadius: '{list.option.border.radius}'
+    }
+  },
   sortIcon: {
     size: '0.875rem'
   }

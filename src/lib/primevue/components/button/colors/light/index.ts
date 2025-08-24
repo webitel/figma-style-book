@@ -2,7 +2,7 @@ const lightColors = {
   root: {
     primary: {
       background: '{primary.color}',
-      hoverBackground: '{primary.hover}',
+      hoverBackground: '{primary.hover.color}',
       activeBackground: '{primary.active}',
       borderColor: '{primary.color}',
       hoverBorderColor: '{primary.color}',
@@ -17,7 +17,7 @@ const lightColors = {
     },
     secondary: {
       background: '{secondary.color}',
-      hoverBackground: '{secondary.hover}',
+      hoverBackground: '{secondary.hover.color}',
       activeBackground: '{secondary.active}',
       borderColor: '{secondary.color}',
       hoverBorderColor: '{secondary.color}',
@@ -32,7 +32,7 @@ const lightColors = {
     },
     success: {
       background: '{success.color}',
-      hoverBackground: '{success.hover}',
+      hoverBackground: '{success.hover.color}',
       activeBackground: '{success.active}',
       borderColor: '{success.color}',
       hoverBorderColor: '{success.color}',
@@ -47,7 +47,7 @@ const lightColors = {
     },
     warn: {
       background: '{warn.color}',
-      hoverBackground: '{warn.hover}',
+      hoverBackground: '{warn.hover.color}',
       activeBackground: '{warn.active}',
       borderColor: '{warn.color}',
       hoverBorderColor: '{warn.color}',
@@ -62,7 +62,7 @@ const lightColors = {
     },
     error: {
       background: '{error.color}',
-      hoverBackground: '{error.hover}',
+      hoverBackground: '{error.hover.color}',
       activeBackground: '{error.active}',
       borderColor: '{error.color}',
       hoverBorderColor: '{error.color}',
@@ -77,7 +77,7 @@ const lightColors = {
     },
     info: {
       background: '{info.color}',
-      hoverBackground: '{info.hover}',
+      hoverBackground: '{info.hover.color}',
       activeBackground: '{info.active}',
       borderColor: '{info.color}',
       hoverBorderColor: '{info.color}',
@@ -96,7 +96,7 @@ const lightColors = {
      * */
     job: {
       background: '{task.color}',
-      hoverBackground: '{task.hover}',
+      hoverBackground: '{task.hover.color}',
       activeBackground: '{task.active}',
       borderColor: '{task.color}',
       hoverBorderColor: '{task.color}',
@@ -111,7 +111,7 @@ const lightColors = {
     },
     transfer: {
       background: '{transfer.color}',
-      hoverBackground: '{transfer.hover}',
+      hoverBackground: '{transfer.hover.color}',
       activeBackground: '{transfer.active}',
       borderColor: '{transfer.color}',
       hoverBorderColor: '{transfer.color}',

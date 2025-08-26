@@ -2,8 +2,8 @@ const lightColors = {
   root: {
     primary: {
       background: '{primary.color}',
-      hoverBackground: '{primary.hover}',
-      activeBackground: '{primary.active}',
+      hoverBackground: '{primary.hover.color}',
+      activeBackground: '{primary.active.color}',
       borderColor: '{primary.color}',
       hoverBorderColor: '{primary.color}',
       activeBorderColor: '{primary.color}',
@@ -17,8 +17,8 @@ const lightColors = {
     },
     secondary: {
       background: '{secondary.color}',
-      hoverBackground: '{secondary.hover}',
-      activeBackground: '{secondary.active}',
+      hoverBackground: '{secondary.hover.color}',
+      activeBackground: '{secondary.active.color}',
       borderColor: '{secondary.color}',
       hoverBorderColor: '{secondary.color}',
       activeBorderColor: '{secondary.color}',
@@ -32,8 +32,8 @@ const lightColors = {
     },
     success: {
       background: '{success.color}',
-      hoverBackground: '{success.hover}',
-      activeBackground: '{success.active}',
+      hoverBackground: '{success.hover.color}',
+      activeBackground: '{success.active.color}',
       borderColor: '{success.color}',
       hoverBorderColor: '{success.color}',
       activeBorderColor: '{success.color}',
@@ -47,8 +47,8 @@ const lightColors = {
     },
     warn: {
       background: '{warn.color}',
-      hoverBackground: '{warn.hover}',
-      activeBackground: '{warn.active}',
+      hoverBackground: '{warn.hover.color}',
+      activeBackground: '{warn.active.color}',
       borderColor: '{warn.color}',
       hoverBorderColor: '{warn.color}',
       activeBorderColor: '{warn.color}',
@@ -62,8 +62,8 @@ const lightColors = {
     },
     error: {
       background: '{error.color}',
-      hoverBackground: '{error.hover}',
-      activeBackground: '{error.active}',
+      hoverBackground: '{error.hover.color}',
+      activeBackground: '{error.active.color}',
       borderColor: '{error.color}',
       hoverBorderColor: '{error.color}',
       activeBorderColor: '{error.color}',
@@ -77,8 +77,8 @@ const lightColors = {
     },
     info: {
       background: '{info.color}',
-      hoverBackground: '{info.hover}',
-      activeBackground: '{info.active}',
+      hoverBackground: '{info.hover.color}',
+      activeBackground: '{info.active.color}',
       borderColor: '{info.color}',
       hoverBorderColor: '{info.color}',
       activeBorderColor: '{info.color}',
@@ -96,8 +96,8 @@ const lightColors = {
      * */
     job: {
       background: '{task.color}',
-      hoverBackground: '{task.hover}',
-      activeBackground: '{task.active}',
+      hoverBackground: '{task.hover.color}',
+      activeBackground: '{task.active.color}',
       borderColor: '{task.color}',
       hoverBorderColor: '{task.color}',
       activeBorderColor: '{task.color}',
@@ -111,8 +111,8 @@ const lightColors = {
     },
     transfer: {
       background: '{transfer.color}',
-      hoverBackground: '{transfer.hover}',
-      activeBackground: '{transfer.active}',
+      hoverBackground: '{transfer.hover.color}',
+      activeBackground: '{transfer.active.color}',
       borderColor: '{transfer.color}',
       hoverBorderColor: '{transfer.color}',
       activeBorderColor: '{transfer.color}',

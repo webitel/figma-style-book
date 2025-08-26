@@ -1,4 +1,13 @@
 
+## [v24.12.59] - 2025-08-26
+### :sparkles: New Features
+- [`0857130`](https://github.com/webitel/figma-style-book/commit/0857130cc5e5bf2101dbe56207a7c068fbb8fb8c) - Added prefix .color to background.active *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`0a98c35`](https://github.com/webitel/figma-style-book/commit/0a98c359986fc8a44800b50e70669624fbf81fc0) - Changed avatar colors, avatar sizes. Added avatar text color to semantic. Add 2xs avatar size *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`cab0b23`](https://github.com/webitel/figma-style-book/commit/cab0b2374ac1d3d301c7beadbae3bcad04ebc7e5) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.58] - 2025-08-20
 ### :sparkles: New Features
 - [`bbd6d39`](https://github.com/webitel/figma-style-book/commit/bbd6d3932e0fd42e104fc16809d7ad499180a84b) - changed popover (overlay) padding *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -449,3 +458,4 @@
 [v24.12.56]: https://github.com/webitel/figma-style-book/compare/v24.12.55...v24.12.56
 [v24.12.57]: https://github.com/webitel/figma-style-book/compare/v24.12.56...v24.12.57
 [v24.12.58]: https://github.com/webitel/figma-style-book/compare/v24.12.57...v24.12.58
+[v24.12.59]: https://github.com/webitel/figma-style-book/compare/v24.12.58...v24.12.59

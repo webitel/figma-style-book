@@ -1,4 +1,12 @@
 
+## [v24.12.60] - 2025-08-27
+### :sparkles: New Features
+- [`c676c73`](https://github.com/webitel/figma-style-book/commit/c676c732fe2c06e4cd11c47fb6ea6b0f75a0e479) - Edited switcher colors, semantic form-field invalid color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`2e8477c`](https://github.com/webitel/figma-style-book/commit/2e8477c0c829ae85d63d3777eb816f50bc744896) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.59] - 2025-08-26
 ### :sparkles: New Features
 - [`0857130`](https://github.com/webitel/figma-style-book/commit/0857130cc5e5bf2101dbe56207a7c068fbb8fb8c) - Added prefix .color to background.active *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -459,3 +467,4 @@
 [v24.12.57]: https://github.com/webitel/figma-style-book/compare/v24.12.56...v24.12.57
 [v24.12.58]: https://github.com/webitel/figma-style-book/compare/v24.12.57...v24.12.58
 [v24.12.59]: https://github.com/webitel/figma-style-book/compare/v24.12.58...v24.12.59
+[v24.12.60]: https://github.com/webitel/figma-style-book/compare/v24.12.59...v24.12.60

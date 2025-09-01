@@ -160,29 +160,23 @@ const lightColors = {
       borderColor: '{orange.500}',
       color: '{orange.500}',
     },
-    help: {
+    job: {
       hoverBackground: '{purple.50}',
       activeBackground: '{purple.100}',
       borderColor: '{purple.500}',
       color: '{purple.500}',
     },
-    danger: {
+    error: {
       hoverBackground: '{red.50}',
       activeBackground: '{red.100}',
       borderColor: '{red.500}',
       color: '{red.500}',
     },
-    contrast: {
+    transfer: {
       hoverBackground: '{surface.50}',
       activeBackground: '{surface.100}',
       borderColor: '{surface.950}',
       color: '{surface.950}',
-    },
-    plain: {
-      hoverBackground: '{surface.50}',
-      activeBackground: '{surface.100}',
-      borderColor: '{surface.900}',
-      color: '{surface.900}',
     },
   },
   text: {
@@ -211,25 +205,20 @@ const lightColors = {
       activeBackground: '{orange.100}',
       color: '{orange.500}',
     },
-    help: {
+    job: {
       hoverBackground: '{purple.50}',
       activeBackground: '{purple.100}',
       color: '{purple.500}',
     },
-    danger: {
+    error: {
       hoverBackground: '{red.50}',
       activeBackground: '{red.100}',
       color: '{red.500}',
     },
-    contrast: {
+    transfer: {
       hoverBackground: '{surface.50}',
       activeBackground: '{surface.100}',
       color: '{surface.950}',
-    },
-    plain: {
-      hoverBackground: '{surface.50}',
-      activeBackground: '{surface.100}',
-      color: '{surface.900}',
     },
   },
   link: {

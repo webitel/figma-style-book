@@ -7,6 +7,7 @@ import ToolbarScheme from './toolbar';
 import ChipScheme from "./chip";
 import CheckboxScheme from "./checkbox";
 import TableScheme from "./table";
+import SwitcherScheme from "./switcher";
 import DividerScheme from "./divider";
 import SliderScheme from "./slider";
 import BreadcrumbScheme from "./breadcrumb";
@@ -22,6 +23,7 @@ export {
   ChipScheme,
   CheckboxScheme,
   TableScheme,
+  SwitcherScheme,
   DividerScheme,
   SliderScheme,
   BreadcrumbScheme,

@@ -8,7 +8,7 @@ export default {
     borderColor: '{surface.300}',
     hoverBorderColor: '{surface.400}',
     focusBorderColor: '{primary.color}',
-    invalidBorderColor: '{red.400}',
+    invalidBorderColor: '{error.color}',
     color: '{surface.700}',
     disabledColor: '{surface.500}',
     placeholderColor: '{surface.500}',

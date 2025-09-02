@@ -1,4 +1,12 @@
 
+## [v24.12.62] - 2025-09-02
+### :sparkles: New Features
+- [`73ef067`](https://github.com/webitel/figma-style-book/commit/73ef067ea116c099bc12cc05c09f87ad37320645) - bump version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`0fb853a`](https://github.com/webitel/figma-style-book/commit/0fb853abff2e32971caa397fadd0c6d136974c64) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.61] - 2025-09-02
 ### :sparkles: New Features
 - [`77d003b`](https://github.com/webitel/figma-style-book/commit/77d003bcaf1ed7eec1e98c2d11d2522cf60898df) - Edited avatar and menu-bar colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -478,3 +486,4 @@
 [v24.12.59]: https://github.com/webitel/figma-style-book/compare/v24.12.58...v24.12.59
 [v24.12.60]: https://github.com/webitel/figma-style-book/compare/v24.12.59...v24.12.60
 [v24.12.61]: https://github.com/webitel/figma-style-book/compare/v24.12.60...v24.12.61
+[v24.12.62]: https://github.com/webitel/figma-style-book/compare/v24.12.61...v24.12.62

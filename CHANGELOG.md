@@ -1,4 +1,13 @@
 
+## [v24.12.61] - 2025-09-02
+### :sparkles: New Features
+- [`77d003b`](https://github.com/webitel/figma-style-book/commit/77d003bcaf1ed7eec1e98c2d11d2522cf60898df) - Edited avatar and menu-bar colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`a643a89`](https://github.com/webitel/figma-style-book/commit/a643a89126d543e018a07050d43fbf08e7d8eb46) - Changed avatar colors, avatar sizes. Added avatar text color to semantic. Add 2xs avatar size *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`789da76`](https://github.com/webitel/figma-style-book/commit/789da763cd5f54031493df391157b7a59f0dc547) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.60] - 2025-08-27
 ### :sparkles: New Features
 - [`c676c73`](https://github.com/webitel/figma-style-book/commit/c676c732fe2c06e4cd11c47fb6ea6b0f75a0e479) - Edited switcher colors, semantic form-field invalid color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -468,3 +477,4 @@
 [v24.12.58]: https://github.com/webitel/figma-style-book/compare/v24.12.57...v24.12.58
 [v24.12.59]: https://github.com/webitel/figma-style-book/compare/v24.12.58...v24.12.59
 [v24.12.60]: https://github.com/webitel/figma-style-book/compare/v24.12.59...v24.12.60
+[v24.12.61]: https://github.com/webitel/figma-style-book/compare/v24.12.60...v24.12.61

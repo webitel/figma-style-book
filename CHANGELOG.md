@@ -1,4 +1,12 @@
 
+## [v24.12.63] - 2025-09-05
+### :sparkles: New Features
+- [`8c50127`](https://github.com/webitel/figma-style-book/commit/8c50127f2477d67f9c05f430971c987e01c7a7b9) - update styles for table [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`b836c67`](https://github.com/webitel/figma-style-book/commit/b836c674fd6360d0644b2c477fdb7786e5ad6ab9) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.62] - 2025-09-02
 ### :sparkles: New Features
 - [`73ef067`](https://github.com/webitel/figma-style-book/commit/73ef067ea116c099bc12cc05c09f87ad37320645) - bump version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -487,3 +495,4 @@
 [v24.12.60]: https://github.com/webitel/figma-style-book/compare/v24.12.59...v24.12.60
 [v24.12.61]: https://github.com/webitel/figma-style-book/compare/v24.12.60...v24.12.61
 [v24.12.62]: https://github.com/webitel/figma-style-book/compare/v24.12.61...v24.12.62
+[v24.12.63]: https://github.com/webitel/figma-style-book/compare/v24.12.62...v24.12.63

@@ -1,8 +1,8 @@
 import formField from './form-field'
 import list from './list'
 import navigation from './navigation'
-import overlay from '../color-scheme/overlay'
-import focusRing from '../color-scheme/focus-ring'
+import overlay from './overlay'
+import focusRing from './focus-ring'
 
 export default {
   transitionDuration: '0.2s',
@@ -18,6 +18,6 @@ export default {
   formField,
   list,
   navigation,
-  overlay: overlay.sizes,
-  focusRing: focusRing.sizes,
+  overlay,
+  focusRing,
 }

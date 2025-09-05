@@ -2,72 +2,93 @@ const darkColor = {
 
   primary: {
     color: '{amber.500}',
-    hover: '{amber.450}',
-    active: '{amber.400}',
-    foreground: '{amber.950}'
+    hoverColor: '{amber.450}',
+    activeColor: '{amber.400}',
+    foreground: '{amber.950}',
+    foregroundHover: '{amber.900}'
   },
 
   secondary: {
     color: '{gray.900}',
-    hover: '{gray.850}',
-    active: '{gray.750}',
-    foreground: '{gray.450}'
+    hoverColor: '{gray.850}',
+    activeColor: '{gray.750}',
+    foreground: '{gray.350}',
+    foregroundHover: '{gray.300}'
   },
 
   success: {
     color: '{green.600}',
-    hover: '{green.550}',
-    active: '{green.500}',
-    foreground: '{green.950}'
+    hoverColor: '{green.550}',
+    activeColor: '{green.500}',
+    foreground: '{green.950}',
+    foregroundHover: '{green.900}'
   },
 
   warn: {
     color: '{orange.450}',
-    hover: '{orange.400}',
-    active: '{orange.350}',
-    foreground: '{orange.950}'
+    hoverColor: '{orange.400}',
+    activeColor: '{orange.350}',
+    foreground: '{orange.950}',
+    foregroundHover: '{orange.900}'
   },
 
   error: {
     color: '{red.400}',
-    hover: '{red.350}',
-    active: '{red.300}',
-    foreground: '{red.950}'
+    hoverColor: '{red.350}',
+    activeColor: '{red.300}',
+    foreground: '{red.950}',
+    foregroundHover: '{red.900}'
   },
 
   info: {
     color: '{light-blue.500}',
-    hover: '{light-blue.450}',
-    active: '{light-blue.400}',
-    foreground: '{light-blue.950}'
+    hoverColor: '{light-blue.450}',
+    activeColor: '{light-blue.400}',
+    foreground: '{light-blue.950}',
+    foregroundHover: '{light-blue.900}'
   },
 
   task: {
     color: '{blue.500}',
-    hover: '{blue.450}',
-    active: '{blue.400}',
-    foreground: '{blue.950}'
+    hoverColor: '{blue.450}',
+    activeColor: '{blue.400}',
+    foreground: '{blue.950}',
+    foregroundHover: '{blue.900}'
   },
 
   transfer: {
     color: '{indigo.350}',
-    hover: '{indigo.300}',
-    active: '{indigo.250}',
-    foreground: '{indigo.950}'
+    hoverColor: '{indigo.300}',
+    activeColor: '{indigo.250}',
+    foreground: '{indigo.950}',
+    foregroundHover: '{indigo.900}'
   },
 
   chat: {
     color: '{cyan.600}',
-    hover: '{cyan.550}',
-    active: '{cyan.500}',
-    foreground: '{cyan.950}'
+    hoverColor: '{cyan.550}',
+    activeColor: '{cyan.500}',
+    foreground: '{cyan.950}',
+    foregroundHover: '{cyan.900}'
   },
 
   email: {
     color: '{blue.600}',
-    hover: '{blue.550}',
-    active: '{blue.500}',
-    foreground: '{blue.950}'
+    hoverColor: '{blue.550}',
+    activeColor: '{blue.500}',
+    foreground: '{blue.950}',
+    foregroundHover: '{blue.900}'
+  },
+
+  highlight: {
+    background: 'color-mix(in srgb, {primary.400}, transparent 84%)',
+    focusBackground: 'color-mix(in srgb, {primary.400}, transparent 76%)',
+    color: 'rgba(255,255,255,.87)',
+    focusColor: 'rgba(255,255,255,.87)'
+  },
+  mask: {
+    background: 'rgba(0,0,0,0.6)',
+    color: '{surface.200}'
   },
 
   // Focus colors

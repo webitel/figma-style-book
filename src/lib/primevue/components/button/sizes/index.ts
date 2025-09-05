@@ -3,7 +3,7 @@ const sizes = {
   roundedBorderRadius: '2rem',
   gap: '0.5rem',
   paddingX: '1rem',
-  paddingY: '0.625rem',
+  paddingY: '0.5rem',
   iconOnlyWidth: '3rem',
   sm: {
     fontSize: '{form.field.sm.font.size}',

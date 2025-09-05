@@ -4,7 +4,7 @@ const sizes = {
   },
   header: {
     borderWidth: '0 0 1px 0',
-    padding: '0.75rem 1rem',
+    padding: '0.5rem',
     sm: {
       padding: '0.375rem 0.5rem'
     },
@@ -14,7 +14,7 @@ const sizes = {
   },
   headerCell: {
     gap: '0.5rem',
-    padding: '0.75rem 1rem',
+    padding: '0.5rem',
     focusRing: {
       width: '{focus.ring.width}',
       style: '{focus.ring.style}',
@@ -38,7 +38,7 @@ const sizes = {
     }
   },
   bodyCell: {
-    padding: '0.75rem 1rem',
+    padding: '0.5rem',
     sm: {
       padding: '0.375rem 0.5rem'
     },
@@ -47,7 +47,7 @@ const sizes = {
     }
   },
   footerCell: {
-    padding: '0.75rem 1rem',
+    padding: '0.5rem',
     sm: {
       padding: '0.375rem 0.5rem'
     },
@@ -60,7 +60,7 @@ const sizes = {
   },
   footer: {
     borderWidth: '0 0 1px 0',
-    padding: '0.75rem 1rem',
+    padding: '0.5rem',
     sm: {
       padding: '0.375rem 0.5rem'
     },

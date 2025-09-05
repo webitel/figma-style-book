@@ -8,7 +8,7 @@ const lightColors = {
     color: '{content.color}',
   },
   headerCell: {
-    background: '{content.background}',
+    background: '#E0E3EB',
     hoverBackground: '{content.hover.background}',
     selectedBackground: '{highlight.background}',
     borderColor: '{datatable.border.color}',
@@ -34,7 +34,7 @@ const lightColors = {
     }
   },
   bodyCell: {
-    borderColor: '{datatable.border.color}',
+    borderColor: '#E0E3EB',
     selectedBorderColor: '{primary.100}'
   },
   footerCell: {

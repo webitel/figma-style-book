@@ -8,7 +8,7 @@ const darkColors = {
     color: '{content.color}',
   },
   headerCell: {
-    background: '{content.background}',
+    background: '#1F222E',
     hoverBackground: '{content.hover.background}',
     selectedBackground: '{highlight.background}',
     borderColor: '{datatable.border.color}',
@@ -22,7 +22,7 @@ const darkColors = {
   },
   row: {
     stripedBackground: '{surface.950}',
-    background: '{content.background}',
+    background: 'transparent',
     hoverBackground: '{content.hover.background}',
     selectedBackground: '{highlight.background}',
     color: '{content.color}',
@@ -34,7 +34,7 @@ const darkColors = {
     }
   },
   bodyCell: {
-    borderColor: '{datatable.border.color}',
+    borderColor: '#3D455C',
     selectedBorderColor: '{primary.900}'
   },
   footerCell: {

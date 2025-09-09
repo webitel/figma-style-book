@@ -10,11 +10,11 @@ const lightColors = {
   headerCell: {
     background: '{surface.100}',
     hoverBackground: '{surface.50}',
-    selectedBackground: '{highlight.background}',
+    selectedBackground: '{surface.150}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',
-    selectedColor: '{highlight.color}',
+    selectedColor: '{content.color}',
     focusRing: {
       color: '{focus.ring.color}',
       shadow: '{focus.ring.shadow}'

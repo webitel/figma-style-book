@@ -10,11 +10,11 @@ const darkColors = {
   headerCell: {
     background: '{surface.850}',
     hoverBackground: '{surface.800}',
-    selectedBackground: '{highlight.background}',
+    selectedBackground: '{surface.900}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',
-    selectedColor: '{highlight.color}',
+    selectedColor: '{content.color}',
     focusRing: {
       color: '{focus.ring.color}',
       shadow: '{focus.ring.shadow}'

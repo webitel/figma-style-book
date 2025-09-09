@@ -1,6 +1,6 @@
 const darkColors = {
   root: {
-    borderColor: '{surface.800}'
+    borderColor: '{content.borderColor}'
   },
   header: {
     background: '{content.background}',
@@ -8,12 +8,12 @@ const darkColors = {
     color: '{content.color}',
   },
   headerCell: {
-    background: '#1F222E',
-    hoverBackground: '{content.hover.background}',
+    background: '{surface.850}',
+    hoverBackground: '{surface.800}',
     selectedBackground: '{highlight.background}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
-    hoverColor: '{content.hover.color}',
+    hoverColor: '{content.hoverColor}',
     selectedColor: '{highlight.color}',
     focusRing: {
       color: '{focus.ring.color}',
@@ -22,11 +22,11 @@ const darkColors = {
   },
   row: {
     stripedBackground: '{surface.950}',
-    background: 'transparent',
-    hoverBackground: '{content.hover.background}',
+    background: '{transparent}',
+    hoverBackground: '{content.hoverBackground}',
     selectedBackground: '{highlight.background}',
     color: '{content.color}',
-    hoverColor: '{content.hover.color}',
+    hoverColor: '{content.hoverColor}',
     selectedColor: '{highlight.color}',
     focusRing: {
       color: '{focus.ring.color}',
@@ -34,7 +34,7 @@ const darkColors = {
     }
   },
   bodyCell: {
-    borderColor: '#3D455C',
+    borderColor: '{surface.700}',
     selectedBorderColor: '{primary.900}'
   },
   footerCell: {
@@ -43,7 +43,7 @@ const darkColors = {
     color: '{content.color}',
   },
   footer: {
-    background: '{content.background}',
+    background: '{transparent}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
   },

@@ -82,7 +82,13 @@ const lightColors = {
   sortIcon: {
     color: '{text.muted.color}',
     hoverColor: '{text.hover.muted.color}',
-  }
+  },
+  frozenColumn: {
+    background: '{content.background}',
+  },
+  columnResizer: {
+    background: '{content.border.color}'
+  },
 }
 
 export default lightColors

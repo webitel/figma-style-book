@@ -1,4 +1,12 @@
 
+## [v24.12.65] - 2025-09-10
+### :bug: Bug Fixes
+- [`e6be6bb`](https://github.com/webitel/figma-style-book/commit/e6be6bb93b0179af5a550dfa46ea81dac205ce69) - content hover background color *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`128f376`](https://github.com/webitel/figma-style-book/commit/128f376ed691151fff6f534c5de140bb17a1ab0b) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.64] - 2025-09-10
 ### :sparkles: New Features
 - [`425ea85`](https://github.com/webitel/figma-style-book/commit/425ea85dd46defbec0250a2783fd4a456dbbca91) - Edited sortIcon, frozenColumn, colunmResizer colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -511,3 +519,4 @@
 [v24.12.62]: https://github.com/webitel/figma-style-book/compare/v24.12.61...v24.12.62
 [v24.12.63]: https://github.com/webitel/figma-style-book/compare/v24.12.62...v24.12.63
 [v24.12.64]: https://github.com/webitel/figma-style-book/compare/v24.12.63...v24.12.64
+[v24.12.65]: https://github.com/webitel/figma-style-book/compare/v24.12.64...v24.12.65

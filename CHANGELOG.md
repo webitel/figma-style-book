@@ -1,4 +1,18 @@
 
+## [v24.12.64] - 2025-09-10
+### :sparkles: New Features
+- [`425ea85`](https://github.com/webitel/figma-style-book/commit/425ea85dd46defbec0250a2783fd4a456dbbca91) - Edited sortIcon, frozenColumn, colunmResizer colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`4fe5c75`](https://github.com/webitel/figma-style-book/commit/4fe5c75b52406c24cac0223295f4f6991ba8bd52) - Edited selected header column color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`987cf24`](https://github.com/webitel/figma-style-book/commit/987cf24bbd62ce3fb13f10a777df317f4f7b696c) - Edited table colors, edited semantic colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`b43b7bc`](https://github.com/webitel/figma-style-book/commit/b43b7bc06f47b4007e5267bfdfe38f7747326f71) - table and layout adjustments [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`1dcb2d3`](https://github.com/webitel/figma-style-book/commit/1dcb2d338b64b03e59c9c5dc0a664a6d99303bfe) - add semantic colors for table [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`240e0f4`](https://github.com/webitel/figma-style-book/commit/240e0f47db22ecd639b099d6e36f71920cdc8c73) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.63] - 2025-09-05
 ### :sparkles: New Features
 - [`8c50127`](https://github.com/webitel/figma-style-book/commit/8c50127f2477d67f9c05f430971c987e01c7a7b9) - update styles for table [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -496,3 +510,4 @@
 [v24.12.61]: https://github.com/webitel/figma-style-book/compare/v24.12.60...v24.12.61
 [v24.12.62]: https://github.com/webitel/figma-style-book/compare/v24.12.61...v24.12.62
 [v24.12.63]: https://github.com/webitel/figma-style-book/compare/v24.12.62...v24.12.63
+[v24.12.64]: https://github.com/webitel/figma-style-book/compare/v24.12.63...v24.12.64

@@ -22,7 +22,7 @@ const darkColors = {
   },
   row: {
     stripedBackground: '{surface.950}',
-    background: '{transparent}',
+    background: '{content.background}',
     hoverBackground: '{content.hoverBackground}',
     selectedBackground: '{highlight.background}',
     color: '{content.color}',
@@ -43,7 +43,7 @@ const darkColors = {
     color: '{content.color}',
   },
   footer: {
-    background: '{transparent}',
+    background: '{content.background}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
   },
@@ -87,7 +87,7 @@ const darkColors = {
     background: '{content.background}',
   },
   columnResizer: {
-    background: '{content.border.color}'
+    background: '{surface.800}'
   },
 }
 

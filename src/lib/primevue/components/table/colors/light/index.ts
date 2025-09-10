@@ -1,6 +1,6 @@
 const lightColors = {
   root: {
-    borderColor: '{content.border.color}'
+    borderColor: '{content.borderColor}'
   },
   header: {
     background: '{content.background}',
@@ -8,13 +8,13 @@ const lightColors = {
     color: '{content.color}',
   },
   headerCell: {
-    background: '#E0E3EB',
-    hoverBackground: '{content.hover.background}',
-    selectedBackground: '{highlight.background}',
+    background: '{surface.100}',
+    hoverBackground: '{surface.50}',
+    selectedBackground: '{surface.150}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
-    hoverColor: '{content.hover.color}',
-    selectedColor: '{highlight.color}',
+    hoverColor: '{content.hoverColor}',
+    selectedColor: '{content.color}',
     focusRing: {
       color: '{focus.ring.color}',
       shadow: '{focus.ring.shadow}'
@@ -23,10 +23,10 @@ const lightColors = {
   row: {
     stripedBackground: '{surface.50}',
     background: '{content.background}',
-    hoverBackground: '{content.hover.background}',
+    hoverBackground: '{content.hoverBackground}',
     selectedBackground: '{highlight.background}',
     color: '{content.color}',
-    hoverColor: '{content.hover.color}',
+    hoverColor: '{content.hoverColor}',
     selectedColor: '{highlight.color}',
     focusRing: {
       color: '{focus.ring.color}',
@@ -34,7 +34,7 @@ const lightColors = {
     }
   },
   bodyCell: {
-    borderColor: '#E0E3EB',
+    borderColor: '{surface.100}',
     selectedBorderColor: '{primary.100}'
   },
   footerCell: {
@@ -82,7 +82,13 @@ const lightColors = {
   sortIcon: {
     color: '{text.muted.color}',
     hoverColor: '{text.hover.muted.color}',
-  }
+  },
+  frozenColumn: {
+    background: '{content.background}',
+  },
+  columnResizer: {
+    background: '{surface.150}'
+  },
 }
 
 export default lightColors

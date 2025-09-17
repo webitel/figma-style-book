@@ -10,6 +10,12 @@ const lightColors = {
   headerCell: {
     background: '{surface.100}',
     hoverBackground: '{surface.50}',
+    successBackground: '{green.50}',
+    successHoverBackground: '{green.950}',
+    warningBackground: '{orange.50}',
+    warningHoverBackground: '{orange.950}',
+    errorBackground: '{red.50}',
+    errorHoverBackground: '{red.950}',
     selectedBackground: '{surface.150}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',

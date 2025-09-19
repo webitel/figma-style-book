@@ -1,4 +1,12 @@
 
+## [v24.12.68] - 2025-09-19
+### :sparkles: New Features
+- [`cc68b6e`](https://github.com/webitel/figma-style-book/commit/cc68b6e9914f3d15b7fefee1998f08e219975517) - add new import *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`012eaed`](https://github.com/webitel/figma-style-book/commit/012eaed22b382ce2164843e6b80c68e7ba867165) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
 ## [v24.12.67] - 2025-09-19
 ### :sparkles: New Features
 - [`4354222`](https://github.com/webitel/figma-style-book/commit/435422236c44ede747fb015be840fd0a17112000) - add content wrapper variables *(commit by [@Lera24](https://github.com/Lera24))*
@@ -534,3 +542,4 @@
 [v24.12.64]: https://github.com/webitel/figma-style-book/compare/v24.12.63...v24.12.64
 [v24.12.65]: https://github.com/webitel/figma-style-book/compare/v24.12.64...v24.12.65
 [v24.12.67]: https://github.com/webitel/figma-style-book/compare/v24.12.65...v24.12.67
+[v24.12.68]: https://github.com/webitel/figma-style-book/compare/v24.12.67...v24.12.68

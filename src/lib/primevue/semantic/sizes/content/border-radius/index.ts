@@ -4,5 +4,6 @@ export default {
     sm: '4px',
     md: '6px',
     lg: '8px',
-    xl: '12px'
+    xl: '16px',
+    pill: '56px',
 }

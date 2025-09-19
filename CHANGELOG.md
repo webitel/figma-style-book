@@ -1,4 +1,17 @@
 
+## [v24.12.67] - 2025-09-19
+### :sparkles: New Features
+- [`4354222`](https://github.com/webitel/figma-style-book/commit/435422236c44ede747fb015be840fd0a17112000) - add content wrapper variables *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :bug: Bug Fixes
+- [`020153a`](https://github.com/webitel/figma-style-book/commit/020153aac1992a2bc0df02445dae0c8005ef8e99) - delete content-wrapper component *(commit by [@Lera24](https://github.com/Lera24))*
+- [`b26f4c0`](https://github.com/webitel/figma-style-book/commit/b26f4c055a6e22827890e9aa76c434a0676c4735) - border radius *(commit by [@Lera24](https://github.com/Lera24))*
+- [`bc8b112`](https://github.com/webitel/figma-style-book/commit/bc8b112cc064f88f6ac6b8ffdc218ed1d5a7c15a) - add new imports *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`d40b81f`](https://github.com/webitel/figma-style-book/commit/d40b81f60d28bb64186c8f1f743b8c111149108c) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.65] - 2025-09-10
 ### :bug: Bug Fixes
 - [`e6be6bb`](https://github.com/webitel/figma-style-book/commit/e6be6bb93b0179af5a550dfa46ea81dac205ce69) - content hover background color *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -520,3 +533,4 @@
 [v24.12.63]: https://github.com/webitel/figma-style-book/compare/v24.12.62...v24.12.63
 [v24.12.64]: https://github.com/webitel/figma-style-book/compare/v24.12.63...v24.12.64
 [v24.12.65]: https://github.com/webitel/figma-style-book/compare/v24.12.64...v24.12.65
+[v24.12.67]: https://github.com/webitel/figma-style-book/compare/v24.12.65...v24.12.67

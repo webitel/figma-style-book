@@ -1,4 +1,12 @@
 
+## [v24.12.70] - 2025-09-22
+### :bug: Bug Fixes
+- [`1528c5e`](https://github.com/webitel/figma-style-book/commit/1528c5e3822c23045d75d53ef8944df8901d4d22) - table colors[WTEL-7595](https://webitel.atlassian.net/browse/WTEL-7595) *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`8de0532`](https://github.com/webitel/figma-style-book/commit/8de05320bb17f68f3dda7ba1d5941efbaac447c8) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
 ## [v24.12.69] - 2025-09-19
 ### :sparkles: New Features
 - [`334eb02`](https://github.com/webitel/figma-style-book/commit/334eb0210c51cd4c57e120bd07aa63d5d79d04b9) - add success, warning, and error background colors to dark and light table themes [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -552,3 +560,4 @@
 [v24.12.67]: https://github.com/webitel/figma-style-book/compare/v24.12.65...v24.12.67
 [v24.12.68]: https://github.com/webitel/figma-style-book/compare/v24.12.67...v24.12.68
 [v24.12.69]: https://github.com/webitel/figma-style-book/compare/v24.12.68...v24.12.69
+[v24.12.70]: https://github.com/webitel/figma-style-book/compare/v24.12.69...v24.12.70

@@ -1,4 +1,15 @@
 
+## [v24.12.71] - 2025-09-22
+### :sparkles: New Features
+- [`f1d0160`](https://github.com/webitel/figma-style-book/commit/f1d01605f7244756428edae60d22edf602886dbe) - Edited table success, error, warning row colors. *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`bbda1ad`](https://github.com/webitel/figma-style-book/commit/bbda1ad0dce4a3d49fbcded5189e32fcc24c4f57) - conflict[WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`2e48256`](https://github.com/webitel/figma-style-book/commit/2e4825658971a36c9351f0668f05a8fa3d5ef364) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
 ## [v24.12.70] - 2025-09-22
 ### :bug: Bug Fixes
 - [`1528c5e`](https://github.com/webitel/figma-style-book/commit/1528c5e3822c23045d75d53ef8944df8901d4d22) - table colors[WTEL-7595](https://webitel.atlassian.net/browse/WTEL-7595) *(commit by [@Lera24](https://github.com/Lera24))*
@@ -561,3 +572,4 @@
 [v24.12.68]: https://github.com/webitel/figma-style-book/compare/v24.12.67...v24.12.68
 [v24.12.69]: https://github.com/webitel/figma-style-book/compare/v24.12.68...v24.12.69
 [v24.12.70]: https://github.com/webitel/figma-style-book/compare/v24.12.69...v24.12.70
+[v24.12.71]: https://github.com/webitel/figma-style-book/compare/v24.12.70...v24.12.71

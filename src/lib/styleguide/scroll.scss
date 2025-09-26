@@ -2,9 +2,16 @@
   --scrollbar-width: 5px;
   --scrollbar-height: 5px;
   --scrollbar-thumb-width: 5px;
-  --scrollbar-bg-color: var(--dp-16-surface-color);
-  --scrollbar-thumb-color: var(--primary-color);
+  --scrollbar-bg-color: var(--p-surface-50);
+  --scrollbar-thumb-color: var(--p-surface-150);
+  --scrollbar-hover-thumb-color: var(--p-surface-250);
   --scrollbar-border-radius: var(--border-radius);
+}
+
+:root.theme--dark {
+  --scrollbar-bg-color: var(--p-surface-750);
+  --scrollbar-thumb-color: var(--p-surface-850);
+  --scrollbar-hover-thumb-color: var(--p-surface-950);
 }
 
 %wt-scrollbar {
@@ -14,7 +21,7 @@
     height: var(--scrollbar-height);
     cursor: pointer;
     border-radius: var(--scrollbar-border-radius);
-    background-color: var(--scrollbar-bg-color);
+    background-color: var(--scrollbar-bg-color);    
   }
 
   // scrollable element
@@ -23,6 +30,10 @@
     height: var(--scrollbar-thumb-height);
     border-radius: var(--scrollbar-border-radius);
     background-color: var(--scrollbar-thumb-color);
+
+    &:hover {
+      background-color: var(--scrollbar-hover-thumb-color);
+    }
   }
 }
 

@@ -1,4 +1,12 @@
 
+## [v24.12.72] - 2025-09-26
+### :sparkles: New Features
+- [`0052865`](https://github.com/webitel/figma-style-book/commit/0052865ff1446e29f5048c064d11a889d76e1d09) - changing scrollbar colors [WTEL-7584](https://webitel.atlassian.net/browse/WTEL-7584) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`fcf3989`](https://github.com/webitel/figma-style-book/commit/fcf3989ddcf1156ca379eacfa0494d0ba51378cf) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
 ## [v24.12.71] - 2025-09-22
 ### :sparkles: New Features
 - [`f1d0160`](https://github.com/webitel/figma-style-book/commit/f1d01605f7244756428edae60d22edf602886dbe) - Edited table success, error, warning row colors. *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -573,3 +581,4 @@
 [v24.12.69]: https://github.com/webitel/figma-style-book/compare/v24.12.68...v24.12.69
 [v24.12.70]: https://github.com/webitel/figma-style-book/compare/v24.12.69...v24.12.70
 [v24.12.71]: https://github.com/webitel/figma-style-book/compare/v24.12.70...v24.12.71
+[v24.12.72]: https://github.com/webitel/figma-style-book/compare/v24.12.71...v24.12.72

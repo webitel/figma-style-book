@@ -9,8 +9,8 @@ const darkColors = {
   },
   headerCell: {
     background: '{surface.850}',
-    hoverBackground: '{surface.800}',
-    selectedBackground: '{surface.900}',
+    hoverBackground: '{surface.900}',
+    selectedBackground: '{surface.950}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',

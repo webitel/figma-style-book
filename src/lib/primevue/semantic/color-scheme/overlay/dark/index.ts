@@ -19,6 +19,10 @@ export default {
       background: '{gray.750}',
       borderColor: '{gray.750}',
       color: '{gray.200}'
+    },
+    playerWrapper: {
+      background: '{red.750}',
+      color: '{gray.200}'
     }
   }
 }

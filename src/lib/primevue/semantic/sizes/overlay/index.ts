@@ -15,4 +15,25 @@ export default {
   navigation: {
     shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)'
   },
+  playerWrapper: {
+    shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
+    sm: {
+      borderRadius: '8px',
+      maxWidth: '256px',
+      maxHeight: '211px',
+      headHeight: '40px'
+    },
+    md: {
+      borderRadius: '16px',
+      maxWidth: '747px',
+      maxHeight: '493px',
+      headHeight: '56px'
+    },
+    lg: {
+      borderRadius: '0px',
+      maxWidth: '1366px',
+      maxHeight: '910px',
+      headHeight: '56px'
+    },
+  }
 }

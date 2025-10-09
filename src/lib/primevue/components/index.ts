@@ -12,7 +12,6 @@ import DividerScheme from "./divider";
 import SliderScheme from "./slider";
 import BreadcrumbScheme from "./breadcrumb";
 import RadioScheme from "./radio";
-import PlayerWrapperScheme from "./player-wrapper";
 
 export {
   AvatarScheme,
@@ -29,5 +28,4 @@ export {
   SliderScheme,
   BreadcrumbScheme,
   RadioScheme,
-  PlayerWrapperScheme
 }

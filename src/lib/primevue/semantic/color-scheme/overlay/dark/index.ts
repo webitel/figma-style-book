@@ -20,9 +20,13 @@ export default {
       borderColor: '{gray.750}',
       color: '{gray.200}'
     },
-    playerWrapper: {
-      background: '{red.750}',
-      color: '{gray.200}'
-    }
+    // player: {
+    //   header: {},
+    //   body: {},
+    //   footer: {},
+    //   background: '{red.750}',
+    //   headHoverBackgroundColor: 'rgba(0, 0, 0, 0.50)',
+    //   color: '{gray.200}'
+    // }
   }
 }

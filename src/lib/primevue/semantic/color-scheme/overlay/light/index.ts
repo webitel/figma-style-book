@@ -19,11 +19,6 @@ export default {
       background: '{gray.0}',
       borderColor: '{gray.0}',
       color: '{gray.850}'
-    },
-    // playerWrapper: {
-    //   background: 'var(--p-content-background)',
-    //   headHoverBackgroundColor: 'rgba(0, 0, 0, 0.50)',
-    //   color: '{gray.850}'
-    // }
+    }
   }
 }

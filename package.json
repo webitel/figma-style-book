@@ -21,6 +21,9 @@
     "./semantic": {
       "import": "./src/lib/primevue/semantic/index.js"
     },
+    "./extend": {
+      "import": "./src/lib/primevue/extend/extend.js"
+    },
     "./primitive": {
       "import": "./src/lib/primevue/primitive/index.js"
     }

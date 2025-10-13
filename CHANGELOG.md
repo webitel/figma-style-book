@@ -1,4 +1,17 @@
 
+## [v24.12.74] - 2025-10-13
+### :sparkles: New Features
+- [`b9c53fa`](https://github.com/webitel/figma-style-book/commit/b9c53fafc65d8ac066f71f9831b3c6e0ed1a76cd) - set updates to player styles [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`23417dc`](https://github.com/webitel/figma-style-book/commit/23417dcaf286ae7efb42b823ef75e782347b39f3) - Edited video player styles, sizes added wrapper sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`f28a125`](https://github.com/webitel/figma-style-book/commit/f28a125993fbbf267196a4254d0aa0b399c430de) - remove player key from player object exports  [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`979ca54`](https://github.com/webitel/figma-style-book/commit/979ca54fedfed4866826a5eadd4b3b79ff855ca2) - remove player-wrapper from components folder and added updates after review  [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`65a3be3`](https://github.com/webitel/figma-style-book/commit/65a3be3ccf89142e6bd52b25cc31963ea2e4f2c9) - added styles for player component, and added extend styles [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`fe1aedf`](https://github.com/webitel/figma-style-book/commit/fe1aedf9e857421b235d8e8ea1e12db3c792b373) - added styles for player wrapper component [WTEL-7293](https://webitel.atlassian.net/browse/WTEL-7293) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`fc20898`](https://github.com/webitel/figma-style-book/commit/fc20898f00ccf4c8307b9812b7fcbe61d5d1789f) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.73] - 2025-10-06
 ### :sparkles: New Features
 - [`03592bf`](https://github.com/webitel/figma-style-book/commit/03592bf35a0cb83441b7166f1b2e0243ce58138d) - add success color to typography colors *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -591,3 +604,4 @@
 [v24.12.71]: https://github.com/webitel/figma-style-book/compare/v24.12.70...v24.12.71
 [v24.12.72]: https://github.com/webitel/figma-style-book/compare/v24.12.71...v24.12.72
 [v24.12.73]: https://github.com/webitel/figma-style-book/compare/v24.12.72...v24.12.73
+[v24.12.74]: https://github.com/webitel/figma-style-book/compare/v24.12.73...v24.12.74

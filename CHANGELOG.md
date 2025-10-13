@@ -1,4 +1,12 @@
 
+## [v24.12.75] - 2025-10-13
+### :bug: Bug Fixes
+- [`568f48d`](https://github.com/webitel/figma-style-book/commit/568f48d54cf3446106347ca2be197c25794b38be) - set fixes to player color schemes [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`eb8d88a`](https://github.com/webitel/figma-style-book/commit/eb8d88a8d2bb48dfaa6f033644b8a20ae121d2b6) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.74] - 2025-10-13
 ### :sparkles: New Features
 - [`b9c53fa`](https://github.com/webitel/figma-style-book/commit/b9c53fafc65d8ac066f71f9831b3c6e0ed1a76cd) - set updates to player styles [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -605,3 +613,4 @@
 [v24.12.72]: https://github.com/webitel/figma-style-book/compare/v24.12.71...v24.12.72
 [v24.12.73]: https://github.com/webitel/figma-style-book/compare/v24.12.72...v24.12.73
 [v24.12.74]: https://github.com/webitel/figma-style-book/compare/v24.12.73...v24.12.74
+[v24.12.75]: https://github.com/webitel/figma-style-book/compare/v24.12.74...v24.12.75

@@ -1,21 +1,22 @@
 export default {
   counter: {
-    background: 'var(--content-wrapper-color)',
-    color: 'content.color',
+    background: '{content.background}',
+    color: '{content.color}',
   },
   wrapper: {
+    background: '{surface.900}',
     overlayColor: 'rgba(0,0,0,0.8)',
-    color: 'white',
+    color: '{white}',
   },
   headLine: {
-    background: '#AAAAAA',
+    background: '{transparent}',
     hoverBackground: 'rgba(0,0,0,0.5)',
-    iconColor: 'white',
-    color: 'white',
+    iconColor: '{white}',
+    color: '{white}',
   },
   controlBar: {
-    background: 'var(--content-wrapper-color)',
-    iconColor: 'content.color',
-    color: 'content.color',
+    background: '{content.background}',
+    iconColor: '{content.color}',
+    color: '{content.color}',
   },
 }

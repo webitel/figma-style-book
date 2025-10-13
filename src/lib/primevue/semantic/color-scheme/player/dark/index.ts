@@ -13,6 +13,7 @@ export default {
     hoverBackground: 'rgba(0,0,0,0.5)',
     iconColor: '{white}',
     color: '{white}',
+    blur: '10px'
   },
   controlBar: {
     background: '{content.background}',

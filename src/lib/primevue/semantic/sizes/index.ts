@@ -10,7 +10,7 @@ export default {
   iconSize: '1rem',
   anchorGutter: '2px',
   content: {
-    borderRadius: '{border.radius.md}'
+    borderRadius: '{border.radius.md}',
   },
   mask: {
     transitionDuration: '0.15s'

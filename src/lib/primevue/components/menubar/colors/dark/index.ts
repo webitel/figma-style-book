@@ -1,6 +1,6 @@
 export default {
-  background: '{content.background}',
-  borderColor: '{content.border.color}',
+  background: '{surface.900}',
+  borderColor: '{transparent}',
   color: '{content.color}',
   transitionDuration: '{transition.duration}'
 }

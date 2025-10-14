@@ -17,14 +17,16 @@ const sizes = {
     paddingY: '{form.field.lg.padding.y}',
     iconOnlyWidth: '3.5rem'
   },
-  iconXs: {
-    padding: '0.25rem',
-  },
-  iconSm: {
-    padding: '0.5rem',
-  },
-  iconMd: {
-    padding: '0.5rem',
+  icon: {
+    xs: {
+      padding: '0.25rem',
+    },
+    sm: {
+      padding: '0.5rem',
+    },
+    md: {
+      padding: '0.5rem',
+    },
   },
   label: {
     fontWeight: '500'

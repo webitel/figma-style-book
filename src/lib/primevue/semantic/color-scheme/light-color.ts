@@ -5,7 +5,8 @@ const lightColor = {
     hoverColor: '{amber.450}',
     activeColor: '{amber.400}',
     foreground: '{amber.900}',
-    foregroundHover: '{amber.850}'
+    foregroundHover: '{amber.850}',
+    highlightColor: '{amber.100}'
   },
 
   secondary: {
@@ -13,7 +14,8 @@ const lightColor = {
     hoverColor: '{gray.100}',
     activeColor: '{gray.50}',
     foreground: '{gray.750}',
-    foregroundHover: '{gray.700}'
+    foregroundHover: '{gray.700}',
+    highlightColor: '{gray.50}'
   },
 
   success: {
@@ -21,7 +23,8 @@ const lightColor = {
     hoverColor: '{green.550}',
     activeColor: '{green.500}',
     foreground: '{green.50}',
-    foregroundHover: '{green.100}'
+    foregroundHover: '{green.100}',
+    highlightColor: '{green.100}'
   },
 
   warn: {
@@ -29,7 +32,8 @@ const lightColor = {
     hoverColor: '{orange.400}',
     activeColor: '{orange.350}',
     foreground: '{orange.50}',
-    foregroundHover: '{orange.100}'
+    foregroundHover: '{orange.100}',
+    highlightColor: '{orange.100}'
   },
 
   error: {
@@ -37,7 +41,8 @@ const lightColor = {
     hoverColor: '{red.350}',
     activeColor: '{red.300}',
     foreground: '{red.50}',
-    foregroundHover: '{red.100}'
+    foregroundHover: '{red.100}',
+    highlightColor: '{red.100}'
   },
 
   info: {
@@ -45,7 +50,9 @@ const lightColor = {
     hoverColor: '{light-blue.450}',
     activeColor: '{light-blue.400}',
     foreground: '{light-blue.50}',
-    foregroundHover: '{light-blue.100}'
+    foregroundHover: '{light-blue.100}',
+    highlightColor: '{light-blue.100}'
+
   },
 
   task: {
@@ -53,7 +60,8 @@ const lightColor = {
     hoverColor: '{blue.450}',
     activeColor: '{blue.400}',
     foreground: '{blue.50}',
-    foregroundHover: '{blue.100}'
+    foregroundHover: '{blue.100}',
+    highlightColor: '{blue.100}'
   },
 
   transfer: {
@@ -61,7 +69,8 @@ const lightColor = {
     hoverColor: '{indigo.300}',
     activeColor: '{indigo.250}',
     foreground: '{indigo.50}',
-    foregroundHover: '{indigo.100}'
+    foregroundHover: '{indigo.100}',
+    highlightColor: '{indigo.100}'
   },
 
   chat: {
@@ -69,7 +78,8 @@ const lightColor = {
     hoverColor: '{cyan.550}',
     activeColor: '{cyan.500}',
     foreground: '{cyan.50}',
-    foregroundHover: '{cyan.100}'
+    foregroundHover: '{cyan.100}',
+    highlightColor: '{cyan.100}'
   },
 
   email: {
@@ -77,7 +87,8 @@ const lightColor = {
     hoverColor: '{blue.550}',
     activeColor: '{blue.500}',
     foreground: '{blue.50}',
-    foregroundHover: '{blue.100}'
+    foregroundHover: '{blue.100}',
+    highlightColor: '{blue.100}'
   },
 
   highlight: {

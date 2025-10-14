@@ -1,4 +1,18 @@
 
+## [v24.12.76] - 2025-10-14
+### :sparkles: New Features
+- [`d1e8661`](https://github.com/webitel/figma-style-book/commit/d1e8661e2c7a047d7cc9a1006252d145183ae349) - Edited video player styles, sizes added wrapper sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`c3447f0`](https://github.com/webitel/figma-style-book/commit/c3447f0c10a9d94b8de18180dbf9af14f22f7b29) - add icon button size paddings [WTEL-7490](https://webitel.atlassian.net/browse/WTEL-7490) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`a1efbc6`](https://github.com/webitel/figma-style-book/commit/a1efbc63bb5f47d5acf17bc6e5183e4895a3a23a) - Edited button colors for icon property (outlined, text)/. Edited semantic colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :recycle: Refactors
+- [`ebff9f8`](https://github.com/webitel/figma-style-book/commit/ebff9f8d621e2fecf27383841e1eeb9b9e50ab2f) - icon tokens [WTEL-7490](https://webitel.atlassian.net/browse/WTEL-7490) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`21c5cac`](https://github.com/webitel/figma-style-book/commit/21c5cacf0504c3ab695c83e40fa2437f5e5663ec) - rename color categories in dark and light themes for consistency [WTEL-7490](https://webitel.atlassian.net/browse/WTEL-7490) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`1098d0b`](https://github.com/webitel/figma-style-book/commit/1098d0b06c468bc323f5204042b7afc66134d8c7) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.75] - 2025-10-13
 ### :bug: Bug Fixes
 - [`568f48d`](https://github.com/webitel/figma-style-book/commit/568f48d54cf3446106347ca2be197c25794b38be) - set fixes to player color schemes [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -614,3 +628,4 @@
 [v24.12.73]: https://github.com/webitel/figma-style-book/compare/v24.12.72...v24.12.73
 [v24.12.74]: https://github.com/webitel/figma-style-book/compare/v24.12.73...v24.12.74
 [v24.12.75]: https://github.com/webitel/figma-style-book/compare/v24.12.74...v24.12.75
+[v24.12.76]: https://github.com/webitel/figma-style-book/compare/v24.12.75...v24.12.76

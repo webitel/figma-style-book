@@ -24,7 +24,7 @@ const sizes = {
     padding: '0.5rem',
   },
   iconMd: {
-    padding: '0.75rem',
+    padding: '0.5rem',
   },
   label: {
     fontWeight: '500'

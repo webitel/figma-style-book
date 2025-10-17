@@ -5,7 +5,8 @@ const darkColor = {
     hoverColor: '{amber.450}',
     activeColor: '{amber.400}',
     foreground: '{amber.950}',
-    foregroundHover: '{amber.900}'
+    foregroundHover: '{amber.900}',
+    highlightColor: '{amber.850}'
   },
 
   secondary: {
@@ -13,7 +14,8 @@ const darkColor = {
     hoverColor: '{gray.850}',
     activeColor: '{gray.750}',
     foreground: '{gray.350}',
-    foregroundHover: '{gray.300}'
+    foregroundHover: '{gray.300}',
+    highlightColor: '{gray.850}'
   },
 
   success: {
@@ -21,7 +23,8 @@ const darkColor = {
     hoverColor: '{green.550}',
     activeColor: '{green.500}',
     foreground: '{green.950}',
-    foregroundHover: '{green.900}'
+    foregroundHover: '{green.900}',
+    highlightColor: '{green.850}'
   },
 
   warn: {
@@ -29,7 +32,8 @@ const darkColor = {
     hoverColor: '{orange.400}',
     activeColor: '{orange.350}',
     foreground: '{orange.950}',
-    foregroundHover: '{orange.900}'
+    foregroundHover: '{orange.900}',
+    highlightColor: '{orange.850}'
   },
 
   error: {
@@ -37,7 +41,8 @@ const darkColor = {
     hoverColor: '{red.350}',
     activeColor: '{red.300}',
     foreground: '{red.950}',
-    foregroundHover: '{red.900}'
+    foregroundHover: '{red.900}',
+    highlightColor: '{red.850}'
   },
 
   info: {
@@ -45,7 +50,8 @@ const darkColor = {
     hoverColor: '{light-blue.450}',
     activeColor: '{light-blue.400}',
     foreground: '{light-blue.950}',
-    foregroundHover: '{light-blue.900}'
+    foregroundHover: '{light-blue.900}',
+    highlightColor: '{light-blue.850}'
   },
 
   task: {
@@ -53,7 +59,8 @@ const darkColor = {
     hoverColor: '{blue.450}',
     activeColor: '{blue.400}',
     foreground: '{blue.950}',
-    foregroundHover: '{blue.900}'
+    foregroundHover: '{blue.900}',
+    highlightColor: '{blue.850}'
   },
 
   transfer: {
@@ -61,7 +68,8 @@ const darkColor = {
     hoverColor: '{indigo.300}',
     activeColor: '{indigo.250}',
     foreground: '{indigo.950}',
-    foregroundHover: '{indigo.900}'
+    foregroundHover: '{indigo.900}',
+    highlightColor: '{indigo.850}'
   },
 
   chat: {
@@ -69,7 +77,8 @@ const darkColor = {
     hoverColor: '{cyan.550}',
     activeColor: '{cyan.500}',
     foreground: '{cyan.950}',
-    foregroundHover: '{cyan.900}'
+    foregroundHover: '{cyan.900}',
+    highlightColor: '{cyan.850}'
   },
 
   email: {
@@ -77,7 +86,8 @@ const darkColor = {
     hoverColor: '{blue.550}',
     activeColor: '{blue.500}',
     foreground: '{blue.950}',
-    foregroundHover: '{blue.900}'
+    foregroundHover: '{blue.900}',
+    highlightColor: '{blue.850}'
   },
 
   highlight: {

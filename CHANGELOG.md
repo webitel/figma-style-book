@@ -1,4 +1,12 @@
 
+## [v24.12.77] - 2025-10-17
+### :sparkles: New Features
+- [`6ae58f1`](https://github.com/webitel/figma-style-book/commit/6ae58f1d16f0b04112b18b25f9f1ff6f2e3466d7) - Edited HeaderCell hover color. Relocated success, warning, error colors from header section to row section in light theme only *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`7ec861e`](https://github.com/webitel/figma-style-book/commit/7ec861e7e6bb4f4e8c88a62cf9c95890d568d0f7) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.76] - 2025-10-14
 ### :sparkles: New Features
 - [`d1e8661`](https://github.com/webitel/figma-style-book/commit/d1e8661e2c7a047d7cc9a1006252d145183ae349) - Edited video player styles, sizes added wrapper sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -629,3 +637,4 @@
 [v24.12.74]: https://github.com/webitel/figma-style-book/compare/v24.12.73...v24.12.74
 [v24.12.75]: https://github.com/webitel/figma-style-book/compare/v24.12.74...v24.12.75
 [v24.12.76]: https://github.com/webitel/figma-style-book/compare/v24.12.75...v24.12.76
+[v24.12.77]: https://github.com/webitel/figma-style-book/compare/v24.12.76...v24.12.77

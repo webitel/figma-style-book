@@ -3,6 +3,11 @@ export default {
     padding: '0.25rem',
     gap: '0.25rem',
     borderRadius: '{border-radius.xl}',
+    positionPadding: {
+      sm: '0.5rem',
+      md: '1rem',
+      lg: '1rem',
+    }
   },
   camPreview: {
     sm: {
@@ -71,5 +76,10 @@ export default {
       padding: '1rem',
       gap: '1rem',
     },
+    positionPadding: {
+      sm: '0',
+      md: '1rem',
+      lg: '1rem',
+    }
   },
 }

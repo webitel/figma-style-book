@@ -1,4 +1,12 @@
 
+## [v24.12.78] - 2025-10-20
+### :sparkles: New Features
+- [`942fea4`](https://github.com/webitel/figma-style-book/commit/942fea4cf8a96aa11ed4128e0aac21f041f24eb4) - added new tokens [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`a0c22fe`](https://github.com/webitel/figma-style-book/commit/a0c22feddd1a26ceeda3cfd80c13641c71645fbe) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.77] - 2025-10-17
 ### :sparkles: New Features
 - [`6ae58f1`](https://github.com/webitel/figma-style-book/commit/6ae58f1d16f0b04112b18b25f9f1ff6f2e3466d7) - Edited HeaderCell hover color. Relocated success, warning, error colors from header section to row section in light theme only *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -638,3 +646,4 @@
 [v24.12.75]: https://github.com/webitel/figma-style-book/compare/v24.12.74...v24.12.75
 [v24.12.76]: https://github.com/webitel/figma-style-book/compare/v24.12.75...v24.12.76
 [v24.12.77]: https://github.com/webitel/figma-style-book/compare/v24.12.76...v24.12.77
+[v24.12.78]: https://github.com/webitel/figma-style-book/compare/v24.12.77...v24.12.78

@@ -1,4 +1,233 @@
 
+## [v24.12.77] - 2025-10-17
+### :sparkles: New Features
+- [`6ae58f1`](https://github.com/webitel/figma-style-book/commit/6ae58f1d16f0b04112b18b25f9f1ff6f2e3466d7) - Edited HeaderCell hover color. Relocated success, warning, error colors from header section to row section in light theme only *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`7ec861e`](https://github.com/webitel/figma-style-book/commit/7ec861e7e6bb4f4e8c88a62cf9c95890d568d0f7) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.76] - 2025-10-14
+### :sparkles: New Features
+- [`d1e8661`](https://github.com/webitel/figma-style-book/commit/d1e8661e2c7a047d7cc9a1006252d145183ae349) - Edited video player styles, sizes added wrapper sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`c3447f0`](https://github.com/webitel/figma-style-book/commit/c3447f0c10a9d94b8de18180dbf9af14f22f7b29) - add icon button size paddings [WTEL-7490](https://webitel.atlassian.net/browse/WTEL-7490) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`a1efbc6`](https://github.com/webitel/figma-style-book/commit/a1efbc63bb5f47d5acf17bc6e5183e4895a3a23a) - Edited button colors for icon property (outlined, text)/. Edited semantic colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :recycle: Refactors
+- [`ebff9f8`](https://github.com/webitel/figma-style-book/commit/ebff9f8d621e2fecf27383841e1eeb9b9e50ab2f) - icon tokens [WTEL-7490](https://webitel.atlassian.net/browse/WTEL-7490) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`21c5cac`](https://github.com/webitel/figma-style-book/commit/21c5cacf0504c3ab695c83e40fa2437f5e5663ec) - rename color categories in dark and light themes for consistency [WTEL-7490](https://webitel.atlassian.net/browse/WTEL-7490) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`1098d0b`](https://github.com/webitel/figma-style-book/commit/1098d0b06c468bc323f5204042b7afc66134d8c7) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.75] - 2025-10-13
+### :bug: Bug Fixes
+- [`568f48d`](https://github.com/webitel/figma-style-book/commit/568f48d54cf3446106347ca2be197c25794b38be) - set fixes to player color schemes [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`eb8d88a`](https://github.com/webitel/figma-style-book/commit/eb8d88a8d2bb48dfaa6f033644b8a20ae121d2b6) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.74] - 2025-10-13
+### :sparkles: New Features
+- [`b9c53fa`](https://github.com/webitel/figma-style-book/commit/b9c53fafc65d8ac066f71f9831b3c6e0ed1a76cd) - set updates to player styles [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`23417dc`](https://github.com/webitel/figma-style-book/commit/23417dcaf286ae7efb42b823ef75e782347b39f3) - Edited video player styles, sizes added wrapper sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`f28a125`](https://github.com/webitel/figma-style-book/commit/f28a125993fbbf267196a4254d0aa0b399c430de) - remove player key from player object exports  [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`979ca54`](https://github.com/webitel/figma-style-book/commit/979ca54fedfed4866826a5eadd4b3b79ff855ca2) - remove player-wrapper from components folder and added updates after review  [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`65a3be3`](https://github.com/webitel/figma-style-book/commit/65a3be3ccf89142e6bd52b25cc31963ea2e4f2c9) - added styles for player component, and added extend styles [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`fe1aedf`](https://github.com/webitel/figma-style-book/commit/fe1aedf9e857421b235d8e8ea1e12db3c792b373) - added styles for player wrapper component [WTEL-7293](https://webitel.atlassian.net/browse/WTEL-7293) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`fc20898`](https://github.com/webitel/figma-style-book/commit/fc20898f00ccf4c8307b9812b7fcbe61d5d1789f) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.73] - 2025-10-06
+### :sparkles: New Features
+- [`03592bf`](https://github.com/webitel/figma-style-book/commit/03592bf35a0cb83441b7166f1b2e0243ce58138d) - add success color to typography colors *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`018a2e9`](https://github.com/webitel/figma-style-book/commit/018a2e9336fff883a9ffee38f6642fde8f54646e) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.72] - 2025-09-26
+### :sparkles: New Features
+- [`0052865`](https://github.com/webitel/figma-style-book/commit/0052865ff1446e29f5048c064d11a889d76e1d09) - changing scrollbar colors [WTEL-7584](https://webitel.atlassian.net/browse/WTEL-7584) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`fcf3989`](https://github.com/webitel/figma-style-book/commit/fcf3989ddcf1156ca379eacfa0494d0ba51378cf) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
+## [v24.12.71] - 2025-09-22
+### :sparkles: New Features
+- [`f1d0160`](https://github.com/webitel/figma-style-book/commit/f1d01605f7244756428edae60d22edf602886dbe) - Edited table success, error, warning row colors. *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`bbda1ad`](https://github.com/webitel/figma-style-book/commit/bbda1ad0dce4a3d49fbcded5189e32fcc24c4f57) - conflict[WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`2e48256`](https://github.com/webitel/figma-style-book/commit/2e4825658971a36c9351f0668f05a8fa3d5ef364) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
+## [v24.12.70] - 2025-09-22
+### :bug: Bug Fixes
+- [`1528c5e`](https://github.com/webitel/figma-style-book/commit/1528c5e3822c23045d75d53ef8944df8901d4d22) - table colors[WTEL-7595](https://webitel.atlassian.net/browse/WTEL-7595) *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`8de0532`](https://github.com/webitel/figma-style-book/commit/8de05320bb17f68f3dda7ba1d5941efbaac447c8) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
+## [v24.12.69] - 2025-09-19
+### :sparkles: New Features
+- [`334eb02`](https://github.com/webitel/figma-style-book/commit/334eb0210c51cd4c57e120bd07aa63d5d79d04b9) - add success, warning, and error background colors to dark and light table themes [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`6b1457b`](https://github.com/webitel/figma-style-book/commit/6b1457bfa3d0c214b8d01534700b806e38933227) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
+## [v24.12.68] - 2025-09-19
+### :sparkles: New Features
+- [`cc68b6e`](https://github.com/webitel/figma-style-book/commit/cc68b6e9914f3d15b7fefee1998f08e219975517) - add new import *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`012eaed`](https://github.com/webitel/figma-style-book/commit/012eaed22b382ce2164843e6b80c68e7ba867165) - bump patch version *(commit by [@Lera24](https://github.com/Lera24))*
+
+
+## [v24.12.67] - 2025-09-19
+### :sparkles: New Features
+- [`4354222`](https://github.com/webitel/figma-style-book/commit/435422236c44ede747fb015be840fd0a17112000) - add content wrapper variables *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :bug: Bug Fixes
+- [`020153a`](https://github.com/webitel/figma-style-book/commit/020153aac1992a2bc0df02445dae0c8005ef8e99) - delete content-wrapper component *(commit by [@Lera24](https://github.com/Lera24))*
+- [`b26f4c0`](https://github.com/webitel/figma-style-book/commit/b26f4c055a6e22827890e9aa76c434a0676c4735) - border radius *(commit by [@Lera24](https://github.com/Lera24))*
+- [`bc8b112`](https://github.com/webitel/figma-style-book/commit/bc8b112cc064f88f6ac6b8ffdc218ed1d5a7c15a) - add new imports *(commit by [@Lera24](https://github.com/Lera24))*
+
+### :wrench: Chores
+- [`d40b81f`](https://github.com/webitel/figma-style-book/commit/d40b81f60d28bb64186c8f1f743b8c111149108c) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.65] - 2025-09-10
+### :bug: Bug Fixes
+- [`e6be6bb`](https://github.com/webitel/figma-style-book/commit/e6be6bb93b0179af5a550dfa46ea81dac205ce69) - content hover background color *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`128f376`](https://github.com/webitel/figma-style-book/commit/128f376ed691151fff6f534c5de140bb17a1ab0b) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.64] - 2025-09-10
+### :sparkles: New Features
+- [`425ea85`](https://github.com/webitel/figma-style-book/commit/425ea85dd46defbec0250a2783fd4a456dbbca91) - Edited sortIcon, frozenColumn, colunmResizer colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`4fe5c75`](https://github.com/webitel/figma-style-book/commit/4fe5c75b52406c24cac0223295f4f6991ba8bd52) - Edited selected header column color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`987cf24`](https://github.com/webitel/figma-style-book/commit/987cf24bbd62ce3fb13f10a777df317f4f7b696c) - Edited table colors, edited semantic colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :bug: Bug Fixes
+- [`b43b7bc`](https://github.com/webitel/figma-style-book/commit/b43b7bc06f47b4007e5267bfdfe38f7747326f71) - table and layout adjustments [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+- [`1dcb2d3`](https://github.com/webitel/figma-style-book/commit/1dcb2d338b64b03e59c9c5dc0a664a6d99303bfe) - add semantic colors for table [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`240e0f4`](https://github.com/webitel/figma-style-book/commit/240e0f47db22ecd639b099d6e36f71920cdc8c73) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.63] - 2025-09-05
+### :sparkles: New Features
+- [`8c50127`](https://github.com/webitel/figma-style-book/commit/8c50127f2477d67f9c05f430971c987e01c7a7b9) - update styles for table [WTEL-7281](https://webitel.atlassian.net/browse/WTEL-7281) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`b836c67`](https://github.com/webitel/figma-style-book/commit/b836c674fd6360d0644b2c477fdb7786e5ad6ab9) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.62] - 2025-09-02
+### :sparkles: New Features
+- [`73ef067`](https://github.com/webitel/figma-style-book/commit/73ef067ea116c099bc12cc05c09f87ad37320645) - bump version [WTEL-6985](https://webitel.atlassian.net/browse/WTEL-6985) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`0fb853a`](https://github.com/webitel/figma-style-book/commit/0fb853abff2e32971caa397fadd0c6d136974c64) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.61] - 2025-09-02
+### :sparkles: New Features
+- [`77d003b`](https://github.com/webitel/figma-style-book/commit/77d003bcaf1ed7eec1e98c2d11d2522cf60898df) - Edited avatar and menu-bar colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`a643a89`](https://github.com/webitel/figma-style-book/commit/a643a89126d543e018a07050d43fbf08e7d8eb46) - Changed avatar colors, avatar sizes. Added avatar text color to semantic. Add 2xs avatar size *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`789da76`](https://github.com/webitel/figma-style-book/commit/789da763cd5f54031493df391157b7a59f0dc547) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.60] - 2025-08-27
+### :sparkles: New Features
+- [`c676c73`](https://github.com/webitel/figma-style-book/commit/c676c732fe2c06e4cd11c47fb6ea6b0f75a0e479) - Edited switcher colors, semantic form-field invalid color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`2e8477c`](https://github.com/webitel/figma-style-book/commit/2e8477c0c829ae85d63d3777eb816f50bc744896) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.59] - 2025-08-26
+### :sparkles: New Features
+- [`0857130`](https://github.com/webitel/figma-style-book/commit/0857130cc5e5bf2101dbe56207a7c068fbb8fb8c) - Added prefix .color to background.active *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`0a98c35`](https://github.com/webitel/figma-style-book/commit/0a98c359986fc8a44800b50e70669624fbf81fc0) - Changed avatar colors, avatar sizes. Added avatar text color to semantic. Add 2xs avatar size *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`cab0b23`](https://github.com/webitel/figma-style-book/commit/cab0b2374ac1d3d301c7beadbae3bcad04ebc7e5) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.58] - 2025-08-20
+### :sparkles: New Features
+- [`bbd6d39`](https://github.com/webitel/figma-style-book/commit/bbd6d3932e0fd42e104fc16809d7ad499180a84b) - changed popover (overlay) padding *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`5bd196d`](https://github.com/webitel/figma-style-book/commit/5bd196d3adb15a46d1fee04c2c19d36687159f78) - changed semantic text colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`bf9f8ab`](https://github.com/webitel/figma-style-book/commit/bf9f8ab4b057d022650fb732482506ae441ae262) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.57] - 2025-08-20
+### :sparkles: New Features
+- [`34b8ff8`](https://github.com/webitel/figma-style-book/commit/34b8ff838c21406cdb2d2a90bd1a259af96e1a89) - changed secondary foreground color. made it more contrasting *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`dcce457`](https://github.com/webitel/figma-style-book/commit/dcce457d923487163da68df2e5a1588e922ff4b2) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.56] - 2025-08-15
+### :sparkles: New Features
+- [`8b01586`](https://github.com/webitel/figma-style-book/commit/8b01586bad4e2ed05697474e9ed62f321ae54836) - adding divider from primevue [WTEL-7375](https://webitel.atlassian.net/browse/WTEL-7375) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`89ade63`](https://github.com/webitel/figma-style-book/commit/89ade63329052a0be4da0671f6a9413d235887df) - remove margin and padding from divider [WTEL-7375](https://webitel.atlassian.net/browse/WTEL-7375) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`7acb6ec`](https://github.com/webitel/figma-style-book/commit/7acb6ecb390920a2499c0fb9f776f6d256ebd697) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.55] - 2025-08-15
+### :sparkles: New Features
+- [`f48c0e4`](https://github.com/webitel/figma-style-book/commit/f48c0e484625d5e1f11a2439b55dbfd04b38c0f4) - changed slider colors and sizes and semantic content colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`1f77bf9`](https://github.com/webitel/figma-style-book/commit/1f77bf950e0ad4fa871cc4b17a0973c3ca833178) - adding slider from primevue [WTEL-7387](https://webitel.atlassian.net/browse/WTEL-7387) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`7f0d21b`](https://github.com/webitel/figma-style-book/commit/7f0d21bb0cd021d99b0afe5d61540a1f0cf1fc05) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.54] - 2025-08-15
+### :sparkles: New Features
+- [`25dcb6c`](https://github.com/webitel/figma-style-book/commit/25dcb6cba4656f379bea020136c8137ea77865da) - changed colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`d6cd9b9`](https://github.com/webitel/figma-style-book/commit/d6cd9b9d33f4d3edb31dd2bb49de307d607028e1) - adding breadcrumb from primevue [WTEL-7370](https://webitel.atlassian.net/browse/WTEL-7370) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`27d0594`](https://github.com/webitel/figma-style-book/commit/27d0594b325903e1a7cce1ca1ace8bb88b14ec9a) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.53] - 2025-08-15
+### :sparkles: New Features
+- [`809b9dd`](https://github.com/webitel/figma-style-book/commit/809b9dde59307d6ac2b86a5f82558b5ff95f4852) - changed radio button colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`6cd3118`](https://github.com/webitel/figma-style-book/commit/6cd311826a38fb61af9ca504075def29a41d63fd) - adding radio button from primevue [WTEL-7363](https://webitel.atlassian.net/browse/WTEL-7363) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`4aef916`](https://github.com/webitel/figma-style-book/commit/4aef9167d0448bfb2ad4c92ce71b562e09b01bfe) - add wrapper widht and height [WTEL-7363](https://webitel.atlassian.net/browse/WTEL-7363) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`145944f`](https://github.com/webitel/figma-style-book/commit/145944fd293bd46b335228e2459f75f4079b9262) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.52] - 2025-08-07
 ### :sparkles: New Features
 - [`395d3ce`](https://github.com/webitel/figma-style-book/commit/395d3ce6fa6b47304b841fe0d9ce1b270095454e) - changed ship sizes and colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -385,3 +614,27 @@
 [v24.12.50]: https://github.com/webitel/figma-style-book/compare/v24.12.49...v24.12.50
 [v24.12.51]: https://github.com/webitel/figma-style-book/compare/v24.12.50...v24.12.51
 [v24.12.52]: https://github.com/webitel/figma-style-book/compare/v24.12.51...v24.12.52
+[v24.12.53]: https://github.com/webitel/figma-style-book/compare/v24.12.52...v24.12.53
+[v24.12.54]: https://github.com/webitel/figma-style-book/compare/v24.12.53...v24.12.54
+[v24.12.55]: https://github.com/webitel/figma-style-book/compare/v24.12.54...v24.12.55
+[v24.12.56]: https://github.com/webitel/figma-style-book/compare/v24.12.55...v24.12.56
+[v24.12.57]: https://github.com/webitel/figma-style-book/compare/v24.12.56...v24.12.57
+[v24.12.58]: https://github.com/webitel/figma-style-book/compare/v24.12.57...v24.12.58
+[v24.12.59]: https://github.com/webitel/figma-style-book/compare/v24.12.58...v24.12.59
+[v24.12.60]: https://github.com/webitel/figma-style-book/compare/v24.12.59...v24.12.60
+[v24.12.61]: https://github.com/webitel/figma-style-book/compare/v24.12.60...v24.12.61
+[v24.12.62]: https://github.com/webitel/figma-style-book/compare/v24.12.61...v24.12.62
+[v24.12.63]: https://github.com/webitel/figma-style-book/compare/v24.12.62...v24.12.63
+[v24.12.64]: https://github.com/webitel/figma-style-book/compare/v24.12.63...v24.12.64
+[v24.12.65]: https://github.com/webitel/figma-style-book/compare/v24.12.64...v24.12.65
+[v24.12.67]: https://github.com/webitel/figma-style-book/compare/v24.12.65...v24.12.67
+[v24.12.68]: https://github.com/webitel/figma-style-book/compare/v24.12.67...v24.12.68
+[v24.12.69]: https://github.com/webitel/figma-style-book/compare/v24.12.68...v24.12.69
+[v24.12.70]: https://github.com/webitel/figma-style-book/compare/v24.12.69...v24.12.70
+[v24.12.71]: https://github.com/webitel/figma-style-book/compare/v24.12.70...v24.12.71
+[v24.12.72]: https://github.com/webitel/figma-style-book/compare/v24.12.71...v24.12.72
+[v24.12.73]: https://github.com/webitel/figma-style-book/compare/v24.12.72...v24.12.73
+[v24.12.74]: https://github.com/webitel/figma-style-book/compare/v24.12.73...v24.12.74
+[v24.12.75]: https://github.com/webitel/figma-style-book/compare/v24.12.74...v24.12.75
+[v24.12.76]: https://github.com/webitel/figma-style-book/compare/v24.12.75...v24.12.76
+[v24.12.77]: https://github.com/webitel/figma-style-book/compare/v24.12.76...v24.12.77

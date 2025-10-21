@@ -2,82 +2,93 @@ const lightColor = {
 
   primary: {
     color: '{amber.500}',
-    hover: '{amber.450}',
-    active: '{amber.400}',
+    hoverColor: '{amber.450}',
+    activeColor: '{amber.400}',
     foreground: '{amber.900}',
-    foregroundHover: '{amber.850}'
+    foregroundHover: '{amber.850}',
+    highlightColor: '{amber.100}'
   },
 
   secondary: {
     color: '{gray.150}',
-    hover: '{gray.100}',
-    active: '{gray.50}',
+    hoverColor: '{gray.100}',
+    activeColor: '{gray.50}',
     foreground: '{gray.750}',
-    foregroundHover: '{gray.700}'
+    foregroundHover: '{gray.700}',
+    highlightColor: '{gray.50}'
   },
 
   success: {
     color: '{green.600}',
-    hover: '{green.550}',
-    active: '{green.500}',
+    hoverColor: '{green.550}',
+    activeColor: '{green.500}',
     foreground: '{green.50}',
-    foregroundHover: '{green.100}'
+    foregroundHover: '{green.100}',
+    highlightColor: '{green.100}'
   },
 
   warn: {
     color: '{orange.450}',
-    hover: '{orange.400}',
-    active: '{orange.350}',
+    hoverColor: '{orange.400}',
+    activeColor: '{orange.350}',
     foreground: '{orange.50}',
-    foregroundHover: '{orange.100}'
+    foregroundHover: '{orange.100}',
+    highlightColor: '{orange.100}'
   },
 
   error: {
     color: '{red.400}',
-    hover: '{red.350}',
-    active: '{red.300}',
+    hoverColor: '{red.350}',
+    activeColor: '{red.300}',
     foreground: '{red.50}',
-    foregroundHover: '{red.100}'
+    foregroundHover: '{red.100}',
+    highlightColor: '{red.100}'
   },
 
   info: {
     color: '{light-blue.500}',
-    hover: '{light-blue.450}',
-    active: '{light-blue.400}',
+    hoverColor: '{light-blue.450}',
+    activeColor: '{light-blue.400}',
     foreground: '{light-blue.50}',
-    foregroundHover: '{light-blue.100}'
+    foregroundHover: '{light-blue.100}',
+    highlightColor: '{light-blue.100}'
+
   },
 
   task: {
     color: '{blue.500}',
-    hover: '{blue.450}',
-    active: '{blue.400}',
+    hoverColor: '{blue.450}',
+    activeColor: '{blue.400}',
     foreground: '{blue.50}',
-    foregroundHover: '{blue.100}'
+    foregroundHover: '{blue.100}',
+    highlightColor: '{blue.100}'
   },
 
   transfer: {
     color: '{indigo.350}',
-    hover: '{indigo.300}',
-    active: '{indigo.250}',
+    hoverColor: '{indigo.300}',
+    activeColor: '{indigo.250}',
     foreground: '{indigo.50}',
-    foregroundHover: '{indigo.100}'
+    foregroundHover: '{indigo.100}',
+    highlightColor: '{indigo.100}'
   },
 
   chat: {
     color: '{cyan.600}',
-    hover: '{cyan.550}',
-    active: '{cyan.500}',
+    hoverColor: '{cyan.550}',
+    activeColor: '{cyan.500}',
     foreground: '{cyan.50}',
-    foregroundHover: '{cyan.100}'
+    foregroundHover: '{cyan.100}',
+    highlightColor: '{cyan.100}'
   },
 
   email: {
     color: '{blue.600}',
-    hover: '{blue.550}',
-    active: '{blue.500}',
+    hoverColor: '{blue.550}',
+    activeColor: '{blue.500}',
     foreground: '{blue.50}',
-    foregroundHover: '{blue.100}'
+    foregroundHover: '{blue.100}',
+    highlightColor: '{blue.100}'
   },
 
   highlight: {

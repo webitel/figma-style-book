@@ -10,6 +10,8 @@ import surface from './surface';
 import content from './content';
 import list from './list';
 import navigation from './navigation';
+import table from './table';
+import player from './player';
 
 const colorScheme = {
   light: {
@@ -24,6 +26,8 @@ const colorScheme = {
     ...content.colorScheme.light,
     ...list.colorScheme.light,
     ...navigation.colorScheme.light,
+    ...table.colorScheme.light,
+    ...player.colorScheme.light,
   },
   dark: {
     ...palette,
@@ -37,6 +41,8 @@ const colorScheme = {
     ...content.colorScheme.dark,
     ...list.colorScheme.dark,
     ...navigation.colorScheme.dark,
+    ...table.colorScheme.dark,
+    ...player.colorScheme.dark,
   },
 };
 

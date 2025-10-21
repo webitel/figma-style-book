@@ -2,7 +2,7 @@ export default {
   paddingX: '0.75rem',
   paddingY: '0.5rem',
   sm: {
-    fontSize: '0.875rem',
+    fontSize: '0.625rem',
     paddingX: '0.5rem',
     paddingY: '0.25rem'
   },

@@ -41,8 +41,8 @@ const sizes = {
     height: '3.125rem',
   },
   thumbnailNavButton: {
-    size: '2rem',
-    borderRadius: '{content.border.radius}',
+    size: '2.5rem',
+    borderRadius: '50%',
     gutter: '0.5rem',
     focusRing: {
       width: '{focus.ring.width}',

@@ -19,7 +19,7 @@ const darkColors = {
     background: '{surface.850}'
   },
   thumbnailNavButton: {
-    hoverBackground: '{button.secondary.hoverBackground}',
+    hoverBackground: '{surface.800}',
     color: '{button.secondary.color}',
     hoverColor: '{button.secondary.hoverColor}',
     focusRing: {
@@ -60,7 +60,7 @@ const darkColors = {
   },
   footer: {
     background: '{surface.900}',
-    color: '{surface.50}',
+    color: '{text.color}',
   },
   footerIcon: {
     color: '{surface.600}',

@@ -1,4 +1,17 @@
 
+## [v24.12.79] - 2025-10-24
+### :sparkles: New Features
+- [`be51a8f`](https://github.com/webitel/figma-style-book/commit/be51a8fcc0c403d164bf8a1c0488d726a1226b2d) - Edited galleria futter text colors, edited thumbnailNavButton hover color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`c8eb95b`](https://github.com/webitel/figma-style-book/commit/c8eb95babdfa8d9438e28a13b316774b019dce50) - Edited galleria colors and sizes *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`6b7061b`](https://github.com/webitel/figma-style-book/commit/6b7061bd7e6cb475d883b089ea64b10f36647e21) - add galleria from primevue [WTEL-7741](https://webitel.atlassian.net/browse/WTEL-7741) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :bug: Bug Fixes
+- [`9ed6878`](https://github.com/webitel/figma-style-book/commit/9ed6878beca29c72c03b59f861cb35a464df64c6) - small adjustments [WTEL-7741](https://webitel.atlassian.net/browse/WTEL-7741) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`ef82ddd`](https://github.com/webitel/figma-style-book/commit/ef82ddd95fa464085809a777d5401a99a274c3cc) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.78] - 2025-10-20
 ### :sparkles: New Features
 - [`942fea4`](https://github.com/webitel/figma-style-book/commit/942fea4cf8a96aa11ed4128e0aac21f041f24eb4) - added new tokens [WTEL-7283](https://webitel.atlassian.net/browse/WTEL-7283) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -647,3 +660,4 @@
 [v24.12.76]: https://github.com/webitel/figma-style-book/compare/v24.12.75...v24.12.76
 [v24.12.77]: https://github.com/webitel/figma-style-book/compare/v24.12.76...v24.12.77
 [v24.12.78]: https://github.com/webitel/figma-style-book/compare/v24.12.77...v24.12.78
+[v24.12.79]: https://github.com/webitel/figma-style-book/compare/v24.12.78...v24.12.79

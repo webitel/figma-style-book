@@ -60,6 +60,7 @@ const darkColors = {
   },
   footer: {
     background: '{surface.900}',
+    color: '{surface.50}',
   },
   footerIcon: {
     color: '{surface.600}',

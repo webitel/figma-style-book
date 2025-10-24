@@ -60,6 +60,7 @@ const lightColors = {
   },
   footer: {
     background: '{surface.100}',
+    color: '{surface.50}',
   },
   footerIcon: {
     color: '{surface.600}',

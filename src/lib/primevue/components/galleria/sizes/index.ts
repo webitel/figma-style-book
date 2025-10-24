@@ -1,7 +1,7 @@
 const sizes = {
   root: {
     borderWidth: '1px',
-    borderRadius: '{content.border.radius}',
+    borderRadius: '{border.radius.lg}',
     transitionDuration: '{transition.duration}'
   },
   mask: {
@@ -16,8 +16,8 @@ const sizes = {
     maxWidth9: '100vw'
   },
   navButton: {
-    size: '3rem',
-    gutter: '0.5rem',
+    size: '2.5rem',
+    gutter: '1rem',
     prev: {
       borderRadius: '50%'
     },
@@ -34,7 +34,7 @@ const sizes = {
     size: '1.5rem'
   },
   thumbnailsContent: {
-    padding: '1rem 0.25rem'
+    padding: '1rem 1rem'
   },
   thumbnailImage: {
     width: '5rem',

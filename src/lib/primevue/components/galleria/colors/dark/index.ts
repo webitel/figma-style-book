@@ -1,27 +1,27 @@
 const darkColors = {
   root: {
-    borderColor: '{content.border.color}'
+    borderColor: '{surface.850}'
   },
   activeImageContainer: {
-    background: '#fff'
+    background: '{black}'
   },
   navButton: {
-    background: 'rgba(255, 255, 255, 0.1)',
-    hoverBackground: 'rgba(255, 255, 255, 0.2)',
-    color: '{surface.100}',
-    hoverColor: '{surface.0}',
+    background: '{button.secondary.background}',
+    hoverBackground: '{button.secondary.hoverBackground}',
+    color: '{button.secondary.color}',
+    hoverColor: '{button.secondary.hoverColor}',
     focusRing: {
       color: '{focus.ring.color}',
       shadow: '{focus.ring.shadow}'
     }
   },
   thumbnailsContent: {
-    background: '{content.background}'
+    background: '{surface.850}'
   },
   thumbnailNavButton: {
-    hoverBackground: '{surface.700}',
-    color: '{surface.400}',
-    hoverColor: '{surface.0}',
+    hoverBackground: '{button.secondary.hoverBackground}',
+    color: '{button.secondary.color}',
+    hoverColor: '{button.secondary.hoverColor}',
     focusRing: {
       color: '{focus.ring.color}',
       shadow: '{focus.ring.shadow}'
@@ -59,11 +59,11 @@ const darkColors = {
     }
   },
   footer: {
-    background: '{surface.800}',
+    background: '{surface.900}',
   },
   footerIcon: {
-    color: '{surface.400}',
-    hoverColor: '{surface.0}',
+    color: '{surface.600}',
+    hoverColor: '{surface.450}',
   }
 };
 

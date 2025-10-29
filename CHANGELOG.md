@@ -1,4 +1,12 @@
 
+## [v24.12.80] - 2025-10-29
+### :bug: Bug Fixes
+- [`a30be9c`](https://github.com/webitel/figma-style-book/commit/a30be9cfa38849b05f57faa1af08239309f2fbe4) - added "_*"  SCSS file paths in package.json *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+### :wrench: Chores
+- [`126a35d`](https://github.com/webitel/figma-style-book/commit/126a35debda61c6560bc976cf1360111bcdb9f07) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.79] - 2025-10-24
 ### :sparkles: New Features
 - [`be51a8f`](https://github.com/webitel/figma-style-book/commit/be51a8fcc0c403d164bf8a1c0488d726a1226b2d) - Edited galleria futter text colors, edited thumbnailNavButton hover color *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -661,3 +669,4 @@
 [v24.12.77]: https://github.com/webitel/figma-style-book/compare/v24.12.76...v24.12.77
 [v24.12.78]: https://github.com/webitel/figma-style-book/compare/v24.12.77...v24.12.78
 [v24.12.79]: https://github.com/webitel/figma-style-book/compare/v24.12.78...v24.12.79
+[v24.12.80]: https://github.com/webitel/figma-style-book/compare/v24.12.79...v24.12.80

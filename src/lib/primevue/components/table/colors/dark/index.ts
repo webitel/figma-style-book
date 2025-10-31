@@ -11,7 +11,7 @@ const darkColors = {
     background: '{surface.850}',
     hoverBackground: '{surface.900}',
     selectedBackground: '{surface.950}',
-    dragBackground: '{red.950}',
+    dragBackground: '{surface.750}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',
@@ -58,7 +58,7 @@ const darkColors = {
     color: '{primary.color}'
   },
   reorderIndicator: {
-    color: '{red.500}'
+    color: '{surface.750}'
   },
   filter: {
     overlaySelect: {

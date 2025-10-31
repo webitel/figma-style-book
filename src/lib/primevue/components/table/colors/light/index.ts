@@ -11,7 +11,7 @@ const lightColors = {
     background: '{surface.100}',
     hoverBackground: '{surface.150}',
     selectedBackground: '{surface.200}',
-    dragBackground: '{red.950}',
+    dragBackground: '{surface.250}',
     borderColor: '{datatable.border.color}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',
@@ -58,7 +58,7 @@ const lightColors = {
     color: '{primary.color}'
   },
   reorderIndicator: {
-    color: '{red.500}'
+    color: '{surface.250}'
   },
   filter: {
     overlaySelect: {

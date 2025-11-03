@@ -1,4 +1,13 @@
 
+## [v24.12.81] - 2025-11-03
+### :sparkles: New Features
+- [`2966b18`](https://github.com/webitel/figma-style-book/commit/2966b1875bc82cae0a9be6f7415da5b87bcf1e8d) - Edited reorderIndicator and dragBackground colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`d5334a2`](https://github.com/webitel/figma-style-book/commit/d5334a2d791f5e4bf58086a4c0a4a90d2f956548) - add tokens for drag cell and reorder indicator [WTEL-7718](https://webitel.atlassian.net/browse/WTEL-7718) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`32382d1`](https://github.com/webitel/figma-style-book/commit/32382d1ae74994dc230d66686ba577413944285b) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+
 ## [v24.12.80] - 2025-10-29
 ### :bug: Bug Fixes
 - [`a30be9c`](https://github.com/webitel/figma-style-book/commit/a30be9cfa38849b05f57faa1af08239309f2fbe4) - added "_*"  SCSS file paths in package.json *(commit by [@dlohvinov](https://github.com/dlohvinov))*
@@ -670,3 +679,4 @@
 [v24.12.78]: https://github.com/webitel/figma-style-book/compare/v24.12.77...v24.12.78
 [v24.12.79]: https://github.com/webitel/figma-style-book/compare/v24.12.78...v24.12.79
 [v24.12.80]: https://github.com/webitel/figma-style-book/compare/v24.12.79...v24.12.80
+[v24.12.81]: https://github.com/webitel/figma-style-book/compare/v24.12.80...v24.12.81

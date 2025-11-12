@@ -13,6 +13,8 @@ import SliderScheme from "./slider";
 import BreadcrumbScheme from "./breadcrumb";
 import RadioScheme from "./radio";
 import GalleriaScheme from "./galleria";
+import InputGroupScheme from "./input-group";
+import MessageScheme from "./message";
 
 export {
   AvatarScheme,
@@ -30,4 +32,6 @@ export {
   BreadcrumbScheme,
   RadioScheme,
   GalleriaScheme,
+  InputGroupScheme,
+  MessageScheme,
 }

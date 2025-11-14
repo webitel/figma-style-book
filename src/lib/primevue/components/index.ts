@@ -13,6 +13,8 @@ import SliderScheme from "./slider";
 import BreadcrumbScheme from "./breadcrumb";
 import RadioScheme from "./radio";
 import GalleriaScheme from "./galleria";
+import InputNumberScheme from "./input-number";
+import InputTextScheme from "./input-text";
 import PasswordScheme from "./password";
 import InputGroupScheme from "./input-group";
 import MessageScheme from "./message";
@@ -33,6 +35,8 @@ export {
   BreadcrumbScheme,
   RadioScheme,
   GalleriaScheme,
+  InputNumberScheme,
+  InputTextScheme,
   PasswordScheme,
   InputGroupScheme,
   MessageScheme,

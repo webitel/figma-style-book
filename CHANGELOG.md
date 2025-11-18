@@ -1,4 +1,13 @@
 
+## [v24.12.82] - 2025-11-18
+### :sparkles: New Features
+- [`8ca846f`](https://github.com/webitel/figma-style-book/commit/8ca846f6a266c6ff7aaf7eae0b326ea8f1d93bbe) - Edited text area colors. Edited semantic focus color. *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`c5a38fd`](https://github.com/webitel/figma-style-book/commit/c5a38fd45cdf7579ca9f5d0bc570b5d45c906ee9) - adding textarea from primevue [WTEL-7388](https://webitel.atlassian.net/browse/WTEL-7388) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`d9491a1`](https://github.com/webitel/figma-style-book/commit/d9491a1222cecdb709dbf5b4d5d2f7607737daac) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.81] - 2025-11-03
 ### :sparkles: New Features
 - [`2966b18`](https://github.com/webitel/figma-style-book/commit/2966b1875bc82cae0a9be6f7415da5b87bcf1e8d) - Edited reorderIndicator and dragBackground colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -680,3 +689,4 @@
 [v24.12.79]: https://github.com/webitel/figma-style-book/compare/v24.12.78...v24.12.79
 [v24.12.80]: https://github.com/webitel/figma-style-book/compare/v24.12.79...v24.12.80
 [v24.12.81]: https://github.com/webitel/figma-style-book/compare/v24.12.80...v24.12.81
+[v24.12.82]: https://github.com/webitel/figma-style-book/compare/v24.12.81...v24.12.82

@@ -1,4 +1,12 @@
 
+## [v24.12.83] - 2025-11-25
+### :bug: Bug Fixes
+- [`4ce74e0`](https://github.com/webitel/figma-style-book/commit/4ce74e0a5b2dd8d57f8986c085aaeea9c46c1242) - set fixed height for player component [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`767da78`](https://github.com/webitel/figma-style-book/commit/767da78edc2fbe4faab275657d6555a221797a19) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.82] - 2025-11-18
 ### :sparkles: New Features
 - [`8ca846f`](https://github.com/webitel/figma-style-book/commit/8ca846f6a266c6ff7aaf7eae0b326ea8f1d93bbe) - Edited text area colors. Edited semantic focus color. *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -690,3 +698,4 @@
 [v24.12.80]: https://github.com/webitel/figma-style-book/compare/v24.12.79...v24.12.80
 [v24.12.81]: https://github.com/webitel/figma-style-book/compare/v24.12.80...v24.12.81
 [v24.12.82]: https://github.com/webitel/figma-style-book/compare/v24.12.81...v24.12.82
+[v24.12.83]: https://github.com/webitel/figma-style-book/compare/v24.12.82...v24.12.83

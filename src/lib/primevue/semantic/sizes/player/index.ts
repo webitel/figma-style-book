@@ -65,6 +65,7 @@ export default {
       borderRadius: '{border-radius.lg}',
       padding: '0.5rem',
       gap: '0.5rem',
+      height: '48px'
     },
     md: {
       borderRadius: '{border-radius.xl}',

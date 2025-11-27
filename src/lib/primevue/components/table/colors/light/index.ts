@@ -30,6 +30,8 @@ const lightColors = {
     warningHoverBackground: '{orange.100}',
     errorBackground: '{red.50}',
     errorHoverBackground: '{red.100}',
+    disabledBackground: '{surface.50}',
+    disabledHoverBackground: '{surface.100}',
     selectedBackground: '{highlight.background}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',

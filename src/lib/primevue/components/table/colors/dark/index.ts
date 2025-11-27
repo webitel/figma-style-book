@@ -30,6 +30,8 @@ const darkColors = {
     warningHoverBackground: '{orange.900}',
     errorBackground: '{red.950}',
     errorHoverBackground: '{red.900}',
+    disabledBackground: '{surface.950}',
+    disabledHoverBackground: '{surface.900}',
     selectedBackground: '{highlight.background}',
     color: '{content.color}',
     hoverColor: '{content.hoverColor}',

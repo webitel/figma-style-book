@@ -8,6 +8,7 @@ export default {
       background: '{surface.900}',
       overlayColor: 'rgba(0,0,0,0.8)',
       color: '{white}',
+      borderColor: '{surface.750}',
     },
     headLine: {
       background: '{transparent}',

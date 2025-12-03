@@ -1,4 +1,12 @@
 
+## [v24.12.84] - 2025-12-03
+### :recycle: Refactors
+- [`2c4c629`](https://github.com/webitel/figma-style-book/commit/2c4c629cd2cf94008fa747711dad18a848b6451e) - adder border color for wrapper [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`f0ea81a`](https://github.com/webitel/figma-style-book/commit/f0ea81ab5b0eef7dcf3e3238f514133afbf9dee2) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.83] - 2025-11-25
 ### :bug: Bug Fixes
 - [`4ce74e0`](https://github.com/webitel/figma-style-book/commit/4ce74e0a5b2dd8d57f8986c085aaeea9c46c1242) - set fixed height for player component [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -699,3 +707,4 @@
 [v24.12.81]: https://github.com/webitel/figma-style-book/compare/v24.12.80...v24.12.81
 [v24.12.82]: https://github.com/webitel/figma-style-book/compare/v24.12.81...v24.12.82
 [v24.12.83]: https://github.com/webitel/figma-style-book/compare/v24.12.82...v24.12.83
+[v24.12.84]: https://github.com/webitel/figma-style-book/compare/v24.12.83...v24.12.84

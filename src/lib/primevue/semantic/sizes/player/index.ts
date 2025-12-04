@@ -9,6 +9,23 @@ export default {
       lg: '1rem',
     }
   },
+  screenshot: {
+    sm: {
+      borderRadius: '{border-radius.sm}',
+      width: '56px',
+      height: '37px',
+    },
+    md: {
+      borderRadius: '{border-radius.xl}',
+      width: '108px',
+      height: '72px',
+    },
+    lg: {
+      borderRadius: '{border-radius.xl}',
+      width: '128px',
+      height: '85px',
+    },
+  },
   camPreview: {
     sm: {
       borderRadius: '{border-radius.sm}',

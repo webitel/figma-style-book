@@ -1,4 +1,12 @@
 
+## [v24.12.85] - 2025-12-04
+### :sparkles: New Features
+- [`c1b627c`](https://github.com/webitel/figma-style-book/commit/c1b627ce6deb8ed82f9ae22491776c02bd359b3c) - added styles for player screenshot [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`3a6c448`](https://github.com/webitel/figma-style-book/commit/3a6c44806563955a9b790592024d0acff0ee0f16) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.84] - 2025-12-03
 ### :recycle: Refactors
 - [`2c4c629`](https://github.com/webitel/figma-style-book/commit/2c4c629cd2cf94008fa747711dad18a848b6451e) - adder border color for wrapper [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -708,3 +716,4 @@
 [v24.12.82]: https://github.com/webitel/figma-style-book/compare/v24.12.81...v24.12.82
 [v24.12.83]: https://github.com/webitel/figma-style-book/compare/v24.12.82...v24.12.83
 [v24.12.84]: https://github.com/webitel/figma-style-book/compare/v24.12.83...v24.12.84
+[v24.12.85]: https://github.com/webitel/figma-style-book/compare/v24.12.84...v24.12.85

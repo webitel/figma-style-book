@@ -14,16 +14,19 @@ export default {
       borderRadius: '{border-radius.sm}',
       width: '56px',
       height: '37px',
+      closeBtnGap: '0px',
     },
     md: {
       borderRadius: '{border-radius.xl}',
       width: '108px',
       height: '72px',
+      closeBtnGap: '4px',
     },
     lg: {
       borderRadius: '{border-radius.xl}',
       width: '128px',
       height: '85px',
+      closeBtnGap: '4px',
     },
   },
   camPreview: {

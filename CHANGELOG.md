@@ -1,4 +1,13 @@
 
+## [v24.12.86] - 2025-12-05
+### :sparkles: New Features
+- [`a432bf2`](https://github.com/webitel/figma-style-book/commit/a432bf289434104ea0956f0ab8db86fbad8b1a98) - added player screenshot clos btn gaps [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`673c9c7`](https://github.com/webitel/figma-style-book/commit/673c9c702f83f23bb58114d2dea6ac0f122e4b55) - Added screenshot "closeBtnGap" *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`c0b70dc`](https://github.com/webitel/figma-style-book/commit/c0b70dc1a17c9e36f833ac86012b11a635cb5875) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.85] - 2025-12-04
 ### :sparkles: New Features
 - [`c1b627c`](https://github.com/webitel/figma-style-book/commit/c1b627ce6deb8ed82f9ae22491776c02bd359b3c) - added styles for player screenshot [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -717,3 +726,4 @@
 [v24.12.83]: https://github.com/webitel/figma-style-book/compare/v24.12.82...v24.12.83
 [v24.12.84]: https://github.com/webitel/figma-style-book/compare/v24.12.83...v24.12.84
 [v24.12.85]: https://github.com/webitel/figma-style-book/compare/v24.12.84...v24.12.85
+[v24.12.86]: https://github.com/webitel/figma-style-book/compare/v24.12.85...v24.12.86

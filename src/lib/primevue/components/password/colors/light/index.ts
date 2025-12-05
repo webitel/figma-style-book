@@ -12,9 +12,9 @@ const lightColors = {
     shadow: '{overlay.popover.shadow}'
   },
   strength: {
-    weakBackground: '{red.500}',
-    mediumBackground: '{amber.500}',
-    strongBackground: '{green.500}'
+    weakBackground: '{error.color}',
+    mediumBackground: '{warn.color}',
+    strongBackground: '{success.color}'
   }
 }
 

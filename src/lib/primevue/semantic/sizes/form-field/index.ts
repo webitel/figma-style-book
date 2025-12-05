@@ -11,7 +11,7 @@ export default {
     paddingX: '0.875rem',
     paddingY: '0.625rem'
   },
-  borderRadius: '{border.radius.md}',
+  borderRadius: '{border.radius.lg}',
   focusRing: {
     width: '0',
     style: 'none',

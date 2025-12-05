@@ -1,12 +1,12 @@
 export default {
   formField: {
-    background: '{surface.950}',
-    disabledBackground: '{surface.700}',
+    background: '{transparent}',
+    disabledBackground: '{surface.750}',
     filledBackground: '{surface.800}',
     filledHoverBackground: '{surface.800}',
     filledFocusBackground: '{surface.800}',
-    borderColor: '{surface.600}',
-    hoverBorderColor: '{surface.500}',
+    borderColor: '{surface.450}',
+    hoverBorderColor: '{surface.250}',
     focusBorderColor: '{primary.color}',
     invalidBorderColor: '{error.color}',
     color: '{surface.0}',

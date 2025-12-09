@@ -62,7 +62,7 @@ export default {
       height: '494px',
     },
     lg: {
-      borderRadius: '{border-radius.none}',
+      borderRadius: '{border-radius.xl}',
       width: '100%',
       height: '100%',
     },
@@ -79,7 +79,7 @@ export default {
       gap: '1rem',
     },
     lg: {
-      borderRadius: '{border-radius.none}',
+      borderRadius: '{border-radius.xl}',
       padding: '1rem',
       gap: '1rem',
     },

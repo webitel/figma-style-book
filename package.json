@@ -1,6 +1,6 @@
 {
   "name": "@webitel/styleguide",
-  "version": "24.12.88",
+  "version": "24.12.89",
   "main": "",
   "exports": {
     ".": "./src/lib/main.scss",

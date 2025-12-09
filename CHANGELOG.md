@@ -1,4 +1,12 @@
 
+## [v24.12.87] - 2025-12-09
+### :sparkles: New Features
+- [`15cb52d`](https://github.com/webitel/figma-style-book/commit/15cb52ddc5223ec47181d7118515aa4fc7a0854e) - add aspectRatio for sm player [WTEL-7693](https://webitel.atlassian.net/browse/WTEL-7693) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`f480ed8`](https://github.com/webitel/figma-style-book/commit/f480ed8e935d79bac6b2254b3edc0ae6aa42fe2f) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.86] - 2025-12-05
 ### :sparkles: New Features
 - [`a432bf2`](https://github.com/webitel/figma-style-book/commit/a432bf289434104ea0956f0ab8db86fbad8b1a98) - added player screenshot clos btn gaps [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -727,3 +735,4 @@
 [v24.12.84]: https://github.com/webitel/figma-style-book/compare/v24.12.83...v24.12.84
 [v24.12.85]: https://github.com/webitel/figma-style-book/compare/v24.12.84...v24.12.85
 [v24.12.86]: https://github.com/webitel/figma-style-book/compare/v24.12.85...v24.12.86
+[v24.12.87]: https://github.com/webitel/figma-style-book/compare/v24.12.86...v24.12.87

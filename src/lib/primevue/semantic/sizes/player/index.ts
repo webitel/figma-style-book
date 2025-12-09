@@ -54,6 +54,7 @@ export default {
       borderRadius: '{border-radius.lg}',
       width: '256px',
       height: '201px',
+      aspectRatio: 256 / 201,   // aspect ratio of width / height, need for css
     },
     md: {
       borderRadius: '{border-radius.xl}',

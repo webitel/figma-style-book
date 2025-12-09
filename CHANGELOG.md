@@ -1,4 +1,12 @@
 
+## [v24.12.88] - 2025-12-09
+### :bug: Bug Fixes
+- [`82ce1a0`](https://github.com/webitel/figma-style-book/commit/82ce1a0afdf5cf1ba4681f4e0164d47ed1027e54) - updated lg size border radius [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`7df726b`](https://github.com/webitel/figma-style-book/commit/7df726b3820ed13a84c61994efb9f83427e6b0da) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.87] - 2025-12-09
 ### :sparkles: New Features
 - [`15cb52d`](https://github.com/webitel/figma-style-book/commit/15cb52ddc5223ec47181d7118515aa4fc7a0854e) - add aspectRatio for sm player [WTEL-7693](https://webitel.atlassian.net/browse/WTEL-7693) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
@@ -736,3 +744,4 @@
 [v24.12.85]: https://github.com/webitel/figma-style-book/compare/v24.12.84...v24.12.85
 [v24.12.86]: https://github.com/webitel/figma-style-book/compare/v24.12.85...v24.12.86
 [v24.12.87]: https://github.com/webitel/figma-style-book/compare/v24.12.86...v24.12.87
+[v24.12.88]: https://github.com/webitel/figma-style-book/compare/v24.12.87...v24.12.88

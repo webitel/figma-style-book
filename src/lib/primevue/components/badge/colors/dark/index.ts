@@ -1,29 +1,49 @@
 const darkColors = {
-  background: '{surface.100}',
-  color: '{surface.800}',
+  background: '{secondary.color}',
+  color: '{secondary.foreground}',
   secondary: {
-    background: '{amber.650}',
-    color: '{amber.950}',
+    background: '{secondary.color}',
+    color: '{secondary.foreground}',
   },
   success: {
-    background: '{amber.650}',
-    color: '{amber.950}',
+    background: '{success.color}',
+    color: '{success.foreground}',
   },
   info: {
-    background: '{amber.650}',
-    color: '{amber.950}',
+    background: '{info.color}',
+    color: '{info.foreground}',
   },
   warn: {
-    background: '{amber.650}',
-    color: '{amber.950}',
+    background: '{warn.color}',
+    color: '{warn.foreground}',
   },
-  danger: {
-    background: '{amber.650}',
-    color: '{amber.950}',
+  error: {
+    background: '{error.color}',
+    color: '{error.foreground}',
   },
-  contrast: {
-    background: '{amber.650}',
-    color: '{amber.950}',
+  online: {
+    background: '{success.color}',
+    color: '{success.foreground}',
+  },
+  dnd: {
+    background: '{warn.color}',
+    color: '{warn.foreground}',
+  },
+  busy: {
+    background: '{error.color}',
+    color: '{error.foreground}',
+  },
+  pause: {
+    background: '{warn.color}',
+    color: '{warn.foreground}',
+  },
+  onlineCc: {
+    background: '{success.color}',
+    color: '{success.foreground}',
+  },
+  offline: {
+    background: '{secondary.color}',
+    color: '{secondary.foreground}',
   },
 }
 

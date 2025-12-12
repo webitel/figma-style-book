@@ -1,4 +1,9 @@
 
+## [v24.12.94] - 2025-12-12
+### :wrench: Chores
+- [`6d1074f`](https://github.com/webitel/figma-style-book/commit/6d1074fb2fc8b71b00c621991bb442d7166dfdae) - bump patch version
+
+
 ## [v24.12.93] - 2025-12-12
 ### :wrench: Chores
 - [`5ea783b`](https://github.com/webitel/figma-style-book/commit/5ea783b28791102fee56f8709655c59eaad70da4) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
@@ -773,3 +778,4 @@
 [v24.12.91]: https://github.com/webitel/figma-style-book/compare/v24.12.89...v24.12.91
 [v24.12.92]: https://github.com/webitel/figma-style-book/compare/v24.12.91...v24.12.92
 [v24.12.93]: https://github.com/webitel/figma-style-book/compare/v24.12.92...v24.12.93
+[v24.12.94]: https://github.com/webitel/figma-style-book/compare/v24.12.93...v24.12.94

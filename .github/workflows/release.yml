@@ -28,7 +28,7 @@ jobs:
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
           npm ci
-          npm publish-styleguide
+          npm run publish-styleguide
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5

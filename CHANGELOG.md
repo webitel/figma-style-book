@@ -1,4 +1,9 @@
 
+## [v24.12.91] - 2025-12-12
+### :wrench: Chores
+- [`97765b1`](https://github.com/webitel/figma-style-book/commit/97765b19785575d30793fc743c605beabb832eac) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.89] - 2025-12-12
 ### :sparkles: New Features
 - [`d824264`](https://github.com/webitel/figma-style-book/commit/d824264258ac693b993b69d28308aad4805e2249) - Edited budge colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -755,3 +760,4 @@
 [v24.12.87]: https://github.com/webitel/figma-style-book/compare/v24.12.86...v24.12.87
 [v24.12.88]: https://github.com/webitel/figma-style-book/compare/v24.12.87...v24.12.88
 [v24.12.89]: https://github.com/webitel/figma-style-book/compare/v24.12.88...v24.12.89
+[v24.12.91]: https://github.com/webitel/figma-style-book/compare/v24.12.89...v24.12.91

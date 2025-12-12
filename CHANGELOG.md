@@ -1,4 +1,13 @@
 
+## [v24.12.89] - 2025-12-12
+### :sparkles: New Features
+- [`d824264`](https://github.com/webitel/figma-style-book/commit/d824264258ac693b993b69d28308aad4805e2249) - Edited budge colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`65a8dd9`](https://github.com/webitel/figma-style-book/commit/65a8dd976b78ef9e1db46dfe789e1b9e510704e2) - added badge styles [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`6702e73`](https://github.com/webitel/figma-style-book/commit/6702e7349f7a86fc07fbca661a56a8adcb41a436) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
 ## [v24.12.88] - 2025-12-09
 ### :bug: Bug Fixes
 - [`82ce1a0`](https://github.com/webitel/figma-style-book/commit/82ce1a0afdf5cf1ba4681f4e0164d47ed1027e54) - updated lg size border radius [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
@@ -745,3 +754,4 @@
 [v24.12.86]: https://github.com/webitel/figma-style-book/compare/v24.12.85...v24.12.86
 [v24.12.87]: https://github.com/webitel/figma-style-book/compare/v24.12.86...v24.12.87
 [v24.12.88]: https://github.com/webitel/figma-style-book/compare/v24.12.87...v24.12.88
+[v24.12.89]: https://github.com/webitel/figma-style-book/compare/v24.12.88...v24.12.89

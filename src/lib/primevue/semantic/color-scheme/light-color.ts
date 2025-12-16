@@ -103,8 +103,9 @@ const lightColor = {
     color: '{surface.200}'
   },
 
-  // Focus colors
-  'focus-color': '{black}',
+  focus: {
+    color: '{black}'
+  },
 
   // content wrapper
   'content-wrapper-color': '{dp-surface-color-20}',

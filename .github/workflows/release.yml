@@ -1,120 +1,34 @@
-# NOTES:
-# generating changelog for release is performed twice because first changelog generates for release notes,
-# so it runs before release step, and second changelog generates for updating CHANGELOG.md file, so it runs after release step.
-# if i'd try to generate changelog once, changes will be marked as "master" branch changes, cause there's no new tag yet.
-
-name: styleguide client release
+name: webitel styleguide pkg publish
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
 
+
 jobs:
-  release:
+  publish:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: get prevTag
-        id: prevTag
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-      # for release notes // why 2 changelogs? see NOTES
-      - name: generate Release Changelog
-        id: changelog
-        uses: requarks/changelog-action@v1
-        continue-on-error: true
-        with:
-          writeToFile: false
-          reverseOrder: true
-          excludeTypes: build
-          token: ${{ github.token }}
-          fromTag: ${{ github.ref_name }}
-          toTag: ${{ steps.prevTag.outputs.tag }}
-
-      - name: get-npm-version
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@v1.3.1
-
-      - name: Create release
-        id: create_release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: "v${{ steps.package-version.outputs.current-version}}"
-          name: "@webitel/styleguide v${{ steps.package-version.outputs.current-version}}"
-          body: ${{ steps.changelog.outputs.changes }}
-
-      # update tags list after prev step release, so that we fetch new tag, created by prev step
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: get newTag
-        id: newTag
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-      # update CHANGELOG.md file // why 2 changelogs? see NOTES
-      - name: update Release Changelog
-        id: update-changelog
-        uses: requarks/changelog-action@v1
-        continue-on-error: true
-        with:
-          reverseOrder: true
-          excludeTypes: build
-          token: ${{ github.token }}
-          fromTag: ${{ steps.newTag.outputs.tag }}
-          toTag: ${{ steps.prevTag.outputs.tag }}
-
-      - name: commit changelog
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: autoupdate changelog
-          file_pattern: 'CHANGELOG.md'
-          push_options: --force
-
-  publish:
-    needs: [ release ]
-    runs-on: ubuntu-latest
-
-    steps:
-      # Checkout the repository
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Set up Node.js environment
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          registry-url: https://registry.npmjs.org/
+          check-latest: true
+          registry-url: https://registry.npmjs.org
 
-      # Authenticate with npm
-      - name: Authenticate with npm
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+      - name: Publish release
+        id: publish_release
 
-      # Bump the patch version
-      - name: Bump patch version
-        run: npm version patch --no-git-tag-version
-
-      # Commit the version bump
-      - name: Commit version bump
         run: |
-          git pull
-          git config user.name "$(jq -r '.head_commit.author.name' "$GITHUB_EVENT_PATH")"
-          git config user.email "$(jq -r '.head_commit.author.email' "$GITHUB_EVENT_PATH")"
-          git add package.json package-lock.json
-          git commit -m "chore: bump patch version"
-          git push
+          npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
+          npm ci
+          npm run publish-styleguide
 
-      # Publish to npm
-      - name: Publish to npm
-        run: npm run publish-styleguide
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5

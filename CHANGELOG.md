@@ -1,4 +1,96 @@
 
+## [v24.12.95] - 2025-12-12
+### :wrench: Chores
+- [`a42586e`](https://github.com/webitel/figma-style-book/commit/a42586efc61d994b6907ddc8e2b8971b32cd1f02) - bump patch version
+
+
+## [v24.12.94] - 2025-12-12
+### :wrench: Chores
+- [`6d1074f`](https://github.com/webitel/figma-style-book/commit/6d1074fb2fc8b71b00c621991bb442d7166dfdae) - bump patch version
+
+
+## [v24.12.93] - 2025-12-12
+### :wrench: Chores
+- [`5ea783b`](https://github.com/webitel/figma-style-book/commit/5ea783b28791102fee56f8709655c59eaad70da4) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+
+## [v24.12.92] - 2025-12-12
+### :wrench: Chores
+- [`e52ca78`](https://github.com/webitel/figma-style-book/commit/e52ca784098dbcbf36ebbf0cbd755968058e22ac) - bump patch version *(commit by [@dlohvinov](https://github.com/dlohvinov))*
+
+
+## [v24.12.91] - 2025-12-12
+### :wrench: Chores
+- [`97765b1`](https://github.com/webitel/figma-style-book/commit/97765b19785575d30793fc743c605beabb832eac) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.89] - 2025-12-12
+### :sparkles: New Features
+- [`d824264`](https://github.com/webitel/figma-style-book/commit/d824264258ac693b993b69d28308aad4805e2249) - Edited budge colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`65a8dd9`](https://github.com/webitel/figma-style-book/commit/65a8dd976b78ef9e1db46dfe789e1b9e510704e2) - added badge styles [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`6702e73`](https://github.com/webitel/figma-style-book/commit/6702e7349f7a86fc07fbca661a56a8adcb41a436) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.88] - 2025-12-09
+### :bug: Bug Fixes
+- [`82ce1a0`](https://github.com/webitel/figma-style-book/commit/82ce1a0afdf5cf1ba4681f4e0164d47ed1027e54) - updated lg size border radius [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`7df726b`](https://github.com/webitel/figma-style-book/commit/7df726b3820ed13a84c61994efb9f83427e6b0da) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.87] - 2025-12-09
+### :sparkles: New Features
+- [`15cb52d`](https://github.com/webitel/figma-style-book/commit/15cb52ddc5223ec47181d7118515aa4fc7a0854e) - add aspectRatio for sm player [WTEL-7693](https://webitel.atlassian.net/browse/WTEL-7693) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`f480ed8`](https://github.com/webitel/figma-style-book/commit/f480ed8e935d79bac6b2254b3edc0ae6aa42fe2f) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.86] - 2025-12-05
+### :sparkles: New Features
+- [`a432bf2`](https://github.com/webitel/figma-style-book/commit/a432bf289434104ea0956f0ab8db86fbad8b1a98) - added player screenshot clos btn gaps [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+- [`673c9c7`](https://github.com/webitel/figma-style-book/commit/673c9c702f83f23bb58114d2dea6ac0f122e4b55) - Added screenshot "closeBtnGap" *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+
+### :wrench: Chores
+- [`c0b70dc`](https://github.com/webitel/figma-style-book/commit/c0b70dc1a17c9e36f833ac86012b11a635cb5875) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.85] - 2025-12-04
+### :sparkles: New Features
+- [`c1b627c`](https://github.com/webitel/figma-style-book/commit/c1b627ce6deb8ed82f9ae22491776c02bd359b3c) - added styles for player screenshot [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`3a6c448`](https://github.com/webitel/figma-style-book/commit/3a6c44806563955a9b790592024d0acff0ee0f16) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.84] - 2025-12-03
+### :recycle: Refactors
+- [`2c4c629`](https://github.com/webitel/figma-style-book/commit/2c4c629cd2cf94008fa747711dad18a848b6451e) - adder border color for wrapper [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`f0ea81a`](https://github.com/webitel/figma-style-book/commit/f0ea81ab5b0eef7dcf3e3238f514133afbf9dee2) - bump patch version *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+
+## [v24.12.83] - 2025-11-25
+### :bug: Bug Fixes
+- [`4ce74e0`](https://github.com/webitel/figma-style-book/commit/4ce74e0a5b2dd8d57f8986c085aaeea9c46c1242) - set fixed height for player component [WTEL-8150](https://webitel.atlassian.net/browse/WTEL-8150) *(commit by [@plnnsimon](https://github.com/plnnsimon))*
+
+### :wrench: Chores
+- [`767da78`](https://github.com/webitel/figma-style-book/commit/767da78edc2fbe4faab275657d6555a221797a19) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
+## [v24.12.82] - 2025-11-18
+### :sparkles: New Features
+- [`8ca846f`](https://github.com/webitel/figma-style-book/commit/8ca846f6a266c6ff7aaf7eae0b326ea8f1d93bbe) - Edited text area colors. Edited semantic focus color. *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
+- [`c5a38fd`](https://github.com/webitel/figma-style-book/commit/c5a38fd45cdf7579ca9f5d0bc570b5d45c906ee9) - adding textarea from primevue [WTEL-7388](https://webitel.atlassian.net/browse/WTEL-7388) *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+### :wrench: Chores
+- [`d9491a1`](https://github.com/webitel/figma-style-book/commit/d9491a1222cecdb709dbf5b4d5d2f7607737daac) - bump patch version *(commit by [@HlukhovYe](https://github.com/HlukhovYe))*
+
+
 ## [v24.12.81] - 2025-11-03
 ### :sparkles: New Features
 - [`2966b18`](https://github.com/webitel/figma-style-book/commit/2966b1875bc82cae0a9be6f7415da5b87bcf1e8d) - Edited reorderIndicator and dragBackground colors *(commit by [@evgeny-trahtenberg](https://github.com/evgeny-trahtenberg))*
@@ -680,3 +772,16 @@
 [v24.12.79]: https://github.com/webitel/figma-style-book/compare/v24.12.78...v24.12.79
 [v24.12.80]: https://github.com/webitel/figma-style-book/compare/v24.12.79...v24.12.80
 [v24.12.81]: https://github.com/webitel/figma-style-book/compare/v24.12.80...v24.12.81
+[v24.12.82]: https://github.com/webitel/figma-style-book/compare/v24.12.81...v24.12.82
+[v24.12.83]: https://github.com/webitel/figma-style-book/compare/v24.12.82...v24.12.83
+[v24.12.84]: https://github.com/webitel/figma-style-book/compare/v24.12.83...v24.12.84
+[v24.12.85]: https://github.com/webitel/figma-style-book/compare/v24.12.84...v24.12.85
+[v24.12.86]: https://github.com/webitel/figma-style-book/compare/v24.12.85...v24.12.86
+[v24.12.87]: https://github.com/webitel/figma-style-book/compare/v24.12.86...v24.12.87
+[v24.12.88]: https://github.com/webitel/figma-style-book/compare/v24.12.87...v24.12.88
+[v24.12.89]: https://github.com/webitel/figma-style-book/compare/v24.12.88...v24.12.89
+[v24.12.91]: https://github.com/webitel/figma-style-book/compare/v24.12.89...v24.12.91
+[v24.12.92]: https://github.com/webitel/figma-style-book/compare/v24.12.91...v24.12.92
+[v24.12.93]: https://github.com/webitel/figma-style-book/compare/v24.12.92...v24.12.93
+[v24.12.94]: https://github.com/webitel/figma-style-book/compare/v24.12.93...v24.12.94
+[v24.12.95]: https://github.com/webitel/figma-style-book/compare/v24.12.94...v24.12.95

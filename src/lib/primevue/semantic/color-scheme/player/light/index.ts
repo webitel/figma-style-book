@@ -7,6 +7,7 @@ export default {
     wrapper: {
       background: '{surface.900}',
       overlayColor: 'rgba(0,0,0,0.8)',
+      mutedColor: 'rgba(102, 115, 153, 1)',
       color: '{white}',
       borderColor: '{surface.750}',
     },

@@ -6,14 +6,14 @@ export default {
     },
     wrapper: {
       background: '{surface.900}',
-      overlayColor: 'rgba(0,0,0,0.8)',
-      mutedColor: 'rgba(102, 115, 153, 1)',
+      overlayColor: 'hsla(0, 0%, 0%, 0.8)',
+      mutedColor: 'hsl(224.706, 20%, 50%)',
       color: '{white}',
       borderColor: '{surface.750}',
     },
     headLine: {
       background: '{transparent}',
-      hoverBackground: 'rgba(0,0,0,0.5)',
+      hoverBackground: 'hsla(0, 0%, 0%, 0.5)',
       iconColor: '{white}',
       color: '{white}',
       blur: '10px'

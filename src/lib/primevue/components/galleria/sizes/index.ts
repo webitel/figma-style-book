@@ -13,7 +13,7 @@ const sizes = {
   },
   fullscreenImage: {
     maxHeight: '85vh',
-    maxWidth9: '100vw'
+    maxWidth: '100vw'
   },
   navButton: {
     size: '2.5rem',

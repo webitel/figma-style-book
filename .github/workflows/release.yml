@@ -28,6 +28,7 @@ jobs:
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
           npm ci
+          npm version patch
           npm run publish-styleguide
 
       # Commit all changed files back to the repository

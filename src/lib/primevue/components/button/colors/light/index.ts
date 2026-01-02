@@ -179,10 +179,10 @@ const lightColors = {
       color: '{transfer.color}',
     },
     disabled: {
-      hoverBackground: '{gray.850}',
-      activeBackground: '{gray.850}',
-      borderColor: '{gray.850}',
-      color: '{gray.550}',
+      hoverBackground: '{transparent}',
+      activeBackground: '{transparent}',
+      borderColor: '{surface.100}',
+      color: '{surface.200}',
     }
   },
   text: {

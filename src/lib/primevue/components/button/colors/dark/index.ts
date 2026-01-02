@@ -178,6 +178,12 @@ const darkColors = {
       borderColor: '{task.color}',
       color: '{task.color}',
     },
+    disabled: {
+      hoverBackground: '{transparent}',
+      activeBackground: '{transparent}',
+      borderColor: '{gray.850}',
+      color: '{gray.650}',
+    }
   },
   text: {
     primary: {

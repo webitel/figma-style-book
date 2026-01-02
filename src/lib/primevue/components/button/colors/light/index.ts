@@ -178,6 +178,12 @@ const lightColors = {
       borderColor: '{transfer.color}',
       color: '{transfer.color}',
     },
+    disabled: {
+      hoverBackground: '{transparent}',
+      activeBackground: '{transparent}',
+      borderColor: '{surface.100}',
+      color: '{surface.200}',
+    }
   },
   text: {
     primary: {

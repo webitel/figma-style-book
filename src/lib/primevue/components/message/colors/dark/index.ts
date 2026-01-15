@@ -1,102 +1,102 @@
 const darkColors = {
   info: {
-    background: 'color-mix(in srgb, {blue.500}, transparent 84%)',
-    borderColor: 'color-mix(in srgb, {blue.700}, transparent 64%)',
-    color: '{blue.500}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {blue.500}, transparent 96%)',
+    background: '{info.highlightColor}',
+    borderColor: '{info.color}',
+    color: '{info.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {info.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: 'rgba(255, 255, 255, 0.05)',
+      hoverBackground: '{info.foreground}',
       focusRing: {
-        color: '{blue.500}',
+        color: '{info.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{blue.500}',
-      borderColor: '{blue.500}'
+      color: '{info.color}',
+      borderColor: '{info.color}'
     },
     simple: {
-      color: '{blue.500}'
+      color: '{info.color}'
     }
   },
   success: {
-    background: 'color-mix(in srgb, {green.500}, transparent 84%)',
-    borderColor: 'color-mix(in srgb, {green.700}, transparent 64%)',
-    color: '{green.500}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {green.500}, transparent 96%)',
+    background: '{success.highlightColor}',
+    borderColor: '{success.color}',
+    color: '{success.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {success.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: 'rgba(255, 255, 255, 0.05)',
+      hoverBackground: '{success.foreground}',
       focusRing: {
-        color: '{green.500}',
+        color: '{success.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{green.500}',
-      borderColor: '{green.500}'
+      color: '{success.color}',
+      borderColor: '{success.color}'
     },
     simple: {
-      color: '{green.500}'
+      color: '{success.color}'
     }
   },
   warn: {
-    background: 'color-mix(in srgb, {yellow.500}, transparent 84%)',
-    borderColor: 'color-mix(in srgb, {yellow.700}, transparent 64%)',
-    color: '{yellow.500}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {yellow.500}, transparent 96%)',
+    background: '{warn.highlightColor}',
+    borderColor: '{warn.color}',
+    color: '{warn.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {warn.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: 'rgba(255, 255, 255, 0.05)',
+      hoverBackground: '{warn.foreground}',
       focusRing: {
-        color: '{yellow.500}',
+        color: '{warn.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{yellow.500}',
-      borderColor: '{yellow.500}'
+      color: '{warn.color}',
+      borderColor: '{warn.color}'
     },
     simple: {
-      color: '{yellow.500}'
+      color: '{warn.color}'
     }
   },
   error: {
-    background: 'color-mix(in srgb, {red.500}, transparent 84%)',
-    borderColor: 'color-mix(in srgb, {red.700}, transparent 64%)',
-    color: '{red.500}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {red.500}, transparent 96%)',
+    background: '{error.highlightColor}',
+    borderColor: '{error.color}',
+    color: '{error.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {error.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: 'rgba(255, 255, 255, 0.05)',
+      hoverBackground: '{error.foreground}',
       focusRing: {
-        color: '{red.500}',
+        color: '{error.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{red.500}',
-      borderColor: '{red.500}'
+      color: '{error.color}',
+      borderColor: '{error.color}'
     },
     simple: {
-      color: '{red.500}'
+      color: '{error.color}'
     }
   },
   secondary: {
-    background: '{surface.800}',
-    borderColor: '{surface.700}',
-    color: '{surface.300}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {surface.500}, transparent 96%)',
+    background: '{secondary.highlightColor}',
+    borderColor: '{secondary.color}',
+    color: '{secondary.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {secondary.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{surface.700}',
+      hoverBackground: '{secondary.foreground}',
       focusRing: {
-        color: '{surface.300}',
+        color: '{secondary.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{surface.400}',
-      borderColor: '{surface.400}'
+      color: '{secondary.color}',
+      borderColor: '{secondary.color}'
     },
     simple: {
-      color: '{surface.400}'
+      color: '{secondary.color}'
     }
   },
   contrast: {

@@ -18,19 +18,19 @@ const sizes = {
     fontSize: '1rem',
     fontWeight: '500',
     sm: {
-      fontSize: '0.875rem'
+      fontSize: '0.75rem'
     },
     lg: {
       fontSize: '1.125rem'
     }
   },
   icon: {
-    size: '1.125rem',
+    size: '1.5rem',
     sm: {
       size: '1rem'
     },
     lg: {
-      size: '1.25rem'
+      size: '2rem'
     }
   },
   closeButton: {

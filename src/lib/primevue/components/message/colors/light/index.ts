@@ -1,102 +1,102 @@
 const lightColors = {
   info: {
-    background: 'color-mix(in srgb, {blue.50}, transparent 5%)',
-    borderColor: '{blue.200}',
-    color: '{blue.600}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {blue.500}, transparent 96%)',
+    background: '{info.highlightColor}',
+    borderColor: '{info.color}',
+    color: '{info.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {info.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{blue.100}',
+      hoverBackground: '{info.foreground}',
       focusRing: {
-        color: '{blue.600}',
+        color: '{info.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{blue.600}',
-      borderColor: '{blue.600}'
+      color: '{info.color}',
+      borderColor: '{info.color}'
     },
     simple: {
-      color: '{blue.600}'
+      color: '{info.color}'
     }
   },
   success: {
-    background: 'color-mix(in srgb, {green.50}, transparent 5%)',
-    borderColor: '{green.200}',
-    color: '{green.600}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {green.500}, transparent 96%)',
+    background: '{success.highlightColor}',
+    borderColor: '{success.color}',
+    color: '{success.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {success.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{green.100}',
+      hoverBackground: '{success.foreground}',
       focusRing: {
-        color: '{green.600}',
+        color: '{success.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{green.600}',
-      borderColor: '{green.600}'
+      color: '{success.color}',
+      borderColor: '{success.color}'
     },
     simple: {
-      color: '{green.600}'
+      color: '{success.color}'
     }
   },
   warn: {
-    background: 'color-mix(in srgb,{yellow.50}, transparent 5%)',
-    borderColor: '{yellow.200}',
-    color: '{yellow.600}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {yellow.500}, transparent 96%)',
+    background: '{warn.highlightColor}',
+    borderColor: '{warn.color}',
+    color: '{warn.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {warn.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{yellow.100}',
+      hoverBackground: '{warn.foreground}',
       focusRing: {
-        color: '{yellow.600}',
+        color: '{warn.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{yellow.600}',
-      borderColor: '{yellow.600}'
+      color: '{warn.color}',
+      borderColor: '{warn.color}'
     },
     simple: {
-      color: '{yellow.600}'
+      color: '{warn.color}'
     }
   },
   error: {
-    background: 'color-mix(in srgb, {red.50}, transparent 5%)',
-    borderColor: '{red.200}',
-    color: '{red.600}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {red.500}, transparent 96%)',
+    background: '{error.highlightColor}',
+    borderColor: '{error.color}',
+    color: '{error.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {error.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{red.100}',
+      hoverBackground: '{error.foreground}',
       focusRing: {
-        color: '{red.600}',
+        color: '{error.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{red.600}',
-      borderColor: '{red.600}'
+      color: '{error.color}',
+      borderColor: '{error.color}'
     },
     simple: {
-      color: '{red.600}'
+      color: '{error.color}'
     }
   },
   secondary: {
-    background: '{surface.100}',
-    borderColor: '{surface.200}',
-    color: '{surface.600}',
-    shadow: '0px 4px 8px 0px color-mix(in srgb, {surface.500}, transparent 96%)',
+    background: '{secondary.highlightColor}',
+    borderColor: '{secondary.color}',
+    color: '{secondary.color}',
+    shadow: '0px 4px 8px 0px color-mix(in srgb, {secondary.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{surface.200}',
+      hoverBackground: '{secondary.foreground}',
       focusRing: {
-        color: '{surface.600}',
+        color: '{secondary.color}',
         shadow: 'none'
       }
     },
     outlined: {
-      color: '{surface.500}',
-      borderColor: '{surface.500}'
+      color: '{secondary.color}',
+      borderColor: '{secondary.color}'
     },
     simple: {
-      color: '{surface.500}'
+      color: '{secondary.color}'
     }
   },
   contrast: {

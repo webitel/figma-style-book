@@ -82,7 +82,7 @@ const lightColors = {
   secondary: {
     background: '{secondary.highlightColor}',
     borderColor: '{secondary.color}',
-    color: '{secondary.color}',
+    color: '{secondary.foreground}',
     shadow: '0px 4px 8px 0px color-mix(in srgb, {secondary.color}, transparent 96%)',
     closeButton: {
       hoverBackground: '{secondary.foreground}',
@@ -92,15 +92,15 @@ const lightColors = {
       }
     },
     outlined: {
-      color: '{secondary.color}',
+      color: '{secondary.foreground}',
       borderColor: '{secondary.color}'
     },
     simple: {
-      color: '{secondary.color}'
+      color: '{secondary.foreground}'
     }
   },
   contrast: {
-    background: '{surface.900}',
+    background: '{surface.850}',
     borderColor: '{surface.950}',
     color: '{surface.50}',
     shadow: '0px 4px 8px 0px color-mix(in srgb, {surface.950}, transparent 96%)',

@@ -82,7 +82,7 @@ const darkColors = {
   secondary: {
     background: '{secondary.highlightColor}',
     borderColor: '{secondary.color}',
-    color: '{secondary.color}',
+    color: '{secondary.foreground}',
     shadow: '0px 4px 8px 0px color-mix(in srgb, {secondary.color}, transparent 96%)',
     closeButton: {
       hoverBackground: '{secondary.foreground}',
@@ -92,11 +92,11 @@ const darkColors = {
       }
     },
     outlined: {
-      color: '{secondary.color}',
+      color: '{secondary.foreground}',
       borderColor: '{secondary.color}'
     },
     simple: {
-      color: '{secondary.color}'
+      color: '{secondary.foreground}'
     }
   },
   contrast: {

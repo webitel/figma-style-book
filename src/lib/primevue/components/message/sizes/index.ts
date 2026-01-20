@@ -59,7 +59,7 @@ const sizes = {
   },
   simple: {
     content: {
-      padding: '0'
+      padding: '0.25rem 0.5rem',
     }
   }
 };

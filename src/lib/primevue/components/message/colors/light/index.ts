@@ -85,7 +85,7 @@ const lightColors = {
     color: '{secondary.foreground}',
     shadow: '0px 4px 8px 0px color-mix(in srgb, {secondary.color}, transparent 96%)',
     closeButton: {
-      hoverBackground: '{secondary.foreground}',
+      hoverBackground: '{secondary.color}',
       focusRing: {
         color: '{secondary.color}',
         shadow: 'none'

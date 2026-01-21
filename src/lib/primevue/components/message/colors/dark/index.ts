@@ -13,7 +13,10 @@ const darkColors = {
     },
     outlined: {
       color: '{info.color}',
-      borderColor: '{info.color}'
+      borderColor: '{info.color}',
+      closeButton: {
+        hoverBackground: '{info.foreground}',
+      }
     },
     simple: {
       color: '{info.color}'
@@ -33,7 +36,10 @@ const darkColors = {
     },
     outlined: {
       color: '{success.color}',
-      borderColor: '{success.color}'
+      borderColor: '{success.color}',
+      closeButton: {
+        hoverBackground: '{success.foreground}',
+      }
     },
     simple: {
       color: '{success.color}'
@@ -53,7 +59,10 @@ const darkColors = {
     },
     outlined: {
       color: '{warn.color}',
-      borderColor: '{warn.color}'
+      borderColor: '{warn.color}',
+      closeButton: {
+        hoverBackground: '{warn.foreground}',
+      }
     },
     simple: {
       color: '{warn.color}'
@@ -73,7 +82,10 @@ const darkColors = {
     },
     outlined: {
       color: '{error.color}',
-      borderColor: '{error.color}'
+      borderColor: '{error.color}',
+      closeButton: {
+        hoverBackground: '{error.foreground}',
+      }
     },
     simple: {
       color: '{error.color}'
@@ -93,7 +105,10 @@ const darkColors = {
     },
     outlined: {
       color: '{secondary.foreground}',
-      borderColor: '{secondary.color}'
+      borderColor: '{secondary.color}',
+      closeButton: {
+        hoverBackground: '{secondary.color}',
+      }
     },
     simple: {
       color: '{secondary.foreground}'
@@ -113,7 +128,10 @@ const darkColors = {
     },
     outlined: {
       color: '{surface.0}',
-      borderColor: '{surface.0}'
+      borderColor: '{surface.0}',
+      closeButton: {
+        hoverBackground: '{surface.100}',
+      }
     },
     simple: {
       color: '{surface.0}'

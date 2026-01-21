@@ -107,7 +107,7 @@ const darkColors = {
       color: '{secondary.foreground}',
       borderColor: '{secondary.color}',
       closeButton: {
-        hoverBackground: '{secondary.color}',
+        hoverBackground: '{secondary.highlightColor}',
       }
     },
     simple: {
@@ -130,7 +130,7 @@ const darkColors = {
       color: '{surface.0}',
       borderColor: '{surface.0}',
       closeButton: {
-        hoverBackground: '{surface.100}',
+        hoverBackground: '{surface.850}',
       }
     },
     simple: {

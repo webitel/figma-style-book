@@ -107,7 +107,7 @@ const lightColors = {
       color: '{secondary.foreground}',
       borderColor: '{secondary.color}',
       closeButton: {
-        hoverBackground: '{secondary.color}',
+        hoverBackground: '{secondary.highlightColor}',
       }
     },
     simple: {
@@ -130,7 +130,7 @@ const lightColors = {
       color: '{surface.950}',
       borderColor: '{surface.950}',
       closeButton: {
-        hoverBackground: '{surface.800}',
+        hoverBackground: '{surface.50}',
       }
     },
     simple: {
